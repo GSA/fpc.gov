@@ -74,28 +74,24 @@ ga:
 
 # Site Navigation
 primary_navigation:
-  - name: Home
-    url: /
-  - name: Blog
-    url: /blog/
-  - name: Document
-    url: /document/
-  - name: Document with sidenav
-    url: /document-with-sidenav/
-  - name: Document submenu
+  - name: About Our Council
     children:
-      - name: Navigation link
+      - name: Federal Privacy Council
         url: "#main-content"
-      - name: Navigation link
+      - name: Council Members
         url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
+  - name: Federal Privacy Programs
+    url: "#main-content"
+  - name: Programs & Events
+    url: "#main-content"
+#  - name: Document with sidenav
+#    url: /document-with-sidenav/
 
-secondary_navigation:
-  - name: Secondary link
-    url: "#main-content"
-  - name: Another secondary link
-    url: "#main-content"
+#secondary_navigation:
+#  - name: Secondary link
+#    url: "#main-content"
+#  - name: Another secondary link
+#    url: "#main-content"
 
 # Search.gov configuration
 #
