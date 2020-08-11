@@ -108,7 +108,7 @@ homepage_icons:
     link: https://community.max.gov/x/rgTvVg
   - name: Glossary
     logo: /assets/img/logos/Asset_10.svg
-    link: /resources/glossary/
+    url: /resources/glossary/
 
 # Search.gov configuration
 #
