@@ -1,0 +1,85 @@
+
+
+
+.circle-image {
+  border-radius: 50%;
+  width: 110px;
+}
+.circle-image:hover {
+  -webkit-box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
+  -moz-box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
+  box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
+}
+
+
+.carousel.top {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px -140px;
+}
+.usa-nav__primary > .usa-nav__primary-item > a{
+  font-weight:normal;
+}
+.carousel__track {
+  color: #ffffff;
+  text-align:left;
+}
+.carousel.bottom {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px -72px;
+}
+.slick-prev {
+  left:5px;
+}
+.slick-next{
+  right:5px;
+}
+
+.slick-dots
+{
+  position: absolute;
+  bottom: 15px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: right;
+  right:15px;
+}
+.bottom .slick-dots{
+  text-align: center;
+  right:0;
+}
+.slick-dots li button:before{
+  color:#fff;
+  font-size:15px;
+}
+
+.slick-dots li.slick-active button:before{
+  color:#FB5A47;
+  opacity: 1;
+}
+.slick-dotted.slick-slider{
+  margin-bottom:0;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #FB5A47;
+}
+
+.circle-image.picons{
+  margin: 0 auto;
+}
+.picon{
+  height: 100px;
+  padding: 25px;
+}
+
+.priority-icons {
+  background-position: center;
+  background-image: url('../assets/img/priority-middle-image1.png');
+  background-repeat:no-repeat;
+  background-size: cover;
+}
