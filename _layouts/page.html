@@ -13,9 +13,15 @@ This template is for a single page that does not have a date associated with it.
       {% include sidenav.html %}
       {% endif %}
       <main>
-        <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
-            {{ content }}
-        </div>
+
+        <section class="usa-section">
+          <div class="usa-grid">
+            <div class="usa-width-one-whole">
+
+              {{ content }}
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   </div>
