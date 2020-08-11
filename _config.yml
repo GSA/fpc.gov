@@ -105,7 +105,7 @@ homepage_icons:
     url: /
   - name: OMB Guidance
     logo: /assets/img/logos/Asset_11.svg
-    link: https://community.max.gov/x/rgTvVg
+    url: /resources/omb/
   - name: Glossary
     logo: /assets/img/logos/Asset_10.svg
     url: /resources/glossary/

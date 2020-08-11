@@ -6,6 +6,16 @@ layout: base
 This template is for a single page that does not have a date associated with it. For example, an about page.
 {% endcomment %}
 
+{% if page.header-image %}
+<section class="usa-section" style="background-image: url('{{ page.header-image | prepend: site.baseurl }}'); max-height: 200px;">
+  <div class="usa-grid">
+    <div class="usa-width-one-whole">
+      <h1 style="color: #ffffff;">{{ page.hero-text }}</h1>
+    </div>
+  </div>
+  {% endif %}
+</section>
+
 <div id="main-content" class="usa-layout-docs usa-section">
   <div class="grid-container">
     <div class="grid-row grid-gap">
