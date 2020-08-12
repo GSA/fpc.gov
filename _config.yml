@@ -81,7 +81,11 @@ primary_navigation:
       - name: Council Members
         url: "#main-content"
   - name: Federal Privacy Programs
-    url: "#main-content"
+    children:
+      - name: Elements of a Federal Privacy Program
+        url: "#main-content"
+      - name: Learn about Federal Privacy
+        url: "#main-content"
   - name: Programs & Events
     url: "#main-content"
 #  - name: Document with sidenav
