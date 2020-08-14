@@ -9,7 +9,7 @@ This template is for a single page that does not have a date associated with it.
 {% if page.header-image %}
 <section class="usa-section" style="background-image: url('{{ page.header-image | prepend: site.baseurl }}'); max-height: 200px;">
   <div class="usa-grid">
-    <div class="usa-width-one-whole">
+    <div class="grid-container ">
       <h1 style="color: #ffffff;">{{ page.hero-text }}</h1>
     </div>
   </div>
@@ -26,7 +26,7 @@ This template is for a single page that does not have a date associated with it.
 
         <section class="usa-section">
           <div class="usa-grid">
-            <div class="usa-width-one-whole">
+            <div class="grid-container desktop:grid-col-12">
 
               {{ content }}
             </div>

@@ -103,7 +103,7 @@ number_of_icons: 4
 homepage_icons:
   - name: Law Library
     logo: /assets/img/logos/Asset_12.svg
-    url: /
+    url: /law-library/
   - name: Government-wide SORNs
     logo: /assets/img/logos/Asset_9.svg
     url: /
