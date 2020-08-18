@@ -1,5 +1,11 @@
 
-
+//colors:
+//background: '#ffffff'
+//link:
+//color: '#0071bc'
+//active: '#0071bc'
+//hover: '#205493'
+//visited: '#0071bc'
 
 .circle-image {
   border-radius: 50%;
@@ -150,4 +156,49 @@
   font-size: 20px;
   align: left;
 }
+
+.tab {
+  float: left;
+  background-color: #ffffff;
+  width: 15%;
+  height: auto;
+  border-right: 2px solid #ccc;
+  -webkit-box-shadow: inset -5px 0px 5px 0px rgba(204,204,204,1);
+  -moz-box-shadow: inset -5px 0px 5px 0px rgba(204,204,204,1);
+  box-shadow: inset -5px 0px 5px 0px rgba(204,204,204,1);
+}
+
+.tab button {
+  display: block;
+  background-color: #e31c3d;
+  color: #ffffff;
+  padding: 20px 10px;
+  width: 100%;
+  border-radius: 20px 0px 0px 20px;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.tab button:hover {
+  background-color: #e59393;
+  color: #444444;
+}
+
+.tab button.active {
+  background-color: #981b1e;
+}
+
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  width: 70%;
+  height: auto;
+
+}
+
+
 
