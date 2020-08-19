@@ -18,8 +18,8 @@
 # Be sure to edit the values below
 ##########################################################################################
 
-title: Agency Name
-email: contact@example.gov
+title: FPC.gov
+email: privacy.council@gsa.gov
 description: >- # this means to ignore newlines until "baseurl:"
   Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.
@@ -88,8 +88,6 @@ primary_navigation:
         url: "#main-content"
   - name: Programs & Events
     url: "#main-content"
-#  - name: Document with sidenav
-#    url: /document-with-sidenav/
 
 #secondary_navigation:
 #  - name: Secondary link
