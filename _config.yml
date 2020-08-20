@@ -100,16 +100,16 @@ primary_navigation:
 number_of_icons: 4
 homepage_icons:
   - name: Law Library
-    logo: /assets/img/logos/Asset_12.svg
+    logo: /assets/img/logos/law.svg
     url: /law-library/
   - name: Government-wide SORNs
-    logo: /assets/img/logos/Asset_9.svg
+    logo: /assets/img/logos/dimension.svg
     url: /resources/SORNs/
   - name: OMB Guidance
-    logo: /assets/img/logos/Asset_11.svg
+    logo: /assets/img/logos/settings.svg
     url: /resources/omb/
   - name: Glossary
-    logo: /assets/img/logos/Asset_10.svg
+    logo: /assets/img/logos/dictionary.svg
     url: /resources/glossary/
 
 # Search.gov configuration
