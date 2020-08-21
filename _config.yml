@@ -86,6 +86,17 @@ primary_navigation:
         url: "#main-content"
       - name: Learn about Federal Privacy
         url: "#main-content"
+  - name: Resources
+    url: \
+    children:
+      - name: Office of Management and Budget(OMB)
+        url: /resources/omb/
+      - name: Government-wide SORNs
+        url: /resources/SORNs/
+      - name: Glossary
+        url: /resources/glossary/
+      - name: Law Library
+        url: /law-library/
   - name: Programs & Events
     url: "#main-content"
 
