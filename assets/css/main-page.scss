@@ -18,10 +18,18 @@
 }
 
 
-.carousel.top {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0px -140px;
+.top {
+  background: -webkit-linear-gradient(70deg, #2A4294 40%, #4264CF 40%);
+  background: -o-linear-gradient(70deg, #2A4294 40%, #4264CF 40%);
+  background: -moz-linear-gradient(70deg, #2A4294 40%, #4264CF 40%);
+  background: linear-gradient(70deg, #2A4294 40%, #4264CF 40%);
+  padding:30px 0;
+}
+.carousel{
+  padding:50px 30px;
+background:rgba(8, 18, 65, 0.7);
+  border-radius: 30px;
+  color: #fff;
 }
 .usa-nav__primary > .usa-nav__primary-item > a{
   font-weight:normal;
@@ -30,11 +38,7 @@
   color: #ffffff;
   text-align:left;
 }
-.carousel.bottom {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0px -72px;
-}
+
 .slick-prev {
   left:5px;
 }
@@ -51,8 +55,6 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  text-align: right;
-  right:15px;
 }
 .bottom .slick-dots{
   text-align: center;
@@ -64,7 +66,7 @@
 }
 
 .slick-dots li.slick-active button:before{
-  color:#FB5A47;
+color:#fff;
   opacity: 1;
 }
 .slick-dotted.slick-slider{
@@ -72,7 +74,7 @@
 }
 
 .slick-dots li.slick-active button:before {
-  color: #FB5A47;
+  color: #ffffff;
 }
 
 .circle-image.picons{
@@ -206,7 +208,42 @@
   -o-background-size: cover;
   background-size: cover;
 }
+.top .usa-button:visited{
+color:#2A4294;
+}
+.top .usa-button:hover{
+  color:#fff;
+}
+#main-content{
+  background: #fefefe;
+}
+.icon-back{
+  background:#f0ebe5;
+}
+.usa-banner__button::after {
+  background-image: url("../img/angle-arrow-down-primary.svg"), linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 0.5rem;
+  content: '';
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+  margin-left: 2px;
+  background-color:transparent;
+  }
+.usa-banner__button[aria-expanded="true"]::after {
+  background-image: url(../img/angle-arrow-up-primary.svg),linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 0.5rem;
+  content: "";
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+  margin-left: 2px;
+  background-color:transparent;
 
-
-
-
+}
