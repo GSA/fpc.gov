@@ -76,27 +76,27 @@ ga:
 primary_navigation:
   - name: About Our Council
     children:
-      - name: Federal Privacy Council
+      - name: Vision & Purpose
         url: "#main-content"
       - name: Council Members
         url: "#main-content"
   - name: Federal Privacy Programs
     children:
-      - name: Elements of a Federal Privacy Program
-        url: "#main-content"
       - name: Learn about Federal Privacy
+        url: "#main-content"
+      - name: Elements of a Federal Privacy Program
         url: "#main-content"
   - name: Resources
     url: /
     children:
-      - name: Office of Management and Budget(OMB)
-        url: /resources/omb/
-      - name: Government-wide SORNs
-        url: /resources/SORNs/
-      - name: Glossary
-        url: /resources/glossary/
       - name: Law Library
         url: /law-library/
+      - name: Government-wide SORNs
+        url: /resources/SORNs/
+      - name: Office of Management and Budget(OMB)
+        url: /resources/omb/
+      - name: Glossary
+        url: /resources/glossary/
   - name: Programs & Events
     url: "#main-content"
 
