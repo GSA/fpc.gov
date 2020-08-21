@@ -86,6 +86,17 @@ primary_navigation:
         url: "#main-content"
       - name: Learn about Federal Privacy
         url: "#main-content"
+  - name: Resources
+    url: /
+    children:
+      - name: Office of Management and Budget(OMB)
+        url: /resources/omb/
+      - name: Government-wide SORNs
+        url: /resources/SORNs/
+      - name: Glossary
+        url: /resources/glossary/
+      - name: Law Library
+        url: /law-library/
   - name: Programs & Events
     url: "#main-content"
 
@@ -100,16 +111,16 @@ primary_navigation:
 number_of_icons: 4
 homepage_icons:
   - name: Law Library
-    logo: /assets/img/logos/dictionary.svg
+    logo: /assets/img/logos/law.svg
     url: /law-library/
   - name: Government-wide SORNs
     logo: /assets/img/logos/dimension.svg
     url: /resources/SORNs/
   - name: OMB Guidance
-    logo: /assets/img/logos/law.svg
+    logo: /assets/img/logos/settings.svg
     url: /resources/omb/
   - name: Glossary
-    logo: /assets/img/logos/settings.svg
+    logo: /assets/img/logos/dictionary.svg
     url: /resources/glossary/
 
 # Search.gov configuration
