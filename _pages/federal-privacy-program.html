@@ -35,11 +35,6 @@ priority_icons:
       link: #
 ---
 
-{% comment %}
-This template is for a single policy landing page.
-{% endcomment %}
-
-
 <section class="usa-section usa-grid  about clearfix">
     <div class="grid-row grid-gap ">
 
@@ -64,28 +59,24 @@ This template is for a single policy landing page.
 
 
 
-<section class="usa-section usa-grid clearfix">
+<section class="usa-graphic_list usa-section usa-prose clearfix grid-container">
 
-    <div class="grid-row grid-gap grid-col-fill margin-x-1 ">
-            {% for icon in page.priority_icons %}
-                {% if forloop.index ==  1 or forloop.index ==  4 or forloop.index ==  7  %}
-                    <div class="tablet:grid-col-3 text-center margin-y-2 tablet:grid-offset-1 bg-white padding-x-9 padding-y-5 shadow-5 members-hover radius-lg " >
+    <div class="grid-row grid-gap">
+        {% for icon in page.priority_icons %}
+        <div class="tablet:grid-col-3 text-center margin-y-2 bg-white padding-4 margin-1 shadow-5 members-hover radius-lg ">
+            {% if icon.url %}
+            <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-gray-70" style="display: inline-block;">
                 {% else %}
-                    <div class="tablet:grid-col-3 text-center margin-y-2 tablet:margin-x-2 bg-white padding-x-9 padding-y-5  shadow-5 members-hover radius-lg">
-                {% endif %}
-                {% if icon.url %}
-                    <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-gray-70" style="display: inline-block;">
-                {% else %}
-                    <a href="{{ icon.link }}" class="text-no-underline" style="display: inline-block;">
-                {% endif %}
-                <div class="circle-image picons icon-back">
-                    <img class="picon" src="{{site.baseurl}}{{ icon.logo }}" alt="{{ icon.name }} image" />
-                </div>
-                <p class="font-heading-md text-gray-70 text-no-underline">{{ icon.name }}</p>
+                <a href="{{ icon.link }}" class="text-no-underline" style="display: inline-block;">
+                    {% endif %}
+                    <div class="circle-image picons icon-back">
+                        <img class="picon" src="{{site.baseurl}}{{ icon.logo }}" alt="{{ icon.name }} image" />
+                    </div>
+                    <p class="font-heading-md text-gray-70 text-no-underline">{{ icon.name }}</p>
                 </a>
-                </div>
-                {% endfor %}
-            </div>
+        </div>
+        {% endfor %}
+    </div>
 </section>
 
 
