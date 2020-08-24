@@ -70,9 +70,9 @@ This template is for a single policy landing page.
     <div class="grid-row grid-gap grid-col-fill margin-x-1 ">
             {% for icon in page.priority_icons %}
                 {% if forloop.index ==  1 or forloop.index ==  4 or forloop.index ==  7  %}
-                    <div class="tablet:grid-col-3 text-center margin-y-2 tablet:grid-offset-1 bg-white padding-1  shadow-5 members-hover radius-lg " >
+                    <div class="tablet:grid-col-3 text-center margin-y-2 tablet:grid-offset-1 bg-white padding-x-9 padding-y-5 shadow-5 members-hover radius-lg " >
                 {% else %}
-                    <div class="tablet:grid-col-3 text-center margin-y-2 tablet:margin-x-2 bg-white padding-1  shadow-5 members-hover radius-lg">
+                    <div class="tablet:grid-col-3 text-center margin-y-2 tablet:margin-x-2 bg-white padding-x-9 padding-y-5  shadow-5 members-hover radius-lg">
                 {% endif %}
                 {% if icon.url %}
                     <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-gray-70" style="display: inline-block;">
