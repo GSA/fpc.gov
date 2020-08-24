@@ -19,7 +19,7 @@
 }
 .carousel{
   padding:50px 30px;
-background:rgba(8, 18, 65, 0.7);
+  background:rgba(8, 18, 65, 0.7);
   border-radius: 30px;
   color: #fff;
 }
@@ -242,7 +242,9 @@ color:#2A4294;
 
 .about {
   background: #19387b;
-  background: linear-gradient(90deg, #19387b 0%, rgba(9, 13, 121, 0.9164040616) 59%, #020024 100%); }
+  background: linear-gradient(90deg, #19387b 0%, rgba(9, 13, 121, 0.9164040616) 80%, #020024 100%);
+  color: #fff;}
+
 
 
 .members-hover:hover {
