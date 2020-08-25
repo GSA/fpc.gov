@@ -77,7 +77,7 @@ primary_navigation:
   - name: About Our Council
     children:
       - name: Vision & Purpose
-        url: "#main-content"
+        url: /vision-and-purpose/
       - name: Council Members
         url: "#main-content"
   - name: Federal Privacy Programs
@@ -97,7 +97,7 @@ primary_navigation:
         url: /resources/omb/
       - name: Glossary
         url: /resources/glossary/
-  - name: Programs & Events
+  - name: Events & Programs
     url: "#main-content"
 
 #secondary_navigation:
