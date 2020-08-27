@@ -97,7 +97,7 @@ primary_navigation:
         url: /resources/omb/
       - name: Glossary
         url: /resources/glossary/
-  - name: Events & Programs
+  - name: Programs & Events
     url: "#main-content"
 
 #secondary_navigation:
