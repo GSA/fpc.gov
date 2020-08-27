@@ -83,7 +83,7 @@ primary_navigation:
   - name: Federal Privacy Programs
     children:
       - name: Learn about Federal Privacy
-        url: "#main-content"
+        url: /learn-about-federal-privacy-program/
       - name: Elements of a Federal Privacy Program
         url: /elements-of-federal-privacy-program/
   - name: Resources

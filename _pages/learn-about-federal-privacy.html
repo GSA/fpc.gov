@@ -1,0 +1,72 @@
+---
+layout: default
+permalink: /learn-about-federal-privacy-program/
+title: Learn about Federal Privacy Program
+description:
+excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+number_of_icons: 4
+priority_icons:
+ - name: About the Federal Privacy Council
+   logo: /assets/img/logos/Video_1.png
+   url: #
+   filler: Lorem ipsum dolor sit amet, consectetur adipiscing el
+   time: 3 minutes
+ - name: Privacy Impact Statements
+   logo: /assets/img/logos/Video_2.png
+   url: #
+   filler: Lorem ipsum dolor sit amet, consectetur adipiscing el
+   time: 7 minutes
+ - name: Terms to Know
+   logo: /assets/img/logos/Video_3.png
+   url: #
+   filler: Lorem ipsum dolor sit amet, consectetur adipiscing el
+   time: 8 minutes
+---
+
+<section class="usa-section usa-grid  about clearfix">
+    <div class="grid-row grid-gap ">
+
+        <div class="grid-col-10 grid-offset-1">
+            <div class="priority-tag-line"><h1 class="margin-0 font-ui-2xl">{{ page.title }}</h1></div><br>
+        </div>
+    </div>
+
+</section>
+
+
+
+<section class="usa-section usa-grid clearfix">
+    <div class="grid-row grid-gap ">
+        <div class="grid-col-10 grid-offset-1">
+            <div><h2 class="margin-0 font-sans-md">{{page.excerpt}}</h2></div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<section class="usa-graphic_list usa-section usa-prose clearfix grid-container">
+
+    <div class="grid-row grid-gap">
+        {% for icon in page.priority_icons %}
+        <div class="tablet:grid-col-3 text-center margin-y-2 bg-white padding-2 margin-3 shadow-5 members-hover radius-lg ">
+            {% if icon.url %}
+            <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-gray-70" style="display: inline-block;">
+                {% else %}
+                <a href="{{ icon.link }}" class="text-no-underline" style="display: inline-block;">
+                    {% endif %}
+                    <div >
+                        <img class="" src="{{site.baseurl}}{{ icon.logo }}" alt="{{ icon.name }} image" />
+                    </div>
+                    <p class="font-sans-sm text-gray-70 text-left text-no-underline">{{ icon.time }}</p>
+                    <p class="font-heading-md text-gray-70 text-left text-no-underline">{{ icon.name }}</p>
+                    <p class="font-sans-sm text-gray-70 text-left text-no-underline">{{ icon.filler }}</p>
+                </a>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+
+
