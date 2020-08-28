@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Office Of Management and Budget
-hero-text: Office of Management and Budget (OMB)
+title: OMB Guidance
+hero-text: OMB Guidance
 permalink: /resources/omb/
 header-image: /assets/img/header-image.jpg
 ---
