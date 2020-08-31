@@ -79,7 +79,7 @@ primary_navigation:
       - name: Vision & Purpose
         url: /vision-and-purpose/
       - name: Council Members
-        url: "#main-content"
+        url: /council-members/
   - name: Federal Privacy Programs
     children:
       - name: Learn about Federal Privacy
