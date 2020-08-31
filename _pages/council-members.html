@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 permalink: /council-members/
-title: Council Members
+hero-text: Council Members
+header-image: /assets/img/fpc-conference.jpg
 description:
 excerpt: The membership of the Federal Privacy Council includes the Privacy Branch Chief in the Office of Information and Regulatory Affairs at the Office of Management and Budget, who serves as the Chair, and the Senior Agency Officials for Privacy (SAOP) at each agency described in <a href="https://www.gpo.gov/fdsys/pkg/FR-2016-02-12/pdf/2016-03141.pdf">Executive Order 13719</a>, as well other officials from agencies and offices, who are designated by the Chair.
 leadership_icons:
@@ -79,7 +80,7 @@ council_members_icons:
       url: /#
       agency: Office of the Director of National Intelligence
     - name: Timothy Skinner
-      logo: /assets/img/bio.treasury.seal.jpg
+      logo: /assets/img/bio.treasury.seal.png
       url: /#
       agency: Department of Treasury
     - name: Gary Washington
@@ -147,18 +148,9 @@ council_members_icons:
       url: /#
       agency: Department of Homeland Security
 ---
-
-<section class="usa-section about clearfix leadership-council-header-logo">
-    <div class="grid-row grid-gap ">
-
-        <div class="grid-col-10 grid-offset-1">
-            <div class="priority-tag-line"><h1 class="margi-0 font-ui-2xl">{{ page.title }}</h1></div><br>
-        </div>
-    </div>
-</section>
 <section class="usa-section usa-grid clearfix">
     <div class="grid-row grid-gap ">
-        <div class="grid-col-10 grid-offset-1">
+        <div class="grid-col-12 grid-offset-1">
             <div><h2 class="margin-0 font-sans-md">{{page.excerpt}}</h2></div>
         </div>
     </div>
@@ -170,7 +162,7 @@ council_members_icons:
   </div>
   <div class="grid-row grid-gap">
     {% for icon in page.leadership_icons %}
-    <div class="usa-width-one-third council-leadership-grid">
+    <div class="desktop:grid-col-6">
       <img class="size-full wp-image-30379 aligncenter circle-image" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
       <div>
         <span>
@@ -197,7 +189,7 @@ council_members_icons:
   </div>
   <div class="grid-row grid-gap">
     {% for icon in page.council_members_icons %}
-    <div class="usa-width-one-third council-members-grid">
+    <div class="desktop:grid-col-4">
       <img class="size-full wp-image-30379 aligncenter circle-image" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
       <div>
         <span>
