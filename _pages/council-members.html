@@ -12,6 +12,7 @@ leadership_icons:
       agency: Office of Information and Regulatory Affairs
       title: FPC Chair
     - name: Joo Chung
+      border: 'no'
       logo: /assets/img/bio.chung.joo.png
       url: /#
       agency: Department of Defense
@@ -30,32 +31,36 @@ leadership_icons:
       logo: /assets/img/bio.riley.kellie.png
       url: /#
       agency: Office of Personnel Management
-      title: 
+      title:
     - name: Claire Stapleton
       logo: /assets/img/bio.claire.stapleton.jpg
       url: /#
       agency: Federal Deposit Insurance Corporation
       title:
     - name: Peter Winn
+      border: 'no'
       logo: /assets/img/bio.winn.peter.png
       url: /#
       agency: Department of Justice
-      title: 
+      title:
     - name: Charles Cutshall
       logo: /assets/img/bio.cutshall.charles.png
       url: /#
       agency: Commodity Futures Trading Commission
-      title: 
+      title:
 council_members_icons:
     - name: Royce Min
+      border : 'no'
       logo: /assets/img/bio.agarwal.asheesh.png
       url: /#
       agency: Social Security Administration
     - name: Kristen Baldwin
+      border : 'no'
       logo: /assets/img/bio.transportation.png
       url: /#
       agency: Department of Transportation
     - name: John Bravacos
+      border : 'no'
       logo: /assets/img/hud-logo.png
       url: /#
       agency: Department of Housing and Urban Development
@@ -64,6 +69,7 @@ council_members_icons:
       url: /#
       agency: United States Agency for International Development
     - name: William Vajda
+      border : 'no'
       logo: /assets/img/doi-logo.png
       url: /#
       agency: Department of the Interior
@@ -92,14 +98,17 @@ council_members_icons:
       url: /#
       agency: National Institute of Standards and Technology
     - name: John C. Sullivan
+      border : 'no'
       logo: /assets/img/state-logo.png
       url: /#
       agency: Department of State
     - name: Vaughn Noga
+      border : 'no'
       logo: /assets/img/bio.noga.vaughn.png
       url: /#
       agency: Environmental Protection Agency
     - name: Erin Prest
+      border : 'no'
       logo: /assets/img/fbi-logo.png
       url: /#
       agency: Federal Bureau of Investigation
@@ -116,10 +125,12 @@ council_members_icons:
       url: /#
       agency: General Services Administration
     - name: Gary M. Stern
+      border : 'no'
       logo: /assets/img/bio.stern.gary.png
       url: /#
       agency: National Archives and Records Administration
     - name: Renee Wynn
+      border : 'no'
       logo: /assets/img/bio.wynn.renee.png
       url: /#
       agency: National Aeronutics and Space Administration
@@ -128,6 +139,7 @@ council_members_icons:
       url: /#
       agency: Department of Labor
     - name: Kevin Herms
+      border : 'no'
       logo: /assets/img/education-logo.png
       url: /#
       agency: Department of Education
@@ -144,28 +156,33 @@ council_members_icons:
       url: /#
       agency: Consumer Financial Protection Bureau
     - name: Dena Kozanas
+      border : 'no'
       logo: /assets/img/dhs-logo.png
       url: /#
       agency: Department of Homeland Security
 ---
 <h2 class="margin-0 font-sans-md">{{page.excerpt}}</h2>
 <!--<section class="usa-section usa-grid clearfix">
-  
+
     <div class="grid-row grid-gap ">
         <div class="grid-col-12">
-           
+
         </div>
     </div>
 </section>-->
 
-<section class="usa-graphic_list usa-section usa-prose clearfix grid-container">
+<section class="usa-section usa-prose clearfix grid-container">
   <div>
-      <h2 class="margin-0 font-sans-md council-leadership-h2">Leadership & Executive Committee</h2>
+    <h2 class="margin-0 font-sans-md council-leadership-h2">Council Members</h2>
   </div>
-  <div class="grid-row grid-gap">
+    <div class="grid-row grid-gap">
     {% for icon in page.leadership_icons %}
-    <div class="desktop:grid-col-6">
-      <img class="size-full wp-image-30379 aligncenter circle-image" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+    <div class="tablet:grid-col-6">
+      {% if icon.border != 'no'%}
+      <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+      {% else %}
+      <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+      {% endif %}
       <div>
         <span>
       <font class="person_font">
@@ -179,31 +196,35 @@ council_members_icons:
       </span>
       </div>
     </div>
-    <br>  
     {% endfor %}
-  </div>
+    </div>
 </section>
 
 
-<section class="usa-graphic_list usa-section usa-prose clearfix grid-container">
+<section class="usa-section usa-prose clearfix grid-container">
   <div>
       <h2 class="margin-0 font-sans-md council-leadership-h2">Council Members</h2>
   </div>
   <div class="grid-row grid-gap">
     {% for icon in page.council_members_icons %}
     <div class="desktop:grid-col-4">
-      <img class="size-full wp-image-30379 aligncenter circle-image" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+      {% if icon.border != 'no'%}
+        <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+      {% else %}
+        <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+      {% endif %}
       <div>
         <span>
-      <font class="person_font">
-        {{ icon.name }}</font><br>
+      <div class="person_font">
+        {{ icon.name }}</div><br>
       </span>
       <span>
-        <font class="agency_font"> {{ icon.agency }}</font><br>
+        <div class="agency_font"> {{ icon.agency }}</div><br>
       </span>
       </div>
     </div>
-    <br>  
+    <br>
     {% endfor %}
   </div>
 </section>
+
