@@ -16,23 +16,12 @@ This template is for a single page that does not have a date associated with it.
   {% endif %}
 </section>
 
-<div id="main-content" class="usa-layout-docs usa-section padding-top-0">
-  <div class="grid-container">
-    <div class="grid-row grid-gap">
-      {% if page.sidenav == true %}
-      {% include sidenav.html %}
-      {% endif %}
-      <main>
 
-        <section class="usa-section padding-top-3 padding-bottom-0">
-          <div class="usa-grid">
-            <div class="grid-container desktop:grid-col-12 ">
-
-              {{ content }}
-            </div>
-          </div>
-        </section>
-      </main>
+<section class="usa-section" >
+  <div class="usa-grid">
+    <div class="grid-container ">
+      {{ content }}
     </div>
   </div>
-</div>
+</section>
+
