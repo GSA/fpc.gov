@@ -80,6 +80,8 @@ primary_navigation:
         url: /vision-and-purpose/
       - name: Council Members
         url: /council-members/
+      - name: Committees and Communities
+        url: /council-members/#council-committees
   - name: Federal Privacy Programs
     children:
       - name: Learn about Federal Privacy
