@@ -5,7 +5,8 @@ hero-text: Council Members
 header-image: /assets/img/fpc-conference.jpg
 description:
 excerpt: The membership of the Federal Privacy Council includes the Privacy Branch Chief in the Office of Information and Regulatory Affairs at the Office of Management and Budget, who serves as the Chair, and the Senior Agency Officials for Privacy (SAOP) at each agency described in <a href="https://www.gpo.gov/fdsys/pkg/FR-2016-02-12/pdf/2016-03141.pdf">Executive Order 13719</a>, as well other officials from agencies and offices, who are designated by the Chair.
-leadership_icons:
+
+super_leadership_icons:
     - name: Kirsten Moncada
       logo: /assets/img/bio.moncada.kirsten.png
       url: /#
@@ -17,6 +18,7 @@ leadership_icons:
       url: /#
       agency: Department of Defense
       title: FPC Vice-Chair
+leadership_icons:
     - name: John Krebs
       logo: /assets/img/bio.john.krebs.jpg
       url: /#
@@ -168,14 +170,37 @@ council_members_icons:
         </div>
     </div>
 </section>-->
-
+<div class="grid-container">
 <section class="usa-section usa-prose clearfix">
   <div>
     <h2 class="margin-0 font-sans-md council-leadership-h2">Leadership & Executive Committee</h2>
   </div>
+
+  <div class="grid-row grid-gap">
+    {% for icon in page.super_leadership_icons %}
+    <div class="desktop:grid-col-6">
+      {% if icon.border != 'no'%}
+      <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+      {% else %}
+      <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+      {% endif %}
+      <div>
+        <span>
+      <div class="person_font">
+        {{ icon.name }}</div><br>
+      </span>
+        <span>
+        <div class="agency_font"> {{ icon.agency }}</div><br>
+      </span>
+        <span>
+        <div class="agency_font"> {{ icon.title }}</div>
+      </span>
+      </div>
+    </div>
+    {% endfor %}
     <div class="grid-row grid-gap">
     {% for icon in page.leadership_icons %}
-    <div class="desktop:grid-col-6">
+    <div class="desktop:grid-col-4">
       {% if icon.border != 'no'%}
       <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
       {% else %}
@@ -225,3 +250,4 @@ council_members_icons:
   </div>
 </section>
 
+</div>
