@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /elements-of-federal-privacy-program/privacy=risky-management/
-title: Privacy Risky Management
+title: Privacy Risk Management
 ---
 
-## Privacy Risky Management
+## Privacy Risk Management
 Federal agencies’ privacy programs have responsibilities under the Risk Management Framework. The Risk Management Framework provides a disciplined and structured process that integrates information security, privacy, and risk management activities into the information system development life cycle.
 
 ### Related Laws, Policies, and Resources:
