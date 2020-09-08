@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /elements-of-federal-privacy-program/website-and-digital-services/
-title: Website and Digital Services
+title: Websites and Digital Services
 ---
 
-## Website and Digital Services
+## Websites and Digital Services
 Federal agency public websites and digital services are the primary means by which the public receives information from and interacts with the Federal Government. These websites and services help the public apply for benefits, search for jobs, comply with Federal rules, obtain authoritative information, and much more. Federal websites and digital services should always meet and maintain high standards of effectiveness and usability and provide quality information that is readily accessible to all.
 
 ### Related Laws, Policies, and Resources:
