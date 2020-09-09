@@ -100,7 +100,7 @@ primary_navigation:
       - name: Glossary
         url: /resources/glossary/
   - name: Programs & Events
-    url: "#main-content"
+    url: /programs-and-events/
 
 #secondary_navigation:
 #  - name: Secondary link
@@ -153,7 +153,8 @@ collections:
   pages:
     output: true
     permalink: /:path/
-
+  events:
+    output: true
 permalink: pretty
 
 markdown: kramdown
