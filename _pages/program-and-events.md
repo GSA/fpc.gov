@@ -1,5 +1,5 @@
 ---
-title: Upcoming events
+title: Upcoming Events
 subtitle: Programs and Events
 description: Checkout current and upcoming events hosted or related to the CIO Council! 
 layout: page
