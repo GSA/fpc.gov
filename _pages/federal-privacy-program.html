@@ -47,7 +47,7 @@ priority_icons:
 
 
 
-<section class="usa-section">
+<section class="usa-section margin-bottom-0 padding-bottom-0">
     <div class="usa-grid">
         <div class="grid-container ">
             <div><div class="margin-0 font-sans-md">{{page.excerpt}}</div></div>
@@ -58,11 +58,11 @@ priority_icons:
 
 
 
-<section class="usa-graphic_list usa-section usa-prose clearfix grid-container">
+<section class=" usa-section usa-prose clearfix grid-container">
 
     <div class="grid-row grid-gap">
         {% for icon in page.priority_icons %}
-        <div class="tablet:grid-col-3 text-center margin-y-2 bg-white padding-4 margin-1 shadow-5 members-hover radius-lg ">
+        <div class="tablet:grid-col-4 text-center bg-white padding-4 margin-x-0 margin-y-1 shadow-5 members-hover radius-lg ">
             {% if icon.url %}
             <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-gray-70" style="display: inline-block;">
                 {% else %}
