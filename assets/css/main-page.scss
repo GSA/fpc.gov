@@ -361,13 +361,16 @@ abbr{
   text-transform: uppercase;
   color: #323a45;
 }
+.justify-text {
+  text-align:justify;
+}
 @media screen and (max-width:600px) {  
   /* Style for video(s) text on home page slider*/
-  #navigation00 .text-right .padding-2, #navigation01 .text-right .padding-2, #navigation02 .text-right .padding-2, #navigation03 .text-right .padding-2{
+  .slick-cloned .text-right .padding-2, #navigation00 .text-right .padding-2, #navigation01 .text-right .padding-2, #navigation02 .text-right .padding-2, #navigation03 .text-right .padding-2{
     justify-content: center;
     display: grid;
   }
-  #navigation00 .text-right, #navigation01 .text-right,#navigation02 .text-right,#navigation03 .text-right{
+  .slick-cloned .text-right, #navigation00 .text-right, #navigation01 .text-right,#navigation02 .text-right,#navigation03 .text-right{
     width: 16%;
   }
 }
