@@ -323,7 +323,7 @@ color:#2A4294;
   }
   .usa-width-one-half:last-child {
     margin-right: 0;
-  }
+  } 
 }
 abbr{
   text-decoration: none !important;
@@ -360,4 +360,11 @@ abbr{
   letter-spacing: 0.5px;
   text-transform: uppercase;
   color: #323a45;
+}
+@media screen and (max-width:600px) {  
+  /* Style for video(s) text on home page slider*/
+  #navigation00 .text-right .padding-2, #navigation01 .text-right .padding-2, #navigation02 .text-right .padding-2, #navigation03 .text-right .padding-2{
+    justify-content: center;
+    display: grid;
+  }
 }
