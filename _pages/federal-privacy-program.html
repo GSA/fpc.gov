@@ -62,7 +62,7 @@ priority_icons:
 
     <div class="grid-row grid-gap tablet:flex-justify-center">
         {% for icon in page.priority_icons %}
-        <div class="tablet:grid-col-3 text-center margin-y-2 bg-white padding-4 margin-1 shadow-5 members-hover radius-lg ">
+        <div class="tablet:grid-col-3 text-center bg-white padding-4 margin-2 shadow-5 members-hover radius-lg ">
             {% if icon.url %}
             <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-gray-70" style="display: inline-block;">
                 {% else %}
