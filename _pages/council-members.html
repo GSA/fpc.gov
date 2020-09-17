@@ -205,15 +205,17 @@ council_members_icons:
       {% endif %}
       <div>
         <span>
-      <div class="person_font">
-        {{ icon.name }}</div>
+      <span class="person_font">
+        {{ icon.name }}<span class="agency_font">,</span>
+      </span>
+      <span class="agency_font"> {{ icon.title }}</span>
       </span>
         <span>
         <div class="agency_font"> {{ icon.agency }}</div>
       </span>
-        <span>
+        <!--<span>
         <div class="agency_font"> {{ icon.title }}</div>
-      </span>
+      </span>-->
       </div>
     </div>
     {% endfor %}
