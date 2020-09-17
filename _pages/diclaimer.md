@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Disclaimer
-permalink: /disclaimer/
+permalink: /disclaimer--/
 image:
 ---
 ## Disclaimer
