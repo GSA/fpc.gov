@@ -13,6 +13,5 @@ image:
 was established in February 2016 by the President of the United States as the principal 
 interagency forum to improve the privacy practices of Federal Government agencies 
 and the entities acting on their behalf.
-collect.
 
 {% include about-this-site.html %}
