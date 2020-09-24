@@ -10,7 +10,7 @@ super_leadership_icons:
     - name: Kirsten Moncada
       logo: /assets/img/bio.moncada.kirsten.png
       url: /#
-      agency: Office of Information and Regulatory Affairs
+      agency: Office of Management And Budget
       title: FPC Chair
     - name: Joo Chung
       border: 'no'
@@ -181,7 +181,7 @@ council_members_icons:
 
 
 ---
-<div class="margin-0 font-sans-md">{{page.excerpt}}</div>
+<div class="margin-0 font-sans-md padding-bottom-3">{{page.excerpt}}</div>
 <!--<section class="usa-section usa-grid clearfix">
 
     <div class="grid-row grid-gap ">
@@ -190,38 +190,71 @@ council_members_icons:
         </div>
     </div>
 </section>-->
-<section class="usa-section usa-prose text-primary-darker">
-  <div>
-    <h2 class="margin-0 font-sans-lg council-leadership-h2">Leadership & Executive Committee</h2>
-  </div>
 
-  <div class="grid-row grid-gap">
-    {% for icon in page.super_leadership_icons %}
-    <div class="desktop:grid-col-6 margin-bottom-3">
-      {% if icon.border != 'no'%}
-      <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
-      {% else %}
-      <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
-      {% endif %}
-      <div>
+  <div class="grid-container shadow-5 radius-lg bg-white padding-y-5 margin-bottom-3">
+    <div class="margin-bottom-8">
+      <h2 class="margin-0 font-sans-lg council-leadership-h2">Leadership & Executive Committee</h2>
+    </div>
+    <div class="grid-row grid-gap">
+
+      {% for icon in page.super_leadership_icons %}
+      <div class="desktop:grid-col-6 margin-bottom-3">
+        {% if icon.border != 'no'%}
+        <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+        {% else %}
+        <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+        {% endif %}
+        <div>
         <span>
       <span class="person_font">
         {{ icon.name }}<span class="agency_font">,</span>
       </span>
       <span class="agency_font"> {{ icon.title }}</span>
       </span>
-        <span>
+          <span>
         <div class="agency_font"> {{ icon.agency }}</div>
       </span>
-        <!--<span>
-        <div class="agency_font"> {{ icon.title }}</div>
-      </span>-->
+          <!--<span>
+          <div class="agency_font"> {{ icon.title }}</div>
+        </span>-->
+        </div>
+        <br>
       </div>
-      <br>
+      {% endfor %}
+      <div class="grid-row grid-gap">
+        {% for icon in page.leadership_icons %}
+        <div class="desktop:grid-col-4">
+          {% if icon.border != 'no'%}
+          <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+          {% else %}
+          <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+          {% endif %}
+          <div>
+        <span>
+      <div class="person_font">
+        {{ icon.name }}</div>
+      </span>
+            <span>
+        <div class="agency_font"> {{ icon.agency }}</div>
+      </span>
+            <span>
+        <div class="agency_font"> {{ icon.title }}</div><br>
+      </span>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
     </div>
-    {% endfor %}
-    <div class="grid-row grid-gap">
-    {% for icon in page.leadership_icons %}
+  </div>
+
+  <div class="grid-container shadow-5 radius-lg bg-white padding-y-5 margin-bottom-3">
+
+  <div class="margin-bottom-8">
+    <h2 class="margin-0 font-sans-lg council-leadership-h2">E.O. 13719 Council Members</h2>
+  </div>
+  <div class="grid-row grid-gap">
+
+    {% for icon in page.council_members_13719_icons %}
     <div class="desktop:grid-col-4">
       {% if icon.border != 'no'%}
       <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
@@ -229,29 +262,31 @@ council_members_icons:
       <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
       {% endif %}
       <div>
+          <span>
+        <div class="person_font">
+          {{ icon.name }}</div>
+        </span>
         <span>
-      <div class="person_font">
-        {{ icon.name }}</div>
-      </span>
-      <span>
-        <div class="agency_font"> {{ icon.agency }}</div>
-      </span>
-      <span>
-        <div class="agency_font"> {{ icon.title }}</div><br>
-      </span>
+          <div class="agency_font"> {{ icon.agency }}</div><br>
+        </span>
       </div>
     </div>
     {% endfor %}
-    </div>
-  </div>
-</section>
 
-  <section class="usa-section usa-prose clearfix">
-    <div>
-      <h2 class="margin-0 font-sans-lg council-leadership-h2">E.O. 13719 Council Members</h2>
+
+  </div>
+  </div>
+
+
+
+  <div class="grid-container shadow-5 radius-lg bg-white padding-y-5 margin-bottom-3">
+
+    <div class="margin-bottom-8">
+      <h2 class="margin-0 font-sans-lg council-leadership-h2">Council Members</h2>
     </div>
     <div class="grid-row grid-gap">
-      {% for icon in page.council_members_13719_icons %}
+
+      {% for icon in page.council_members_icons %}
       <div class="desktop:grid-col-4">
         {% if icon.border != 'no'%}
         <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
@@ -269,71 +304,52 @@ council_members_icons:
         </div>
       </div>
       {% endfor %}
+
+
     </div>
-  </section>
-
-
-  <section class="usa-section usa-prose clearfix">
-  <div>
-      <h2 class="margin-0 font-sans-lg council-leadership-h2">Council Members</h2>
   </div>
-  <div class="grid-row grid-gap">
-    {% for icon in page.council_members_icons %}
-    <div class="desktop:grid-col-4">
-      {% if icon.border != 'no'%}
-        <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
-      {% else %}
-        <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
-      {% endif %}
-      <div>
-        <span>
-      <div class="person_font">
-        {{ icon.name }}</div>
-      </span>
-      <span>
-        <div class="agency_font"> {{ icon.agency }}</div><br>
-      </span>
-      </div>
-    </div>
-    {% endfor %}
+
+  <div id="council-committees" class="grid-container shadow-5 radius-lg bg-white padding-y-5 margin-bottom-3">
+
+
+    <h2 class="font-sans-md council-leadership-h2">Council Committees</h2>
+    <h3 class="font-sans-md" style=" color: #323a45;">Agency Implementation Committee</h3>
+    <p>Collaboration strengthens the Federal privacy community. This committee’s mission is to provide a forum for Federal agency staff to discuss issues and share knowledge related to privacy program governance and privacy risk management.
+    </p>
+
+    <h3 class="font-sans-md " style=" color: #323a45;">Committee Leadership</h3>
+    <ul class="usa-list">
+      <li>Rebecca Richards, National Security Agency
+      </li>
+      <li>Claire Stapleton, Federal Deposit Insurance Corporation</li>
+    </ul>
+    <p></p>
+
+    <h3 class="font-sans-md" style=" color: #323a45;">Federal Privacy Workforce Committee</h3>
+    <p>The greatest asset of a Federal privacy program is its people. This committee supports Senior Agency Officials for Privacy in hiring, retaining, training, and developing an effective and efficient workforce of privacy professionals that enables agency mission success.
+    </p>
+
+    <h3 class="font-sans-md " style=" color: #323a45;">Committee Leadership</h3>
+    <ul class="usa-list">
+      <li>
+        Kellie Cosgrove Riley, Office of Personnel Management
+      </li>
+      <li> Shannon Dahn, Federal Deposit Insurance Corporation</li>
+    </ul>
+    <p></p>
+
+    <h3 class="font-sans-md " style=" color: #323a45;">Technology and Innovation Committee</h3>
+    <p>To enable the transformation to a 21st-century government that serves the American people more effectively, agencies must embrace and leverage cutting-edge technologies, new digital services, and advances in data analytics. This committee addresses issues at the intersection of privacy, technology, and policy with the overall goal of promoting innovation and enabling the wide-scale adoption of new technologies and services.</p>
+
+    <h3 class="font-sans-md " style=" color: #323a45;">Committee Leadership</h3>
+    <ul class="usa-list">
+      <li>John Krebs, Federal Trade Commission
+      </li>
+    </ul>
+    <p></p>
+
+
   </div>
-</section>
 
-<div id="council-committees">
-  <h2 class="font-sans-lg council-leadership-h2">Council Committees</h2>
-  <h3 class="font-serif-md text-primary-darker">Agency Implementation Committee</h3>
-  <p>Collaboration strengthens the Federal privacy community. This committee’s mission is to provide a forum for Federal agency staff to discuss issues and share knowledge related to privacy program governance and privacy risk management.
-  </p>
-
-  <h3 class="font-serif-md " style=" color: #162e51;">Committee Leadership</h3>
-  <ul class="usa-list">
-    <li>Rebecca Richards, National Security Agency
-    </li>
-    <li>Claire Stapleton, Federal Deposit Insurance Corporation</li>
-  </ul>
-  <p></p>
-
-  <h3 class="font-serif-md text-primary-darker" >Federal Privacy Workforce Committee</h3>
-  <p>The greatest asset of a Federal privacy program is its people. This committee supports Senior Agency Officials for Privacy in hiring, retaining, training, and developing an effective and efficient workforce of privacy professionals that enables agency mission success.
-  </p>
-
-  <h3 class="font-serif-md text-primary-darker">Committee Leadership</h3>
-  <ul class="usa-list">
-    <li>
-      Kellie Cosgrove Riley, Office of Personnel Management
-    </li>
-    <li> Shannon Dahn, Federal Deposit Insurance Corporation</li>
-  </ul>
-  <p></p>
-
-  <h3 class="font-serif-md text-primary-darker">Technology and Innovation Committee</h3>
-  <p>To enable the transformation to a 21st-century government that serves the American people more effectively, agencies must embrace and leverage cutting-edge technologies, new digital services, and advances in data analytics. This committee addresses issues at the intersection of privacy, technology, and policy with the overall goal of promoting innovation and enabling the wide-scale adoption of new technologies and services.</p>
-
-  <h3 class="font-serif-md text-primary-darker">Committee Leadership</h3>
-  <ul class="usa-list">
-    <li>John Krebs, Federal Trade Commission
-    </li>
-  </ul>
-  <p></p>
 
 </div>
