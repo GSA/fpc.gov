@@ -5,7 +5,7 @@ hero-text: Government-wide SORNs
 permalink: /resources/SORNs/
 header-image: /assets/img/header-image.jpg
 ---
-<h2 class="font-serif-lg text-primary-darker">About</h2>
+<h2 class="font-sans-lg text-primary-darker">About</h2>
 
 <p class="font-sans-sm">This page is a compilation of government-wide system of records notices (SORNs), listed by the agency with government-wide responsibility for the system of records. </p>
 
