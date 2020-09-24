@@ -1,5 +1,8 @@
 
 @import 'css/font-awesome-style/css/font-awesome.min.css';
+body{
+  line-height: 1.5;
+}
 .circle-image {
   border-radius: 50%;
   width: 110px;
@@ -153,16 +156,13 @@ color:#fff;
 }
 
 .section_header {
-  font-family: 'Poppins', sans-serif;
-  color: #515151;
-  font-size: 28px;
+  font-size: 1.8em;
   align: left;
 }
 
 .sub_section_header {
-  font-family: 'Poppins', sans-serif;
-  color: #515151;
-  font-size: 20px;
+  color: #162e51;
+  font-size: 1.46rem;
   align: left;
 }
 
@@ -333,12 +333,12 @@ abbr{
   margin-bottom: 2%;
 }
 .person_font{
-  color: #3086CC;
+  color: #323a45;
   font-size: 1.5rem;
 }
 .council-leadership-h2{
   margin-bottom: 2%;
-  color: #205493;
+  color: #162e51;
   font-size: 2.13rem;
 }
 .leadership-council-header-logo{
@@ -373,4 +373,8 @@ abbr{
   .slick-cloned .text-right, #navigation00 .text-right, #navigation01 .text-right,#navigation02 .text-right,#navigation03 .text-right{
     width: 16%;
   }
+}
+
+.law-library p{
+  font-size: 1.06rem;
 }
