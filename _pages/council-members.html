@@ -51,8 +51,8 @@ leadership_icons:
       agency: Federal Deposit Insurance Corporation
       title:
     - name: Peter Winn
-      border: 'no'
-      logo: /assets/img/bio.winn.peter.png
+      border: 'yes'
+      logo: /assets/img/bio.peter.winn.png
       url: /#
       agency: Department of Justice
       title:
@@ -198,7 +198,7 @@ council_members_icons:
     <div class="grid-row grid-gap">
 
       {% for icon in page.super_leadership_icons %}
-      <div class="desktop:grid-col-6 margin-bottom-3">
+      <div class="desktop:grid-col-4 margin-x-9 margin-bottom-3">
         {% if icon.border != 'no'%}
         <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
         {% else %}
@@ -360,11 +360,12 @@ council_members_icons:
     <p>To enable the transformation to a 21st-century government that serves the American people more effectively, agencies must embrace and leverage cutting-edge technologies, new digital services, and advances in data analytics. This committee addresses issues at the intersection of privacy, technology, and policy with the overall goal of promoting innovation and enabling the wide-scale adoption of new technologies and services.</p>
 
     <h3 class="font-sans-md " style=" color: #323a45;">Committee Leadership</h3>
-    <ul class="usa-list">
-      <li>John Krebs, Federal Trade Commission
-      </li>
-    </ul>
-    <p></p>
+    <div class="desktop:grid-col-12">
+      John Krebs
+    </div>
+    <div class="desktop:grid-col-12">
+      Federal Trade Commission
+    </div>
 
 
   </div>
