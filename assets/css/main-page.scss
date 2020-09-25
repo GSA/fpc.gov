@@ -179,7 +179,7 @@ color:#fff;
 
 .tab button {
   display: block;
-  background-color: #206993;
+  background-color: #19387b;
   color: #ffffff;
   padding: 20px 10px;
   width: 100%;
@@ -193,12 +193,12 @@ color:#fff;
 }
 
 .tab button:hover {
-  background-color: #e59393;
+  background-color: gray;
   color: #444444;
 }
 
 .tab button.active {
-  background-color: #19387b;
+  background-color: #206993;
 }
 
 .tabcontent {
