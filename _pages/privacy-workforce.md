@@ -3,11 +3,11 @@ layout: page
 permalink: /elements-of-federal-privacy-program/privacy-workforce/
 title: Privacy Workforce
 ---
-<h2 class="font-sams-lg text-primary-darker">Privacy Workforce</h2>
+<h1 class="font-sams-lg text-primary-darker">Privacy Workforce</h1>
 
 Agencies’ privacy programs play a key role in workforce management activities. The Senior Agency Official for Privacy (SAOP) is required to be involved in assessing and addressing the hiring, training, and professional development needs of the agency with respect to privacy.
 
-<h3 class="font-sams-lg text-gray-70">Related Laws, Policies, and Resources:</h3>
+<h2 class="font-sams-lg text-gray-70">Related Laws, Policies, and Resources:</h2>
 
 * [OMB Circular A-130, Managing Information as a Strategic Resource](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf) (July 28, 2016)
 

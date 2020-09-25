@@ -3,9 +3,9 @@ layout: page
 permalink: /elements-of-federal-privacy-program/budget-and-acquisition/
 title: Budget and Acquisition
 ---
-<h2 class="font-sams-lg text-primary-darker">Budget and Acquisition</h2>
+<h1 class="font-sams-lg text-primary-darker">Budget and Acquisition</h1>
 ederal agencies’ privacy programs shall have the resources needed to manage Federal information resources that involve personally identifiable information (PII). This will require privacy programs to play a key role in the development of the agencies’ budget requests, as well as any decisions to acquire or develop information system technologies and services.
-<h3 class="font-sams-lg text-gray-70">Related Laws, Policies, and Resources:</h3>
+<h2 class="font-sams-lg text-gray-70">Related Laws, Policies, and Resources:</h2>
 
 
 * [E-Government Act of 2002](https://www.congress.gov/107/plaws/publ347/PLAW-107publ347.pdf)
