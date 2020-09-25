@@ -3,11 +3,11 @@ layout: page
 permalink: /elements-of-federal-privacy-program/system-of-record-notices/
 title: System of Record Notices
 ---
+<h2 class="font-sams-lg text-primary-darker">System of Records Notices</h2>
 
-## System of Records Notices
 A system of records notice (or “SORN”) is the notice(s) published by a Federal agency in the Federal Register upon the establishment and/or modification of a system of records describing the existence and character of the system. A SORN identifies the system of records, the purpose(s) of the system, the authority for maintenance of the records, the categories of records maintained in the system, the categories of individuals about whom records are maintained, the routine uses to which the records are subject, and additional details about the system.
 
-### Related Laws, Policies, and Resources:
+<h3 class="font-sams-lg text-gray-70">Related Laws, Policies, and Resources:</h3>
 
 * [The Privacy Act of 1974](https://www.justice.gov/opcl/file/844481/download)
 
