@@ -5,7 +5,7 @@ title: Budget and Acquisition
 header-image: /assets/img/header-image.jpg
 ---
 Federal agencies’ privacy programs shall have the resources needed to manage Federal information resources that involve personally identifiable information (PII). This will require privacy programs to play a key role in the development of the agencies’ budget requests, as well as any decisions to acquire or develop information system technologies and services.
-<h2 class="font-sams-lg text-gray-70">Related Laws, Policies, and Resources:</h2>
+<h2 class="font-sans-lg text-gray-70">Related Laws, Policies, and Resources:</h2>
 
 
 * [E-Government Act of 2002](https://www.congress.gov/107/plaws/publ347/PLAW-107publ347.pdf)
