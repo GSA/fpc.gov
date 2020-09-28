@@ -2,8 +2,8 @@
 layout: page
 permalink: /elements-of-federal-privacy-program/training-and-accountability/
 title: Training and Accountability
+header-image: /assets/img/header-image.jpg
 ---
-<h1 class="font-sams-lg text-primary-darker">Training and Accountability</h1>
 
 Federal agencies are required to establish rules of behavior for employees and contractors with access to personally identifiable information (PII) and hold agency personnel accountable for complying with applicable privacy requirements and managing privacy risks. This necessarily requires developing, maintaining, and providing agency-wide privacy awareness and training programs for all employees and contractors.
 
