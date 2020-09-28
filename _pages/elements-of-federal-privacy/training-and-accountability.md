@@ -7,7 +7,7 @@ header-image: /assets/img/header-image.jpg
 
 Federal agencies are required to establish rules of behavior for employees and contractors with access to personally identifiable information (PII) and hold agency personnel accountable for complying with applicable privacy requirements and managing privacy risks. This necessarily requires developing, maintaining, and providing agency-wide privacy awareness and training programs for all employees and contractors.
 
-<h2 class="font-sams-lg text-gray-70">Related Laws, Policies, and Resources:</h2>
+<h2 class="font-sans-lg text-gray-70">Related Laws, Policies, and Resources:</h2>
 
 * [Executive Order 13719, Establishment of the Federal Privacy Council](https://www.govinfo.gov/content/pkg/CFR-2017-title3-vol1/pdf/CFR-2017-title3-vol1-eo13719.pdf) (February 9, 2016)
 
