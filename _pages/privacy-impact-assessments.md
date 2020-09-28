@@ -2,10 +2,9 @@
 layout: page
 permalink: /elements-of-federal-privacy-program/privacy-impact-assessments/
 title: Privacy Impact Assessments
-
+header-image: /assets/img/header-image.jpg
 ---
 
-<h1 class="font-sams-lg text-primary-darker">Privacy Impact Assessments</h1>
 
 A privacy impact assessment (or “PIA”) is one of the most valuable tools Federal agencies use to ensure compliance with applicable privacy requirements and to manage privacy risks.  Federal agencies are required to conduct and draft a PIA with sufficient clarity and specificity to demonstrate that the agency fully considered privacy and incorporated appropriate privacy protections from the earliest stages of the agency activity and throughout the information life cycle.
 

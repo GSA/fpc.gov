@@ -2,8 +2,8 @@
 layout: page
 permalink: /elements-of-federal-privacy-program/senior-agency-officials-for-privacy/
 title: Senior Agency Officials for Privacy
+header-image: /assets/img/header-image.jpg
 ---
-<h1 class="font-sams-lg text-primary-darker">Senior Agency Officials for Privacy</h1>
 
 Federal agencies are required to designate a Senior Agency Official for Privacy (SAOP) who has agency-wide responsibility and accountability for ensuring compliance with applicable privacy requirements and managing privacy risks. The SAOP is required to have a central policy-making role and is responsible for ensuring that the agency considers the privacy impact of all agency actions and policies that involve PII. The SAOP is responsible for ensuring that the agency complies with applicable privacy requirements in statute, regulation, and policy.
 
