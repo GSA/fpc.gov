@@ -6,7 +6,7 @@ header-image: /assets/img/header-image.jpg
 ---
 
 
-<h2 class="font-sans-lg text-gray-70">A Resource about Privacy for Federal Government Agencies</h2>
+<h2 class="font-sans-lg text-primary-darker">A Resource about Privacy for Federal Government Agencies</h2>
 
 
 [FPC.gov](https://www.fpc.gov/) is the website of the [Federal Privacy Council]({{site.baseurl}}{% link _pages/federal-privacy-council.md %}). The Federal Privacy Council 
