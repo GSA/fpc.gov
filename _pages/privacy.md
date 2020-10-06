@@ -2,10 +2,10 @@
 layout: page
 title: Protecting Privacy and Security
 permalink: /privacy-policy/
-image:
+title: Privacy Policy
+subtitle: Privacy Policy 
+header-image: xyz
 ---
-
-## Privacy Policy
 
 Protecting the privacy and security of individuals’ personal information is
 very important to us. We do not collect any information that directly
