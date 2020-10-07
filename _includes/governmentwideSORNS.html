@@ -1,4 +1,4 @@
-
+<div id="container">
 <div class="tab">
     <button class="tablinks margin-bottom-5" onclick="openTabs(event, 'dol')" id="defaultOpen">Department of Labor</button>
     <!--<button class="tablinks margin-bottom-5" onclick="openTabs(event, 'dot')">Department of Transportation</button>-->
@@ -527,6 +527,8 @@
     </ul>
 </div>
 
+</div>
+
 
 <script>
     function openTabs(evt, title) {
@@ -547,6 +549,7 @@
         // Show the current tab, and add an "active" class to the button that opened the tab
         document.getElementById(title).style.display = "block";
         evt.currentTarget.className += " active";
+        window.location.href="#container";
 
     }
     document.getElementById("defaultOpen").click();
