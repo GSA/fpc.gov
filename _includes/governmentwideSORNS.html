@@ -549,8 +549,10 @@
         // Show the current tab, and add an "active" class to the button that opened the tab
         document.getElementById(title).style.display = "block";
         evt.currentTarget.className += " active";
-        window.location.href="#container";
-
+        if (title && title!= 'dol'){
+            console.log('title '+title);
+            window.location.href="#container";
+        }
     }
     document.getElementById("defaultOpen").click();
 </script>
