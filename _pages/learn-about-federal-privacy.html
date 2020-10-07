@@ -53,7 +53,7 @@ priority_icons:
 
     <div class="grid-row grid-gap">
         {% for icon in page.priority_icons %}
-        <div class="tablet:grid-col-3 text-center margin-y-2 bg-white padding-2 margin-3 shadow-5 members-hover radius-lg " style="width: 28%; ">
+        <div class="tablet:grid-col-3 mobile-lg:grid-col-12 text-center margin-y-2 bg-white padding-2 margin-3 shadow-5 members-hover radius-lg " style="width: 28%; ">
             {% if icon.url %}
             <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-gray-70" style="display: inline-block;">
                 {% else %}
