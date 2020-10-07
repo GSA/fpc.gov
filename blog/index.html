@@ -18,7 +18,7 @@ pagination:
 <!--</div>-->
 <!--<div class="grid-container">-->
 <!--  <div class="grid-row">-->
-    <div class="desktop:grid-col-12 usa-prose padding-right-4">
+<!--    <div class="desktop:grid-col-12 usa-prose padding-right-4">-->
       <!-- This loops through the paginated posts -->
       {% for events in paginator.posts %}
       {% assign event_date = events.end-date | date: '%s' %}
@@ -96,7 +96,7 @@ pagination:
           {% endif %}
         </div>
       </div>
-    </div>
+<!--    </div>-->
     <aside class="desktop:grid-col-fill margin-top-4 padding-right-4">
 <!--      <div-->
 <!--        class="border-top-1 border-accent-cool-darker padding-top-2 margin-bottom-4 usa-prose"-->
