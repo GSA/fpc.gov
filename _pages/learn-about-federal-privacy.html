@@ -9,16 +9,19 @@ number_of_icons: 4
 priority_icons:
  - name: Roles in Federal Privacy
    logo: /assets/img/logos/Video_1.png
+   alt-text: Different groups of stylized people interacting, with text 'privacy stewardship is essential at all levels and contact information for www.fpc.gov'
    url: /roles-in-federal-privacy/
    filler: Learn about the different roles in Federal privacy and how they work together to preserve the public’s trust.
    time: 5 minutes 52 seconds
  - name: The Privacy Act of 1974
    logo: /assets/img/logos/Video_3.png
+   alt-text: Four icons showing the topics the video covers, namely, restriction on disclosure, fair information practices, access and amendment, and enforcement
    url: /privacy-act-1974/
    filler: Learn about a cornerstone of Federal privacy law and the rights and protections it provides to individuals.
    time: 7 minutes 30 seconds
  - name: Privacy Impact Assessments
    logo: /assets/img/logos/Video_2.png
+   alt-text: Stylized train track with 'what, when, who, and how' as the topics or train stops that the video covers
    url: /privacy-impact-asessments/
    filler: Learn about one of the most valuable tools Federal privacy programs use to manage privacy risks.
    time: 6 minutes 51 seconds
@@ -50,14 +53,14 @@ priority_icons:
 
     <div class="grid-row grid-gap">
         {% for icon in page.priority_icons %}
-        <div class="tablet:grid-col-3 text-center margin-y-2 bg-white padding-2 margin-3 shadow-5 members-hover radius-lg ">
+        <div class="tablet:grid-col-3 text-center margin-y-2 bg-white padding-2 margin-3 shadow-5 members-hover radius-lg " style="width: 28%; ">
             {% if icon.url %}
             <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-gray-70" style="display: inline-block;">
                 {% else %}
                 <a href="{{ icon.link }}" class="text-no-underline" style="display: inline-block;">
                     {% endif %}
                     <div >
-                        <img style="width:200px;height:150px;object-fit:cover; border: 1px solid #555;" src="{{site.baseurl}}{{ icon.logo }}" alt="{{ icon.name }} image" />
+                        <img alt="{{icon.alt-text}}" style="width:100%;height:150px;object-fit:cover; border: 1px solid #555;" src="{{site.baseurl}}{{ icon.logo }}" alt="{{ icon.name }} image" />
                     </div>
                     <p class="font-sans-sm text-gray-70 text-left text-no-underline">{{ icon.time }}</p>
                     <p class="font-heading-md text-gray-70 text-left text-no-underline">{{ icon.name }}</p>
