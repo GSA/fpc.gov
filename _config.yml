@@ -81,6 +81,8 @@ primary_navigation:
         url: /council-members/
       - name: Committees and Communities
         url: /council-members/#council-committees
+      - name: Working Groups
+        url: /council-members/#working-groups
   - name: Federal Privacy Programs
     children:
       - name: Learn about Federal Privacy
