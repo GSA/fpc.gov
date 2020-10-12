@@ -1,4 +1,5 @@
 ---
+title: Vision and Purpose
 layout: federal-privacy-council
 body-class: home
 permalink: /vision-and-purpose/
