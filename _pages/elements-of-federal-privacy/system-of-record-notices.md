@@ -9,6 +9,7 @@ A system of records notice (or “SORN”) is published by a Federal agency in t
 
 <h2 class="font-sans-lg text-gray-70" style="color:#162E51">Related Laws, Policies, and Resources:</h2>
 
+
 * [The Privacy Act of 1974](https://www.justice.gov/opcl/file/844481/download)
 
     The Privacy Act of 1974 sets forth a series of requirements governing Federal agency practices with respect to certain information about individuals. Among other things, it requires Federal agencies to publish a system of records notice (SORN) in the Federal Register that describes the existence and character of a system of records.

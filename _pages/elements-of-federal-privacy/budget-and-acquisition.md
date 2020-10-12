@@ -7,7 +7,6 @@ header-image: /assets/img/header-image.jpg
 Federal agencies’ privacy programs shall have the resources needed to manage Federal information resources that involve personally identifiable information (PII). This will require privacy programs to play a key role in the development of the agencies’ budget requests, as well as any decisions to acquire or develop information system technologies and services.
 <h2 class="font-sans-lg text-gray-70" style="color:#162E51">Related Laws, Policies, and Resources:</h2>
 
-
 * [E-Government Act of 2002](https://www.congress.gov/107/plaws/publ347/PLAW-107publ347.pdf)
 
     Section 208 of the E-Government Act requires all Federal agencies to conduct a privacy impact assessment (PIA) when developing or procuring new information technology involving the collection, maintenance, or dissemination of information in identifiable form or when making substantial changes to existing information technology that manages information in identifiable form. Among other things, it requires Federal agencies to provide the Director of the Office of Management and Budget with a copy of the PIA for each system for which funding is requested.

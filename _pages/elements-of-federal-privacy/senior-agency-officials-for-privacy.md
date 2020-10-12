@@ -9,6 +9,7 @@ Federal agencies are required to designate a Senior Agency Official for Privacy 
 
 <h2 class="font-sans-lg text-gray-70" style="color:#162E51">Related Laws, Policies, and Resources:</h2>
 
+
 * [Executive Order 13719, Establishment of the Federal Privacy Council](https://www.govinfo.gov/content/pkg/CFR-2017-title3-vol1/pdf/CFR-2017-title3-vol1-eo13719.pdf) (February 9, 2016)
 
     This Executive Order reinforces the principle that the proper functioning of Government requires the public’s trust, and to maintain that trust the Government must strive to uphold the highest standards for collecting, maintaining, and using personal data. Among other things, it requires the head of each Federal agency to designate a SAOP with the experience and skills necessary to manage an agency-wide privacy program.

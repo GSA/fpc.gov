@@ -9,6 +9,7 @@ Federal agencies are required to establish rules of behavior for employees and c
 
 <h2 class="font-sans-lg text-gray-70" style="color:#162E51">Related Laws, Policies, and Resources:</h2>
 
+
 * [Executive Order 13719, Establishment of the Federal Privacy Council](https://www.govinfo.gov/content/pkg/CFR-2017-title3-vol1/pdf/CFR-2017-title3-vol1-eo13719.pdf) (February 9, 2016)
 
     This Executive Order establishes the Federal Privacy Council as the principal interagency forum to improve the privacy practices of Federal agencies and entities acting on their behalf. Among other things, it requires the Federal Privacy Council to assess and recommend how best to address the hiring, training, and professional development needs of the Federal Government with respect to privacy matters.

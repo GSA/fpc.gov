@@ -10,7 +10,6 @@ A privacy impact assessment (or “PIA”) is one of the most valuable tools Fed
 
 <h2 class="font-sans-lg text-gray-70" style="color:#162E51">Related Laws, Policies, and Resources:</h2>
 
-
 * [E-Government Act of 2002](https://www.congress.gov/107/plaws/publ347/PLAW-107publ347.pdf)
 
     Section 208 of the E-Government Act requires all Federal agencies to conduct a PIA when developing or procuring new information technology involving the collection, maintenance, or dissemination of information in identifiable form or  when making substantial changes to existing information technology that manages information in identifiable form.
