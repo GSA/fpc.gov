@@ -12,3 +12,4 @@ layout: page
 header-image: filler
 external_url: community.max.gov/x/oYpYgQ
 ---
+The Federal Privacy Summit is the Federal Privacy Council’s annual hallmark event, drawing privacy professionals from across the Executive Branch in the fall. In addition to featuring exciting speakers and topics, this event includes the presentation of FPC Awards, which recognize extraordinary achievements by Federal privacy professionals. It is free of charge and open to Federal employees and contractors in the Executive Branch. (An OMB Max login is required to access the page.)

@@ -11,3 +11,4 @@ header-image: filler
 layout: page
 external_url: community.max.gov/x/ZwU1S
 ---
+The Privacy Boot Camp is an 8-week program designed to provide foundational knowledge of Federal privacy laws and policies to staff who are new to privacy roles. It serves as a central, standardized training resource for the Executive Branch. Attendees join a collaborative interagency network of professionals seeking to address complex issues in privacy that affect the Federal Government. This program is held in the spring and fall of each year, is offered free of charge by the Federal Privacy Council, and is open to Executive Branch employees. (An OMB Max login is required to access the page.)
