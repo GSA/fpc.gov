@@ -1,12 +1,10 @@
 ---
-layout: page
+layout: elements-layout
 permalink: /elements-of-federal-privacy-program/privacy-workforce/
 title: Privacy Workforce
 header-image: /assets/img/header-image.jpg
+excerpt: Agencies’ privacy programs play a key role in workforce management activities. The Senior Agency Official for Privacy (SAOP) is required to be involved in assessing and addressing the hiring, training, and professional development needs of the agency with respect to privacy.
 ---
-
-Agencies’ privacy programs play a key role in workforce management activities. The Senior Agency Official for Privacy (SAOP) is required to be involved in assessing and addressing the hiring, training, and professional development needs of the agency with respect to privacy.
-
 <h2 class="font-sans-lg text-gray-70" style="color:#162E51">Related Laws, Policies, and Resources:</h2>
 
 

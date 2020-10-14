@@ -1,0 +1,26 @@
+---
+layout: base
+---
+
+{% comment %}
+This template is for a single page that does not have a date associated with it. For example, an about page.
+{% endcomment %}
+
+{% if page.header-image %}
+<section class="usa-section about margin-bottom-3">
+    <div class="usa-grid">
+        <div class="grid-container ">
+            <div class="priority-tag-line"><h1 class="margin-0 font-ui-2xl">{{ page.title }}</h1></div><br>
+        </div>
+    </div>
+</section>
+{% endif %}
+<section  id="main-content" class="usa-section padding-top-2" >
+    <div class="grid-container font-sans-sm">
+         <p>{{page.excerpt}} </p>
+        <div class="grid-container shadow-5 radius-lg bg-white padding-y-5 margin-bottom-3">
+            {{ content }}
+        </div>
+    </div>
+</section>
+

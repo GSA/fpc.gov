@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: elements-layout
 permalink: /elements-of-federal-privacy-program/breach-response/
 title: Breach Response
 header-image: /assets/img/header-image.jpg
+excerpt: It is critically important that Federal agencies remain vigilant and prepare for and understand how to respond to a breach in today's threat landscape. An agency's effective detection and expeditious response to a breach is important to reduce the risk of harm to potentially affected individuals and to keep the public's trust in the ability of the Federal Government to safeguard personally identifiable information (PII).
 ---
-It is critically important that Federal agencies remain vigilant and prepare for and understand how to respond to a breach in today's threat landscape. An agency's effective detection and expeditious response to a breach is important to reduce the risk of harm to potentially affected individuals and to keep the public's trust in the ability of the Federal Government to safeguard personally identifiable information (PII).
 
 <h2 class="font-sans-lg text-gray-70" style="color:#162E51">Related Laws, Policies, and Resources</h2>
 
