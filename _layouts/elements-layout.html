@@ -16,8 +16,9 @@ This template is for a single page that does not have a date associated with it.
 </section>
 {% endif %}
 <section  id="main-content" class="usa-section padding-top-2" >
-    <div class="grid-container font-sans-sm">
-         <p>{{page.excerpt}} </p>
+    <div class="grid-container">
+        <h2 class="text-primary-darker font-sans-lg">{{ page.sub-heading}}</h2>
+         <p class="font-sans-sm">{{page.excerpt}} </p>
         <div class="grid-container shadow-5 radius-lg bg-white padding-y-5 margin-bottom-3">
             {{ content }}
         </div>
