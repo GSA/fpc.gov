@@ -6,6 +6,7 @@ sub-heading: About the Office of Management and Budget
 excerpt: The Office of Management and Budget (OMB) is the largest component of the Executive Office of the President. The core mission of OMB is to serve the President of the United States in implementing his vision across the Executive Branch. OMB reports directly to the President and helps a wide range of executive departments and agencies across the Federal Government to execute their programs effectively and implement the commitments and priorities of the President. OMB, through its Office of Information and Regulatory Affairs (OIRA), has a fundamental role in Executive Branch privacy policy. Among other things, OIRA is responsible for providing assistance to Federal agencies on privacy matters, developing Federal privacy policy, and overseeing implementation of privacy policy by Federal agencies. OMB’s authority is provided in Federal laws, including the Privacy Act of 1974 (5 U.S.C. § 552a), the Paperwork Reduction Act of 1995 (44 U.S.C. chapter 35), and the E-Government Act of 2002 (44 U.S.C. § 3501 note).
 header-image: /assets/img/header-image.jpg
 box-heading: Privacy Guidance
+type: "omb"
 ---
 
 #### 2020s             
