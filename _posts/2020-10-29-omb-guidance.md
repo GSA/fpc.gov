@@ -6,17 +6,19 @@ sub-heading: About the Office of Management and Budget
 excerpt: The Office of Management and Budget (OMB) is the largest component of the Executive Office of the President. The core mission of OMB is to serve the President of the United States in implementing his vision across the Executive Branch. OMB reports directly to the President and helps a wide range of executive departments and agencies across the Federal Government to execute their programs effectively and implement the commitments and priorities of the President. OMB, through its Office of Information and Regulatory Affairs (OIRA), has a fundamental role in Executive Branch privacy policy. Among other things, OIRA is responsible for providing assistance to Federal agencies on privacy matters, developing Federal privacy policy, and overseeing implementation of privacy policy by Federal agencies. OMB’s authority is provided in Federal laws, including the Privacy Act of 1974 (5 U.S.C. § 552a), the Paperwork Reduction Act of 1995 (44 U.S.C. chapter 35), and the E-Government Act of 2002 (44 U.S.C. § 3501 note).
 header-image: /assets/img/header-image.jpg
 box-heading: Privacy Guidance
+type: "omb"
 ---
 
 #### 2020s             
-                
+
+* [OMB Memorandum M-21-04, Modernizing Access to and Consent for Disclosure of Records Subject to the Privacy Act](https://www.whitehouse.gov/wp-content/uploads/2020/11/M-21-04.pdf) (November 12, 2020)
+* [OMB Memorandum M-21-02, Fiscal Year 2020-2021 Guidance on Federal Information Security and Privacy Management Requirements](https://www.whitehouse.gov/wp-content/uploads/2020/11/M-21-02.pdf) (November 9, 2020)                
 * [OMB Memorandum M-20-32, Improving Vulnerability Identification, Management, and Remediation](https://www.whitehouse.gov/wp-content/uploads/2020/09/M-20-32.pdf) (September 2, 2020)
 * [OMB Circular No. A-11, Preparation, Submission, and Execution of the Budget ](https://www.whitehouse.gov/wp-content/uploads/2018/06/a11.pdf) (July 10, 2020)
 * [OMB Memorandum M-20-19, Harnessing Technology to Support Mission Continuity](https://www.whitehouse.gov/wp-content/uploads/2020/03/M-20-19.pdf) (March 22, 2020)
 * [OMB Memorandum M-20-12, Phase 4 Implementation of the Foundations for Evidence-Based Policymaking Act of 2018: Program Evaluation Standards and Practices](https://www.whitehouse.gov/wp-content/uploads/2020/03/M-20-12.pdf) (March 10, 2020)
                
 #### 2010s
-* [OMB Memorandum M-20-04, Fiscal Year 2019-2020 Guidance on Federal Information Security and Privacy Management Requirements](https://www.whitehouse.gov/wp-content/uploads/2019/11/M-20-04.pdf) (November 19, 2019)
 * [OMB Memorandum M-19-23, Phase 1 Implementation of the Foundations for Evidence-Based Policymaking Act of 2018: Learning Agendas, Personnel, and Planning Guidance ](https://www.whitehouse.gov/wp-content/uploads/2019/07/M-19-23.pdf) (July 10, 2019)
 * [OMB Memorandum M-19-18, Federal Data Strategy – A Framework for Consistency ](https://www.whitehouse.gov/wp-content/uploads/2019/06/M-19-18.pdf) (June 4, 2019)
 * [OMB Memorandum M-18-20, Transmittal of Appendix C to OMB Circular A-123, Requirements for Payment Integrity Improvement](https://www.whitehouse.gov/wp-content/uploads/2018/06/M-18-20.pdf) (June 26, 2018)
