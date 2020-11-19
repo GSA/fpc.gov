@@ -37,19 +37,21 @@ type: "omb"
 * [OMB Memorandum M-10-22, Guidance for Online Use of Web Measurement and Customization Technologies](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2010/m10-22.pdf) (June 25, 2010)
 
 
-
 #### 2000s
 * [OMB Memorandum M-03-22, OMB Guidance for Implementing the Privacy Provisions of the E-Government Act of 2002](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2003/m03_22.pdf) (Sept. 26, 2003)
 * [OMB Circular No. A-16, Coordination of Geographic Information and Related Spatial Data Activities](https://www.whitehouse.gov/wp-content/uploads/2017/11/Circular-016.pdf) (August 19, 2002)
 * [OMB memorandum M-01-05, Guidance on Inter-Agency Sharing of Personal Data – Protecting Personal Privacy](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2001/m01_05.pdf) (Dec. 20, 2000)
-* [OMB Memorandum for Privacy Act Officers of Departments and Agencies, Status of Biennial Reporting Requirements under the Privacy Act and the Computer Matching and Privacy Protection Act](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/assets/OMB/inforeg/spotila62100.pdf) (June 21, 2000)
+* [OMB Memorandum for Privacy Act Officers of Departments and Agencies, Status of Biennial Reporting Requirements under the Privacy Act and the Computer Matching and Privacy Protection Act](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/assets/OMB/inforeg/spotila62100.pdf) (June 21, 2000) 
 
 #### 1990s
 * [OMB Memorandum M-99-18, Privacy Policies on Federal Web Sites](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/1999/m99_18.pdf) (June 2, 1999)
-* [OMB Memorandum M-99-05, Instructions on complying with President’s Memorandum of May 14, 1998, “Privacy and Personal Information in Federal Records”](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/1999/m99_05.pdf) (Jan. 7, 1999)
-* [OMB Memorandum for Agency Chief Information Officers, Biennial Privacy Act and Computer Matching Reports](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/inforeg/inforeg/Datacall.pdf) (June 1998)
+*[OMB Memorandum M-99-05, Instructions on complying with President’s Memorandum of May 14, 1998, “Privacy and Personal Information in Federal Records”](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/1999/m99_05.pdf) (Jan. 7, 1999)
+*[OMB Memorandum for Agency Chief Information Officers, Biennial Privacy Act and Computer Matching Reports](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/inforeg/inforeg/Datacall.pdf) (June 1998)
 * [OMB Memorandum for the Chief Information Officers, Privacy Act Responsibilities for Implementing the Personal Responsibility and Work Opportunity Reconciliation Act of 1996](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/assets/OMB/inforeg/katzen_prwora.pdf) (Nov. 3, 1997)
 * [Computer Matching and Privacy Protection Amendments of 1990 and the Privacy Act of 1974, 56 Fed. Reg. 18,599](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/assets/OMB/inforeg/computer_amendments1991.pdf) (Apr. 23, 1991)
+
+
+
 
 
 #### 1980s
