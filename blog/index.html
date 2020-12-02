@@ -1,11 +1,96 @@
 ---
-title:
-subtitle: Programs and Events
+title: OMB Guidance
+permalink: /resources/omb/
 layout: default
 header-image: xyz
 pagination:
   enabled: true
 ---
+
+<section class="usa-section about margin-bottom-3">
+  <div class="usa-grid">
+    <div class="grid-container ">
+      <div class="priority-tag-line"><h1 class="margin-0 font-ui-2xl">{{ page.title }}</h1></div><br>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="usa-graphic-list grid-container margin-bottom-3 ">
+  <div class="padding-bottom-3 margin-top-1">
+
+
+    <h2 class="text-primary-darker font-sans-lg">
+
+      About the Office of Management and Budget
+
+    </h2>
+
+    <p class="font-sans-sm">
+      The Office of Management and Budget (OMB) is the largest component of the Executive Office of the President. The core mission of OMB is to serve the President of the United States in implementing his vision across the Executive Branch. OMB reports directly to the President and helps a wide range of executive departments and agencies across the Federal Government to execute their programs effectively and implement the commitments and priorities of the President.
+
+      OMB, through its Office of Information and Regulatory Affairs (OIRA), has a fundamental role in Executive Branch privacy policy. Among other things, OIRA is responsible for providing assistance to Federal agencies on privacy matters, developing Federal privacy policy, and overseeing implementation of privacy policy by Federal agencies. OMB’s authority is provided in Federal laws, including the Privacy Act of 1974 (5 U.S.C. § 552a), the Paperwork Reduction Act of 1995 (44 U.S.C. chapter 35), and the E-Government Act of 2002 (44 U.S.C. § 3501 note).
+    </p>
+
+
+
+
+
+  </div>
+</section>
+
+
+<section class="usa-graphic-list grid-container margin-bottom-3 ">
+    <div class="grid-container shadow-5 radius-lg bg-white padding-y-5">
+        <p class="usa-graphic-list__row grid-row grid-gap">
+
+            <p class="tablet:grid-col-12">
+              {% assign years_array = "202,201,200,199,198,197" %}
+              {% assign years = years_array | split: "," %}
+              <h3 class=" margin-top-0 tablet:margin-bottom-0 text-primary-darker">Privacy Guidance</h3>
+              {% for year in years %}
+                <h4 class="font-sans-sm text-bold">{{year}}0s</h4>
+                <p class="font-sans-sm text-ink justify-text">
+                <ul>
+                {% for events in site.posts %}
+                  {% if events.date-string contains year %}
+                    <li><a href="{{events.ext-url}}">{{events.title}}</a> ({{events.date-string}})</li>
+                  {% endif %}
+                {% endfor %}
+                </ul>
+                </p>
+              {% endfor %}
+              </p>
+            </div>
+        </div>
+    </div>
+  <ul class="usa-list usa-list--unstyled padding-top-2">
+    <li class="padding-bottom-1">
+      <svg
+              style="vertical-align: middle;"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="rss"
+              class="svg-inline--fa fa-rss fa-w-14 text-primary width-2 margin-right-2"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+      >
+        <path
+                fill="currentColor"
+                d="M128.081 415.959c0 35.369-28.672 64.041-64.041 64.041S0 451.328 0 415.959s28.672-64.041 64.041-64.041 64.04 28.673 64.04 64.041zm175.66 47.25c-8.354-154.6-132.185-278.587-286.95-286.95C7.656 175.765 0 183.105 0 192.253v48.069c0 8.415 6.49 15.472 14.887 16.018 111.832 7.284 201.473 96.702 208.772 208.772.547 8.397 7.604 14.887 16.018 14.887h48.069c9.149.001 16.489-7.655 15.995-16.79zm144.249.288C439.596 229.677 251.465 40.445 16.503 32.01 7.473 31.686 0 38.981 0 48.016v48.068c0 8.625 6.835 15.645 15.453 15.999 191.179 7.839 344.627 161.316 352.465 352.465.353 8.618 7.373 15.453 15.999 15.453h48.068c9.034-.001 16.329-7.474 16.005-16.504z"
+        ></path>
+      </svg>
+      <a class="usa-link" href="{{ site.baseurl }}/feed.xml"
+      >RSS Feed</a
+      >
+    </li>
+  </ul>
+</section>
+
 
 <!--<div id="blog" class="bg-primary-darker usa-content font-sans-lg padding-y-6">-->
 <!--  <div class="grid-container">-->
@@ -18,7 +103,7 @@ pagination:
 <!--<div class="grid-container">-->
 <!--  <div class="grid-row">-->
 <!--    <div class="desktop:grid-col-12 usa-prose padding-right-4">-->
-      <!-- This loops through the paginated posts -->
+<!--       This loops through the paginated posts-->
 <!--      {% for events in paginator.posts %}-->
 <!--      {% assign event_date = events.end-date | date: '%s' %}-->
 
