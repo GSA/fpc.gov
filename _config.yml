@@ -101,7 +101,12 @@ primary_navigation:
       - name: Glossary
         url: /resources/glossary/
   - name: Programs & Events
-    url: /programs-and-events/
+    url: /
+    children:
+      - name: Programs & Events
+        url: /programs-and-events/
+      - name: Data Privacy Day
+        url: /data-privacy-day
 
 #secondary_navigation:
 #  - name: Secondary link
