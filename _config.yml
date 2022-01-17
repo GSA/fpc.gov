@@ -105,10 +105,14 @@ primary_navigation:
     children:
       - name: Programs & Events
         url: /programs-and-events/
-      - name: Data Privacy Day
-        url: /data-privacy-day
+      - name: Data Privacy Week
+        link: false
+      - name: Data Privacy Day 2021
+        url: /data-privacy-day-2021
+      - name: Data Privacy Day 2022
+        url: /data-privacy-day-2022
 
-#secondary_navigation:
+# secondary_navigation:
 #  - name: Secondary link
 #    url: "#main-content"
 #  - name: Another secondary link
