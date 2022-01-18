@@ -338,7 +338,7 @@ abbr{
 .carousel {
   position: relative;
   width: 100%;
-  padding-top: 28rem;
+  padding-top: 35rem;
   overflow: hidden;
 }
 
@@ -488,13 +488,14 @@ abbr{
   left: 0;
   width: 100%;
   height: 100%;
+  background-size: cover ;
 }
 
 
 
 @media only screen and (min-width: 1200px){
   .abstract-background2{
-    background-image: url(../assets/images/background/hero2.png);
+    background-image: url(../assets/img/feature-background.jpg);
     background-color: #172636;
     background-repeat: no-repeat;
     background-position: top center;
@@ -510,9 +511,14 @@ abbr{
   }
 
 }
-
+.abstract-background, .abstract-background4{
+  background-color: #172636;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url(../assets/img/feature-background.jpg);
+}
 .abstract-background3{
-  background-image: url(../assets/images/background/hero-5-former.png);
+  background-image: url(../assets/img/feature-background.jpg);
   background-color: #172636;
   background-repeat: no-repeat;
   background-position: top center;
