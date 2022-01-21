@@ -109,8 +109,10 @@ primary_navigation:
         link: false
       - name: Data Privacy Day 2021
         url: /data-privacy-day-2021
+        sub_menu_item: true
       - name: Data Privacy Week 2022
         url: /data-privacy-week-2022
+        sub_menu_item: true
 
 # secondary_navigation:
 #  - name: Secondary link
