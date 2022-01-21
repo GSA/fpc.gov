@@ -500,7 +500,7 @@ abbr{
 
 @media only screen and (min-width: 1200px){
   .abstract-background2{
-    background-image: url(../assets/img/feature-background.jpg);
+    background-image: url(../assets/img/search-stock-reduced.jpg);
     background-color: #172636;
     background-repeat: no-repeat;
     background-position: top center;
@@ -511,19 +511,28 @@ abbr{
 @media only screen and (max-width: 1200px){
   .abstract-background2{
     background-color: #172636;
+    background-image: url(../assets/img/search-stock-reduced.jpg);
     background-repeat: no-repeat;
     background-position: top center;
   }
 
 }
-.abstract-background, .abstract-background4{
+.abstract-background {
+  background-color: #172636;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url(../assets/img/globe-profile-stock-reduced.jpg);
+}
+
+.abstract-background4{
   background-color: #172636;
   background-repeat: no-repeat;
   background-position: top center;
   background-image: url(../assets/img/feature-background.jpg);
 }
+
 .abstract-background3{
-  background-image: url(../assets/img/feature-background.jpg);
+  background-image: url(../assets/img/privacy-blocks-reduced.jpg);
   background-color: #172636;
   background-repeat: no-repeat;
   background-position: top center;
