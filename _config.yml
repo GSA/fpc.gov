@@ -93,7 +93,7 @@ primary_navigation:
     url: /
     children:
       - name: FPC SORN Dashboard
-        url: https://sorndashboard.fpc.gov/
+        url: "https://sorndashboard.fpc.gov/"
       - name: Law Library
         url: /law-library/
       - name: Government-wide SORNs
