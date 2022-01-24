@@ -82,3 +82,13 @@
     margin-right: unset;
   }
 }
+
+.usa-accordion--bordered .usa-accordion__content {
+    border-bottom: 0.25rem solid #f2e4d4;
+    border-left: 0.25rem solid #f2e4d4;
+    border-right: 0.25rem solid #f2e4d4;
+}
+
+.usa-accordion__button:hover {
+  background-color: #f8f2ec;
+}

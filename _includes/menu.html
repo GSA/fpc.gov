@@ -28,7 +28,11 @@ where we provide an easy way to manage your navigation system
           <ul id="{{ nav_id }}" class="usa-nav__submenu">
             {% for subnav_item in nav_item.children %}
             <li class="usa-nav__submenu-item">
-              <a href="{{ subnav_item.url | prepend: site.baseurl }}">{{ subnav_item.name | escape }}</a>
+              {% if subnav_item.link == false %}
+              <span class="navheader">{{ subnav_item.name | escape }}</span>
+              {% else %}
+              <a class="{% if subnav_item.sub_menu_item %}margin-left-105{% endif %}" href="{{ subnav_item.url | prepend: site.baseurl }}">{{ subnav_item.name | escape }}</a>
+              {% endif %}
             </li>
             {% endfor %}
           </ul>
