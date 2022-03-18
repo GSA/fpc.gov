@@ -92,14 +92,14 @@ primary_navigation:
   - name: Resources
     url: /
     children:
-      - name: FPC SORN Dashboard
-        url: https://sorndashboard.fpc.gov/
       - name: Law Library
         url: /law-library/
-      - name: Government-wide SORNs
-        url: /resources/SORNs/
       - name: OMB Guidance
         url: /resources/omb/
+      - name: FPC SORN Dashboard
+        url: https://sorndashboard.fpc.gov/
+      - name: Government-wide SORNs
+        url: /resources/SORNs/
       - name: Glossary
         url: /resources/glossary/
   - name: Programs & Events
