@@ -8,16 +8,16 @@ excerpt: Federal agencies’ privacy programs have responsibilities under the Ri
 <h2 class="font-sans-lg text-gray-70" style="color:#162E51">Related Laws, Policies, and Resources:</h2>
 
 
-* [OMB Circular A-130, Managing Information as a Strategic Resource](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf) (July 28, 2016)
+* [OMB Circular A-130, Managing Information as a Strategic Resource](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf) (July 28, 2016)
 
     This Circular establishes general policy for the planning, budgeting, governance, acquisition, and management of Federal information, personnel, equipment, funds, IT resources, and supporting infrastructure and services. Among other things, it establishes that Federal agencies’ privacy programs have responsibilities under the Risk Management Framework.
-* [OMB Circular A-123, Management’s Responsibility for Enterprise Risk Management and Internal Control](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2016/m-16-17.pdf) (July 15, 2016)
+* [OMB Circular A-123, Management’s Responsibility for Enterprise Risk Management and Internal Control](https://www.whitehouse.gov/wp-content/uploads/2018/06/M-18-20.pdf) (July 15, 2016)
 
     This Circular defines management’s responsibilities for enterprise risk management (ERM) and internal control. The Circular provides updated implementation guidance to Federal managers to improve accountability and effectiveness of Federal programs and mission-support operations through implementation of ERM practices and by establishing, maintaining, and assessing internal control effectiveness. Among other things, it provides considerations for managing privacy risks in Federal programs.
-* [OMB Memorandum M-16-24, Role and Designation of Senior Agency Officials for Privacy](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2016/m_16_24_0.pdf) (September 15, 2016)
+* [OMB Memorandum M-16-24, Role and Designation of Senior Agency Officials for Privacy](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m_16_24_0.pdf) (September 15, 2016)
 
     This Memorandum revises policies on the role and designation of the SAOP. Among other things, it require the SAOP to manage privacy risks associated with any agency activities that involve the creation, collection, use, processing, storage, maintenance, dissemination, disclosure, and disposal of PII by programs and information systems.
-* [OMB Memorandum M-03-22, OMB Guidance for Implementing the Privacy Provisions of the E-Government Act of 2002](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2003/m03_22.pdf) (September 26, 2003)
+* [OMB Memorandum M-03-22, OMB Guidance for Implementing the Privacy Provisions of the E-Government Act of 2002](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2003/m03_22.pdf) (September 26, 2003)
 
     This Memorandum provides information to agencies on implementing the privacy provisions of the E-Government Act of 2002. Among other things, it includes policies and guidelines for when and how to conduct a PIA. 
 

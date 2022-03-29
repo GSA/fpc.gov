@@ -12,7 +12,7 @@ excerpt: It is critically important that Federal agencies remain vigilant and pr
 * [Federal Information Security Modernization Act of 2014](https://www.congress.gov/113/plaws/publ283/PLAW-113publ283.pdf)
 
     Among other things, the Federal Information Security Modernization Act of 2014 (FISMA) strengthens transparency and accountability, including by making important improvements to the way Federal data breaches are managed and reported to Congress and the public.
-* [OMB Circular A-130, Managing Information as a Strategic Resource](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf) (July 28, 2016)
+* [OMB Circular A-130, Managing Information as a Strategic Resource](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf) (July 28, 2016)
 
     This Circular establishes general policy for the planning, budgeting, governance, acquisition, and management of Federal information, personnel, equipment, funds, IT resources, and supporting infrastructure and services. It requires Federal agencies to develop and implement incident management policies and procedures, in accordance with OMB policies and NIST guidelines that address incident detection, response, and recovery.
 
@@ -24,7 +24,7 @@ excerpt: It is critically important that Federal agencies remain vigilant and pr
 
     These guidelines provide guidance to Federal agencies on when to submit incident notifications to the National Cybersecurity and Communications Integration Center (NCCIC)/United States Computer Emergency Readiness Team (US-CERT).
 
-* [OMB Memorandum M-17-12, Preparing for and Responding to a Breach of Personally Identifiable Information](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/m-17-12_0.pdf) (January 3, 2017)
+* [OMB Memorandum M-17-12, Preparing for and Responding to a Breach of Personally Identifiable Information](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2017/m-17-12_0.pdf) (January 3, 2017)
 
     This Memorandum sets forth the policy for Federal agencies to prepare for and respond to a breach of PII. It includes a framework for assessing and mitigating the risk of harm to individuals potentially affected by a breach, as well as guidance on whether and how to provide notification and services to those individuals.
 
