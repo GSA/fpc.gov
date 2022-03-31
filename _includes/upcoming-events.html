@@ -25,7 +25,7 @@
         {% endif %}
     </p>
 
-    <p class="font-sans-sm">{{ events.overview }}
+    <p class="font-sans-sm">{{ events.overview | markdownify }}
         {% if events.link %}
         <a href="{{ site.baseurl }}{{ events.link }}">Read more about {{ events.title}}</a>
         {% endif %}
