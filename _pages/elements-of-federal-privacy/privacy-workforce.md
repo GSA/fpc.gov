@@ -8,7 +8,7 @@ excerpt: Agencies’ privacy programs play a key role in workforce management ac
 <h2 class="font-sans-lg text-gray-70" style="color:#162E51">Related Laws, Policies, and Resources:</h2>
 
 
-* [OMB Circular A-130, Managing Information as a Strategic Resource](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf) (July 28, 2016)
+* [OMB Circular A-130, Managing Information as a Strategic Resource](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf) (July 28, 2016)
 
     This Circular establishes general policy for the planning, budgeting, governance, acquisition, and management of Federal information, personnel, equipment, funds, IT resources, and supporting infrastructure and services. Among other things, it requires the SAOP to be involved in assessing and addressing the hiring, training, and professional development needs of the agency with respect to privacy.
 * [Toolkit for Recruiting, Hiring, and Retaining Privacy Professionals in the Federal Government](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/1141/2017/01/Privacy-Toolkit-1-13-2017.pdf) (January 13, 2017)
