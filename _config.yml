@@ -102,6 +102,10 @@ primary_navigation:
         url: /resources/SORNs/
       - name: Glossary
         url: /resources/glossary/
+      - name: FIPPs Icons
+        url: /resources/fipps-icons/
+      - name: Toolkit for Recruiting, Hiring, and Retaining Privacy Professionals
+        url: /assets/pdf/Privacy-Toolkit-1-13-2017.pdf
   - name: Programs & Events
     url: /
     children:
