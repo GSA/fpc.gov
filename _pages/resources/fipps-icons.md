@@ -6,7 +6,7 @@ header-image: /assets/img/header-image.jpg
 hero-text: Fair Information Practice Principles (FIPPs) Icons
 ---
 
-<p class="font-sans-sm">The Fair Information Practice Principles (FIPPs) serve as the foundation for privacy laws and policies applicable to Federal agencies. They are critical to how the government approaches information management, especially information about people. There are nine FIPPs that apply to the Federal Executive branch, and they are defined in OMB Memorandum A-130, Managing Information as a <a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf">Strategic Resource</a>. To learn more, watch <a href="https://www.fpc.gov/learn-about-federal-privacy-program/">the Federal Privacy Council’s FIPPs video</a>.</p>
+<p class="font-sans-sm">The Fair Information Practice Principles (FIPPs) serve as the foundation for privacy laws and policies applicable to Federal agencies. They are critical to how the government approaches information management, especially information about people. There are nine FIPPs that apply to the Federal Executive branch, and they are defined in <a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf">OMB Memorandum A-130, Managing Information as a Strategic Resource</a>. To learn more, watch the Federal Privacy Council’s <a href="https://www.fpc.gov/learn-about-federal-privacy-program/">FIPPs video</a>.</p>
 
 <p>In 2022, the Federal Privacy Council developed icons to represent each of the 9 FIPPs. Agencies may download these icons below and may use them in accordance with the guidance contained in the <a href="{{site.baseurl}}/assets/pdf/FIPPs-Icons-Toolkit.pdf">FIPPs Icons Toolkit</a>.</p>
 
