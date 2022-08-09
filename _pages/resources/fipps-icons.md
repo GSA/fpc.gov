@@ -34,9 +34,9 @@ hero-text: Fair Information Practice Principles (FIPPs) Icons
         </tr>
         <tr>
             <td>Authority</td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_color/FIPPS-Icons-Color_Authority.svg" download aria-label="download color Authorit icon">Color</a></td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_bw/FIPPS-Icons-B_W_Authority.svg" download aria-label="download black and white Authorit icon">Black & White</a></td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_reversed/FIPPS-Icons-Reversed_Authority.svg" download aria-label="download reversed Authorit icon">Reversed</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/svg_color/FIPPS-Icons-Color_Authority.svg" download aria-label="download color Authority icon">Color</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/svg_bw/FIPPS-Icons-B_W_Authority.svg" download aria-label="download black and white Authority icon">Black & White</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/svg_reversed/FIPPS-Icons-Reversed_Authority.svg" download aria-label="download reversed Authority icon">Reversed</a></td>
         </tr>
         <tr>
             <td>Purpose Specification and Use Limitation</td>
