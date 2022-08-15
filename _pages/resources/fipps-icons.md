@@ -22,57 +22,57 @@ hero-text: Fair Information Practice Principles (FIPPs) Icons
     <tbody>
         <tr>
             <td>Transparency</td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_color/FIPPS-Icons-Color_Transparency.svg" download aria-label="download color transparency icon">Color</a></td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_bw/FIPPS-Icons-B_W_Transparency.svg" download aria-label="download black and white transparency icon">Black & White</a></td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_reversed/FIPPS-Icons-Reversed_Transparency.svg" download aria-label="download reversed transparency icon">Reversed</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_color/Transparency.png" download aria-label="download color transparency icon">Color</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_bw/Transparency.png" download aria-label="download black and white transparency icon">Black & White</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_reversed/Transparency.png" download aria-label="download reversed transparency icon">Reversed</a></td>
         </tr>
         <tr>
             <td>Individual Participation</td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_color/FIPPS-Icons-Color_Individual Participation.svg" download aria-label="download color Participation icon">Color</a></td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_bw/FIPPS-Icons-B_W_Individual Participation.svg" download aria-label="download black and white Participation icon">Black & White</a></td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_reversed/FIPPS-Icons-Reversed_Individual Participation.svg" download aria-label="download reversed Participation icon">Reversed</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_color/Individual-Participation.png" download aria-label="download color Participation icon">Color</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_bw/Individual-Participation.png" download aria-label="download black and white Participation icon">Black & White</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_reversed/Individual-Participation.png" download aria-label="download reversed Participation icon">Reversed</a></td>
         </tr>
         <tr>
             <td>Authority</td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_color/FIPPS-Icons-Color_Authority.svg" download aria-label="download color Authority icon">Color</a></td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_bw/FIPPS-Icons-B_W_Authority.svg" download aria-label="download black and white Authority icon">Black & White</a></td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_reversed/FIPPS-Icons-Reversed_Authority.svg" download aria-label="download reversed Authority icon">Reversed</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_color/Authority.png" download aria-label="download color Authority icon">Color</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_bw/Authority.png" download aria-label="download black and white Authority icon">Black & White</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_reversed/Authority.png" download aria-label="download reversed Authority icon">Reversed</a></td>
         </tr>
         <tr>
             <td>Purpose Specification and Use Limitation</td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_color/FIPPS-Icons-Color_Purpose Specification.svg" download aria-label="download color Purpose Specification icon">Color</a></td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_bw/FIPPS-Icons-B_W_Purpose Specification.svg" download aria-label="download black and white Purpose Specification icon">Black & White</a></td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_reversed/FIPPS-Icons-Reversed_Purpose Specification.svg" download aria-label="download reversed Purpose Specification icon">Reversed</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_color/Purpose-Specification.png" download aria-label="download color Purpose Specification icon">Color</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_bw/Purpose-Specification.png" download aria-label="download black and white Purpose Specification icon">Black & White</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_reversed/Purpose-Specification.png" download aria-label="download reversed Purpose Specification icon">Reversed</a></td>
         </tr>
         <tr>
             <td>Minimization</td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_color/FIPPS-Icons-Color_Minimization.svg" download aria-label="download color Minimization icon">Color</a></td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_bw/FIPPS-Icons-B_W_Minimization.svg" download aria-label="download black and white Minimization icon">Black & White</a></td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_reversed/FIPPS-Icons-Reversed_Minimization.svg" download aria-label="download reversed Minimization icon">Reversed</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_color/Minimization.png" download aria-label="download color Minimization icon">Color</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_bw/Minimization.png" download aria-label="download black and white Minimization icon">Black & White</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_reversed/Minimization.png" download aria-label="download reversed Minimization icon">Reversed</a></td>
         </tr>
         <tr>
             <td>Quality and Integrity</td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_color/FIPPS-Icons-Color_Quality and Integrity.svg" download aria-label="download color Quality and Integrity icon">Color</a></td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_bw/FIPPS-Icons-B_W_Quality and Integrity.svg" download aria-label="download black and white Quality and Integrity icon">Black & White</a></td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_reversed/FIPPS-Icons-Reversed_Quality and Integrity.svg" download aria-label="download reversed Quality and Integrity icon">Reversed</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_color/Quality-and-Integrity.png" download aria-label="download color Quality and Integrity icon">Color</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_bw/Quality-and-Integrity.png" download aria-label="download black and white Quality and Integrity icon">Black & White</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_reversed/Quality-and-Integrity.png" download aria-label="download reversed Quality and Integrity icon">Reversed</a></td>
         </tr>
         <tr>
             <td>Access and Amendment</td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_color/FIPPS-Icons-Color_Access and Amendment.svg" download aria-label="download color Access and Amendment icon">Color</a></td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_bw/FIPPS-Icons-B_W_Access and Amendment.svg" download aria-label="download black and white Access and Amendment icon">Black & White</a></td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_reversed/FIPPS-Icons-Reversed_Access and Amendment.svg" download aria-label="download reversed Access and Amendment icon">Reversed</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_color/Access-and-Amendment.png" download aria-label="download color Access and Amendment icon">Color</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_bw/Access-and-Amendment.png" download aria-label="download black and white Access and Amendment icon">Black & White</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_reversed/Access-and-Amendment.png" download aria-label="download reversed Access and Amendment icon">Reversed</a></td>
         </tr>
         <tr>
             <td>Security</td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_color/FIPPS-Icons-Color_Security.svg" download aria-label="download color Security icon">Color</a></td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_bw/FIPPS-Icons-B_W_Security.svg" download aria-label="download black and white Security icon">Black & White</a></td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_reversed/FIPPS-Icons-Reversed_Security.svg" download aria-label="download reversed Security icon">Reversed</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_color/Security.png" download aria-label="download color Security icon">Color</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_bw/Security.png" download aria-label="download black and white Security icon">Black & White</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_reversed/Security.png" download aria-label="download reversed Security icon">Reversed</a></td>
         </tr>
         <tr>
             <td>Accountability</td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_color/FIPPS-Icons-Color_Accountability.svg" download aria-label="download color Accountability icon">Color</a></td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_bw/FIPPS-Icons-B_W_Accountability.svg" download aria-label="download black and white Accountability icon">Black & White</a></td>
-            <td><a href="{{site.baseurl}}/assets/img/logos/svg_reversed/FIPPS-Icons-Reversed_Accountability.svg" download aria-label="download reversed Accountability icon">Reversed</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_color/Accountability.png" download aria-label="download color Accountability icon">Color</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_bw/Accountability.png" download aria-label="download black and white Accountability icon">Black & White</a></td>
+            <td><a href="{{site.baseurl}}/assets/img/logos/png_reversed/Accountability.png" download aria-label="download reversed Accountability icon">Reversed</a></td>
         </tr>
     </tbody>
 </table>
