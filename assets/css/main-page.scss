@@ -246,6 +246,10 @@ color:#2A4294;
   max-width: 1200px;
 }
 
+.nav-link-arrow span::after {
+  background: url(../img/usa-icons/expand_more.svg) no-repeat center/contain;
+}
+
 .usa-grid::after,
 .usa-grid-full::after {
   clear: both;
