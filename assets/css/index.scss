@@ -92,3 +92,22 @@
 .usa-accordion__button:hover {
   background-color: #f8f2ec;
 }
+
+//FIPPS page
+
+.fipps-list {
+  &__text {
+    align-self: center;
+    @media screen and (max-width:480px) {
+      margin-top: -2rem;
+    }
+  }
+
+  &__image {
+    @media screen and (max-width:480px) {
+      width: 60%;
+      margin: auto;
+    }
+  }
+  
+}

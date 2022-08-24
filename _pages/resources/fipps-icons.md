@@ -23,9 +23,86 @@ hero-text: Fair Information Practice Principles (FIPPs)
     </div>
 </section>
 
-<p><strong>FIPPS Icons</strong></p>
+<h2>FIPPS Icons</h2>
 
-<table class="usa-table" aria-label="FIPPS Icons" role="presentation">
+<div class="fipps-list">
+    <div class="grid-row">
+        <div class="mobile-lg:grid-col-3 fipps-list__image">
+            <img src="{{site.baseurl}}/assets/img/logos/png_color/Access-and-Amendment_color.png" alt="Access and Amendment Color Icon" />
+        </div>
+        <div class="mobile-lg:grid-col-9 fipps-list__text">
+            <p><b>Access and Amendment. </b>Agencies should provide individuals with appropriate access to PII and appropriate opportunity to correct or amend PII.</p>
+        </div>
+    </div>
+    <div class="grid-row">
+        <div class="mobile-lg:grid-col-3 fipps-list__image">
+            <img src="{{site.baseurl}}/assets/img/logos/png_color/Access-and-Amendment_color.png" alt="Accountability Color Icon" />
+        </div>
+        <div class="mobile-lg:grid-col-9 fipps-list__text">
+            <p><b>Accountability. </b>Agencies should be accountable for complying with these principles and applicable privacy requirements, and should appropriately monitor, audit, and document compliance. Agencies should also clearly define the roles and responsibilities with respect to PII for all employees and contractors, and should provide appropriate training to all employees and contractors who have access to PII.</p>
+        </div>
+    </div>
+    <div class="grid-row">
+        <div class="mobile-lg:grid-col-3 fipps-list__image">
+            <img src="{{site.baseurl}}/assets/img/logos/png_color/Authority_color.png" alt="Authority color.png Icon"/>
+        </div>
+        <div class="mobile-lg:grid-col-9 fipps-list__text">
+            <p><b>Authority. </b>Agencies should only create, collect, use, process, store, maintain, disseminate, or disclose PII if they have authority to do so, and should identify this authority in the appropriate notice.</p>
+        </div>
+    </div>
+    <div class="grid-row">
+        <div class="mobile-lg:grid-col-3 fipps-list__image">
+            <img src="{{site.baseurl}}/assets/img/logos/png_color/Minimization_color.png" alt="Minimization Color Icon"/>   
+        </div>
+        <div class="mobile-lg:grid-col-9 fipps-list__text">
+            <p><b>Minimization. </b>Agencies should only create, collect, use, process, store, maintain, disseminate, or disclose PII that is directly relevant and necessary to accomplish a legally authorized purpose, and should only maintain PII for as long as is necessary to accomplish the purpose.</p>
+        </div>
+    </div>
+    <div class="grid-row">
+        <div class="mobile-lg:grid-col-3 fipps-list__image">
+            <img src="{{site.baseurl}}/assets/img/logos/png_color/Quality-and-Integrity_color.png" alt="Quaity and Integrity Color Icon"/>
+        </div>
+        <div class="mobile-lg:grid-col-9 fipps-list__text">
+            <p><b>Quality and Integrity. </b>Agencies should create, collect, use, process, store, maintain, disseminate, or disclose PII with such accuracy, relevance, timeliness, and completeness as is reasonably necessary to ensure fairness to the individual.</p>
+        </div>
+    </div>
+    <div class="grid-row">
+        <div class="mobile-lg:grid-col-3 fipps-list__image">
+            <img src="{{site.baseurl}}/assets/img/logos/png_color/Individual-Participation_color.png" alt="Individual Participation Color Icon"/>
+        </div>
+        <div class="mobile-lg:grid-col-9 fipps-list__text">
+            <p><b>Individual Participation.</b>Agencies should involve the individual in the process of using PII and, to the extent practicable, seek individual consent for the creation, collection, use, processing, storage, maintenance, dissemination, or disclosure of PII. Agencies should also establish procedures to receive and address individuals’ privacy-related complaints and inquiries.</p>
+        </div>
+    </div>
+    <div class="grid-row">
+        <div class="mobile-lg:grid-col-3 fipps-list__image">
+            <img src="{{site.baseurl}}/assets/img/logos/png_color/Purpose-Specification_color.png" alt="Purpose Specification and Use Limitation Color Icon"/>
+        </div>
+        <div class="mobile-lg:grid-col-9 fipps-list__text">
+            <p><b>Purpose Specification and Use Limitation. </b>Agencies should provide notice of the specific purpose for which PII is collected and should only use, process, store, maintain, disseminate, or disclose PII for a purpose that is explained in the notice and is compatible with the purpose for which the PII was collected, or that is otherwise legally authorized.</p>
+        </div>
+    </div>
+    <div class="grid-row">
+        <div class="mobile-lg:grid-col-3 fipps-list__image">
+            <img src="{{site.baseurl}}/assets/img/logos/png_color/Security_color.png" alt="Security Color Icon"/>
+        </div>
+        <div class="mobile-lg:grid-col-9 fipps-list__text">
+            <p><b>Security. </b>Agencies should establish administrative, technical, and physical safeguards to protect PII commensurate with the risk and magnitude of the harm that would result from its unauthorized access, use, modification, loss, destruction, dissemination, or disclosure.</p>
+        </div>
+    </div>
+    <div class="grid-row">
+        <div class="mobile-lg:grid-col-3 fipps-list__image">
+            <img src="{{site.baseurl}}/assets/img/logos/png_color/Transparency_color.png" alt="Transparency Color Icon"/>
+        </div>
+        <div class="mobile-lg:grid-col-9 fipps-list__text">
+            <p><b>Transparency. </b>Agencies should be transparent about information policies and practices with respect to PII, and should provide clear and accessible notice regarding creation, collection, use, processing, storage, maintenance, dissemination, and disclosure of PII.</p>
+        </div>
+    </div>
+</div>
+
+
+
+<table class="usa-table margin-x-auto" aria-label="FIPPS Icons" role="presentation">
     <colgroup>
         <col span="1" style="width: 40%;">
         <col span="1" style="width: 20%;">
