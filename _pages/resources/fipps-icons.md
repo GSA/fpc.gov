@@ -1,30 +1,29 @@
 ---
 layout: page
 title: Fair Information Practice Principles (FIPPs)
-permalink: /resources/fipps/
+permalink: /resources/fipps-icon/
 header-image: /assets/img/header-image.jpg
 hero-text: Fair Information Practice Principles (FIPPs)
 ---
 
 <p class="font-sans-sm">The Fair Information Practice Principles (FIPPs) serve as the foundation for privacy laws and policies applicable to Federal agencies. They are critical to how the government approaches information management, especially information about people. There are nine FIPPs that apply to the Federal Executive branch, and they are defined in <a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf">OMB Memorandum A-130, Managing Information as a Strategic Resource</a>. To learn more, watch the Federal Privacy Council’s <a href="https://www.fpc.gov/learn-about-federal-privacy-program/">FIPPs video</a>.</p>
 
-<section class=" grid-container">
-    <div class="grid-row flex-justify-center">
-        <div class="text-center margin-y-2 bg-white padding-2 margin-1 shadow-5 members-hover radius-lg" style="max-width: 20rem;">
-            <a href="{{ site.baseurl }}/fair-info-practice-principles/" class="text-no-underline text-gray-70" style="display: inline-block;">
-                <div >
-                    <img style="object-fit:cover; border: 1px solid #555;" alt="Fair Information Practice Principles" src="{{site.baseurl}}/assets/img/logos/Video_4.png" alt="Fair Information Practice Principles image" />
-                </div>
-                <p class="font-sans-sm text-gray-70 text-left text-no-underline">6 minutes 52 seconds</p>
-                <p class="font-heading-md text-gray-70 text-left text-no-underline">Fair Information Practice Principles</p>
-                <p class="font-sans-sm text-gray-70 text-left text-no-underline">Learn about the Fair Information Practice Principles (FIPPs), which serve as the foundation for privacy laws and policies applicable to Federal agencies.</p>
-            </a>
-        </div>
+
+<div class="grid-row flex-justify-center">
+    <div class="text-center margin-y-2 bg-white padding-2 margin-1 shadow-5 members-hover radius-lg" style="max-width: 20rem;">
+        <a href="{{ site.baseurl }}/fair-info-practice-principles/" class="text-no-underline text-gray-70" style="display: inline-block;">
+            <div >
+                <img style="object-fit:cover; border: 1px solid #555;" alt="Fair Information Practice Principles" src="{{site.baseurl}}/assets/img/logos/Video_4.png" alt="Fair Information Practice Principles image" />
+            </div>
+            <p class="font-sans-sm text-gray-70 text-left text-no-underline">6 minutes 52 seconds</p>
+            <p class="font-heading-md text-gray-70 text-left text-no-underline">Fair Information Practice Principles</p>
+            <p class="font-sans-sm text-gray-70 text-left text-no-underline">Learn about the Fair Information Practice Principles (FIPPs), which serve as the foundation for privacy laws and policies applicable to Federal agencies.</p>
+        </a>
     </div>
-</section>
+</div>
+
 
 <h2>FIPPS Icons</h2>
-
 <div class="fipps-list">
     <div class="grid-row">
         <div class="mobile-lg:grid-col-3 fipps-list__image">
@@ -102,7 +101,26 @@ hero-text: Fair Information Practice Principles (FIPPs)
 
 
 
-<table class="usa-table margin-x-auto" aria-label="FIPPS Icons" role="presentation">
+<div class="fipps-download">
+    <div class="grid-row">
+        <div class="grid-col-4">
+            <img src="{{site.baseurl}}/assets/img/logos/png_color/Authority_color.png" alt="Authority color icon"/>
+            <a href="{{site.baseurl}}/assets/img/logos/png_color/Authority_color.png" download aria-label="download Authority color icon">Download Color Icon</a>
+        </div>
+        <div class="grid-col-4">
+            <img src="{{site.baseurl}}/assets/img/logos/png_bw/Authority_bw.png" alt="Authority black and white icon"/>
+            <a href="{{site.baseurl}}/assets/img/logos/png_bw/Authority_bw.png" download aria-label="download Authority black and white icon">Download Black & White Icon</a>
+        </div>
+        <div class="grid-col-4">
+            <img src="{{site.baseurl}}/assets/img/logos/png_reversed/Authority_reversed.png" alt="Authority reversed icon"/>
+            <a href="{{site.baseurl}}/assets/img/logos/png_reversed/Authority_reversed.png" download aria-label="download Authority reversed icon">Download Reverse Color Icon</a>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- <table class="usa-table margin-x-auto" aria-label="FIPPS Icons" role="presentation">
     <colgroup>
         <col span="1" style="width: 40%;">
         <col span="1" style="width: 20%;">
@@ -165,6 +183,6 @@ hero-text: Fair Information Practice Principles (FIPPs)
             <td><a href="{{site.baseurl}}/assets/img/logos/png_reversed/Accountability_reversed.png" download aria-label="download reversed Accountability icon">Reversed</a></td>
         </tr>
     </tbody>
-</table>
+</table> -->
 
 <p>In 2022, the Federal Privacy Council developed icons to represent each of the 9 FIPPs. Agencies may download these icons below and may use them in accordance with the guidance contained in the <a href="{{site.baseurl}}/assets/pdf/FIPPs-Icons-Toolkit.pdf">FIPPs Icons Toolkit</a>.</p>

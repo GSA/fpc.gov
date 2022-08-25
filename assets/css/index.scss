@@ -111,3 +111,20 @@
   }
   
 }
+
+.fipps-download {
+  &__img {
+    width: 60%;
+    margin: auto;
+  }
+
+  &__link {
+    text-align: center;
+    margin-top: -2rem;
+
+    @media screen and (max-width:480px) {
+      margin-top: -1rem;
+      font-size: 12px;
+    }
+  }
+}
