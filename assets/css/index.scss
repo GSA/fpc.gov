@@ -155,42 +155,44 @@
         margin-left: 2px;
         background-color: transparent !important;
     }
+}
+
 .usa-accordion__button:hover {
-  background-color: #f8f2ec;
+    background-color: #f8f2ec;
 }
 
 //FIPPS page
 
 .fipps-list {
-  &__text {
-    align-self: center;
-    @media screen and (max-width:480px) {
-      margin-top: -2rem;
-    }
-  }
+    &__text {
+        align-self: center;
 
-  &__image {
-    @media screen and (max-width:480px) {
-      width: 60%;
-      margin: auto;
+        @media screen and (max-width:480px) {
+            margin-top: -2rem;
+        }
     }
-  }
-  
+
+    &__image {
+        @media screen and (max-width:480px) {
+            width: 60%;
+            margin: auto;
+        }
+    }
 }
 
 .fipps-download {
-  &__img {
-    width: 60%;
-    margin: auto;
-  }
-
-  &__link {
-    text-align: center;
-    margin-top: -2rem;
-
-    @media screen and (max-width:480px) {
-      margin-top: -1rem;
-      font-size: 12px;
+    &__img {
+        width: 60%;
+        margin: auto;
     }
-  }
+
+    &__link {
+        text-align: center;
+        margin-top: -2rem;
+
+        @media screen and (max-width:480px) {
+            margin-top: -1rem;
+            font-size: 12px;
+        }
+    }
 }
