@@ -191,6 +191,33 @@ color:#2A4294;
 .icon-back{
   background:#f0ebe5;
 }
+.usa-banner__button::after {
+  background-image: url("../img/angle-arrow-down-primary.svg"), linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 0.5rem;
+  content: '';
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+  margin-left: 2px;
+  background-color:transparent;
+  }
+.usa-banner__button[aria-expanded="true"]::after {
+  background-image: url(../img/angle-arrow-up-primary.svg),linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 0.5rem;
+  content: "";
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+  margin-left: 2px;
+  background-color:transparent;
+
+}
 
 .about {
   background: #19387b;
