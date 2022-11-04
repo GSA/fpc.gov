@@ -106,6 +106,8 @@ primary_navigation:
         url: /resources/fipps/
       - name: Toolkit for Recruiting, Hiring, and Retaining Privacy Professionals
         url: /assets/pdf/Privacy-Toolkit-1-13-2017.pdf
+      - name: Collaboration Index for Security and Privacy Controls
+        url: /assets/pdf/Collaboration Index for Security and Privacy Controls FINAL.pdf
   - name: Programs & Events
     url: /
     children:

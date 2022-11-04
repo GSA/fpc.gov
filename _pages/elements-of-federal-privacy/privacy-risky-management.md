@@ -25,3 +25,11 @@ excerpt: Federal agencies’ privacy programs have responsibilities under the Ri
 * [NIST Special Publication 800-37 (Rev. 2), Risk Management Framework for Information Systems and Organizations](https://doi.org/10.6028/NIST.SP.800-37r2) (December 20, 2018)
 
     This Special Publication describes the Risk Management Framework (RMF) and provides guidelines for applying the RMF to information systems and organizations. Among other things, it describes the relationship between information security programs and privacy programs under the RMF.
+
+* [NIST Special Publication 800-53 (Rev. 5), Security and Privacy Controls for Information Systems and Organizations](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) (September 23, 2020)
+
+    This Special Publication provides a catalog of security and privacy controls for information systems and organizations to protect organizational operations and assets, individuals, other organizations, and the Nation from a diverse set of threats and risks, including hostile attacks, human errors, natural disasters, structural failures, foreign intelligence entities, and privacy risks.
+
+* [Collaboration Index for Security and Privacy Controls]({{ site.baseurl }}/assets/pdf/Collaboration Index for Security and Privacy Controls FINAL.pdf) (October 1, 2022)
+
+    This publication serves as a guide to help Federal information security programs and Federal privacy programs understand the level of collaboration that may be appropriate during the implementation step of the National Institute of Standards and Technology (NIST) Risk Management Framework. For each control and control enhancement listed in NIST Special Publication (SP) 800-53 Revision 5, Security and Privacy Controls for Information Systems and Organizations, this publication provides a Collaboration Index value that denotes the level of collaboration that may be appropriate.
