@@ -21,4 +21,4 @@ excerpt: A system of records notice (or “SORN”) is published by a Federal ag
 
 * [Privacy Act Implementation: Guidelines and Responsibilities, 40 Fed. Reg. 28,948](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/assets/OMB/inforeg/implementation_guidelines.pdf) (July 9, 1975)
 
-    This Circular defines responsibilities tor implementing the Privacy Act of 1974 to assure that personal Information about individuals collected by Federal agencies is limited to that which is legally authorized and necessary and is maintained in a manner which precludes unwarranted intrusions upon individual privacy. Among other things, it includes guidance on the content of a SORN.
+    This Circular defines responsibilities for implementing the Privacy Act of 1974 to assure that personal Information about individuals collected by Federal agencies is limited to that which is legally authorized and necessary and is maintained in a manner which precludes unwarranted intrusions upon individual privacy. Among other things, it includes guidance on the content of a SORN.
