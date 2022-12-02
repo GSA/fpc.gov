@@ -30,6 +30,6 @@ excerpt: Federal agencies’ privacy programs have responsibilities under the Ri
 
     This Special Publication provides a catalog of security and privacy controls for information systems and organizations to protect organizational operations and assets, individuals, other organizations, and the Nation from a diverse set of threats and risks, including hostile attacks, human errors, natural disasters, structural failures, foreign intelligence entities, and privacy risks.
 
-* [Collaboration Index for Security and Privacy Controls]({{ site.baseurl }}/assets/pdf/Collaboration Index for Security and Privacy Controls FINAL.pdf) (October 1, 2022)
+* [Collaboration Index for Security and Privacy Controls]({{ site.baseurl }}/assets/pdf/Collaboration Index for Security and Privacy Controls FINAL.pdf) [(XLS)]({{ site.baseurl }}/assets/uploads/Collaboration Index for Security and Privacy Controls FINAL.xlsx) (October 1, 2022)
 
     This publication serves as a guide to help Federal information security programs and Federal privacy programs understand the level of collaboration that may be appropriate during the implementation step of the National Institute of Standards and Technology (NIST) Risk Management Framework. For each control and control enhancement listed in NIST Special Publication (SP) 800-53 Revision 5, Security and Privacy Controls for Information Systems and Organizations, this publication provides a Collaboration Index value that denotes the level of collaboration that may be appropriate.
