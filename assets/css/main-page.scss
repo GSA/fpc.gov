@@ -15,12 +15,19 @@ body{
 }
 
 .card-style{
-background: rgba(255,255,255,0.8);
-border-radius: 0.5rem;
-margin-top: 30px;
-max-width: 20rem;
-
+  background: rgba(255,255,255,0.8);
+  border-radius: 0.5rem;
+  margin-top: 30px;
+  max-width: 20rem;
 }
+
+.new-card-style{
+  background: rgb(215,239,234);
+  border-radius: 2.8rem;
+  margin-top: 30px;
+  max-width: 20rem;
+}
+  
 
 .text{
 color: black;
