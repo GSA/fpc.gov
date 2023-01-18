@@ -10,5 +10,5 @@ image: Video_1.png
 image-alt: Women in Federal IT and Cybersecurity in pink circle
 layout: page
 header-image: filler
-external_url: community.max.gov/x/oYpYgQ
+external_url: community.max.gov/x/E4xUQw
 ---
