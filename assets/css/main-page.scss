@@ -15,11 +15,24 @@ body{
 }
 
 .card-style{
-background: rgba(255,255,255,0.8);
-border-radius: 0.5rem;
-margin-top: 30px;
-max-width: 20rem;
+  background: rgba(255,255,255,0.8);
+  border-radius: 0.5rem;
+  margin-top: 30px;
+  max-width: 20rem;
+}
 
+.new-card-style{
+  background: #bdd7eee6;
+  border-radius: 2.8rem;
+  margin-top: 30px;
+  max-width: 20rem;
+}
+
+.new-card-style1{
+  background: #bdd7eee6;
+  border-radius: 2.8rem;
+  margin-top: 30px;
+  max-width: 21rem;
 }
 
 .text{
@@ -550,6 +563,20 @@ abbr{
     background-size: cover;
 }
 
+.abstract-background7 {
+  background-color: #172636;
+  background-image: url(../assets/img/FPC_DPW23_BlackBanner.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.abstract-background8 {
+  background-color: #172636;
+  background-image: url(../assets/img/FPC_DPW23_SummitBanner.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
 
 /* Animations */
 @keyframes toRight {
@@ -640,5 +667,12 @@ abbr{
   .carousel {
     padding-top: 38rem;
   }
+  .new-card-style1{
+    margin-top: 10px;
+  }
+  
 }
 
+.font-size-145rem{
+  font-size: 1.45rem;
+}
