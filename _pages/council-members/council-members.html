@@ -73,6 +73,18 @@ leadership_icons:
       url: /#
       agency: Department of Transportation
       title:
+    - name: Jamie Huang
+      logo: /assets/img/placeholder.png
+      url: /#
+      agency: Environmental Protection Agency
+    - name: Kevin Herms
+      logo: /assets/img/KevinHerms.jpeg
+      url: /#
+      agency: Department of Education
+    - name: Shannan Catalano
+      logo: /assets/img/placeholder.png
+      url: /#
+      agency: Department of Education
 council_members_13719_icons:
     - name: Eric F. Stein
       border : 'yes'
@@ -132,10 +144,6 @@ council_members_13719_icons:
       logo: /assets/img/bio.noga.vaughn.png
       url: /#
       agency: Environmental Protection Agency
-    - name: Rebecca Richards
-      logo: /assets/img/bio.rebecca.richards.jpg
-      url: /#
-      agency: Office of the Director of National Intelligence
     - name: Stephen Kucharski
       logo: /assets/img/StevenKucharski.png
       url: /#
@@ -157,23 +165,35 @@ council_members_13719_icons:
       logo: /assets/img/Dorothy_Aronson.png
       url: /#
       agency: National Science Foundation
-    - name: Gary M. Stern
-      border : 'no'
-      logo: /assets/img/bio.stern.gary.png
-      url: /#
-      agency: National Archives and Records Administration
-    - name: Shannan Catalano
-      logo: /assets/img/placeholder.png
-      url: /#
-      agency: Department of Education
-    - name: Jamie Huang
-      logo: /assets/img/placeholder.png
-      url: /#
-      agency: Department of Justice
     - name: Kurt Delbene
       logo: /assets/img/placeholder.png
       url: /#
       agency: Department of Veterans Affairs
+    - name: Joo Chung
+      border: 'no'
+      logo: /assets/img/bio.chung.joo1.png
+      url: /#
+      agency: Department of Defense
+    - name: Peter Winn
+      border: 'yes'
+      logo: /assets/img/bio.peter.winn.png
+      url: /#
+      agency: Department of Justice
+    - name: Royce Min
+      border: 'no'
+      logo: /assets/img/bio.agarwal.asheesh.png
+      url: /#
+      agency: Social Security Administration
+    - name: Kellie Cosgrove Riley
+      logo: /assets/img/bio.riley.kellie.png
+      url: /#
+      agency: Office of Personnel Management
+      title:
+    - name: Scott Flanders
+      logo: /assets/img/placeholder.png
+      url: /#
+      agency: Nuclear Regulatory Commission
+      title:
 
 council_members_icons:
     - name: Rob Schwartz
@@ -190,11 +210,6 @@ council_members_icons:
       logo: /assets/img/bio.naomi.lefkovitz.jpg
       url: /#
       agency: National Institute of Standards and Technology
-    - name: Royce Min
-      border: 'no'
-      logo: /assets/img/bio.agarwal.asheesh.png
-      url: /#
-      agency: Social Security Administration
     - name: Maya Bernstein
       logo: /assets/img/bio.maya.bernstein.jpg
       url: /#
@@ -202,22 +217,13 @@ council_members_icons:
 
 
 ---
-<!--<div class="margin-0 font-sans-sm padding-bottom-3">{{page.excerpt}}</div>-->
-<!--<section class="usa-section usa-grid clearfix">
 
-    <div class="grid-row grid-gap ">
-        <div class="grid-col-12">
-
-        </div>
-    </div>
-</section>-->
 
   <div class="grid-container shadow-5 radius-lg bg-white padding-y-5 margin-bottom-3">
     <div class="margin-bottom-8">
       <h2 class="margin-0 font-sans-lg council-leadership-h2">Leadership & Executive Committee</h2>
     </div>
     <div class="grid-row grid-gap">
-
       {% for icon in page.super_leadership_icons %}
       <div class="desktop:grid-col-4 margin-bottom-3">
         {% if icon.border != 'no'%}
@@ -235,15 +241,13 @@ council_members_icons:
           <span>
         <div class="agency_font"> {{ icon.agency }}</div>
       </span>
-          <!--<span>
-          <div class="agency_font"> {{ icon.title }}</div>
-        </span>-->
         </div>
         <br>
       </div>
       {% endfor %}
       <div class="grid-row grid-gap">
-        {% for icon in page.leadership_icons %}
+        {% assign sorted_leadership_icons = page.leadership_icons | sort: 'agency' %}
+        {% for icon in sorted_leadership_icons %}
         <div class="desktop:grid-col-4">
           {% if icon.border != 'no'%}
           <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
@@ -282,8 +286,8 @@ council_members_icons:
     </div>
 
     <div class="grid-row grid-gap">
-
-    {% for icon in page.council_members_13719_icons %}
+    {% assign sorted_council_members_13719_icons = page.council_members_13719_icons | sort: 'agency' %}
+    {% for icon in sorted_council_members_13719_icons %}
     <div class="desktop:grid-col-4">
       {% if icon.border != 'no'%}
       <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
@@ -314,8 +318,8 @@ council_members_icons:
       <h2 class="margin-0 font-sans-lg council-leadership-h2">Council Members</h2>
     </div>
     <div class="grid-row grid-gap">
-
-      {% for icon in page.council_members_icons %}
+      {% assign sorted_council_members_icons = page.council_members_icons | sort: 'agency' %}
+      {% for icon in sorted_council_members_icons %}
       <div class="desktop:grid-col-4">
         {% if icon.border != 'no'%}
         <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
@@ -510,7 +514,7 @@ council_members_icons:
     </div>
     <div class="desktop:grid-col-6">
       Jamie Huang, Co-Chair <br>
-      Department of Justice
+      Environmental Protection Agency
     </div>
   </div>
 
