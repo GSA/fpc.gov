@@ -224,8 +224,8 @@ council_members_icons:
       <h2 class="margin-0 font-sans-lg council-leadership-h2">Leadership & Executive Committee</h2>
     </div>
     <div class="grid-row grid-gap">
-
-      {% for icon in page.super_leadership_icons %}
+      {% assign sorted_super_leadership_icons = page.super_leadership_icons | sort: 'agency' %}
+      {% for icon in sorted_super_leadership_icons %}
       <div class="desktop:grid-col-4 margin-bottom-3">
         {% if icon.border != 'no'%}
         <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
@@ -247,7 +247,8 @@ council_members_icons:
       </div>
       {% endfor %}
       <div class="grid-row grid-gap">
-        {% for icon in page.leadership_icons %}
+        {% assign sorted_leadership_icons = page.leadership_icons | sort: 'agency' %}
+        {% for icon in sorted_leadership_icons %}
         <div class="desktop:grid-col-4">
           {% if icon.border != 'no'%}
           <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
@@ -286,8 +287,8 @@ council_members_icons:
     </div>
 
     <div class="grid-row grid-gap">
-
-    {% for icon in page.council_members_13719_icons %}
+    {% assign sorted_council_members_13719_icons = page.council_members_13719_icons | sort: 'agency' %}
+    {% for icon in sorted_council_members_13719_icons %}
     <div class="desktop:grid-col-4">
       {% if icon.border != 'no'%}
       <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
@@ -318,8 +319,8 @@ council_members_icons:
       <h2 class="margin-0 font-sans-lg council-leadership-h2">Council Members</h2>
     </div>
     <div class="grid-row grid-gap">
-
-      {% for icon in page.council_members_icons %}
+      {% assign sorted_council_members_icons = page.council_members_icons | sort: 'agency' %}
+      {% for icon in sorted_council_members_icons %}
       <div class="desktop:grid-col-4">
         {% if icon.border != 'no'%}
         <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
