@@ -92,8 +92,6 @@ primary_navigation:
   - name: Resources
     url: /
     children:
-      - name: Cross Walk Terminology Project
-        url: /assets/pdf/FINAL Content Placed In Layout.pdf
       - name: Law Library
         url: /law-library/
       - name: OMB Guidance
@@ -110,6 +108,8 @@ primary_navigation:
         url: /assets/pdf/Privacy-Toolkit-1-13-2017.pdf
       - name: Collaboration Index for Security and Privacy Controls
         url: /assets/pdf/Collaboration Index for Security and Privacy Controls FINAL.pdf
+      - name: Cross Walk Terminology Project
+        url: /assets/pdf/FINAL Content Placed In Layout.pdf
   - name: Programs & Events
     url: /
     children:
