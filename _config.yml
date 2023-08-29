@@ -92,6 +92,8 @@ primary_navigation:
   - name: Resources
     url: /
     children:
+      - name: Collaboration Index for Security and Privacy Controls
+        url: /assets/pdf/Collaboration Index for Security and Privacy Controls FINAL.pdf
       - name: Law Library
         url: /law-library/
       - name: OMB Guidance
