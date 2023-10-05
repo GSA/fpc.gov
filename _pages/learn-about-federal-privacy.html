@@ -57,9 +57,9 @@ priority_icons:
 
 <section class=" grid-container">
 
-    <div class="grid-row grid-gap">
+    <div class="grid-row grid-gap space-between">
         {% for icon in page.priority_icons %}
-        <div class="tablet:grid-col-3 learn-about text-center margin-y-2 bg-white padding-2 margin-1 shadow-5 members-hover radius-lg ">
+        <div class="tablet:grid-col-3 learn-about text-center margin-y-2 bg-white padding-2 margin-05 shadow-5 members-hover radius-lg ">
             {% if icon.url %}
             <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-gray-70" style="display: inline-block;">
                 {% else %}

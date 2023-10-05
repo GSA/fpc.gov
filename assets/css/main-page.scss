@@ -493,11 +493,11 @@ abbr{
   background-size: cover ;
 }
 
-.learn-about {
-  width: 23%;
+@media only screen and (min-width: 700px) {
+    .learn-about {
+        width: 23%;
+    }
 }
-
-
 
 @media only screen and (min-width: 1200px){
   .abstract-background2 {
@@ -692,4 +692,8 @@ abbr{
 
 .font-size-145rem{
   font-size: 1.45rem;
+}
+
+.space-between{
+    justify-content: space-between;
 }
