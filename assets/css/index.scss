@@ -45,6 +45,15 @@
  height: 46px !important;
 }
 }
+
+@media screen and (max-width: 390px) {
+  .usa-logo__text {
+    font-size: 0.9rem;
+  }
+  .usa-logo__text span {
+    line-height: 1;
+  }
+}
 #search_form.usa-search{
   margin-bottom:2.5%;
 }
