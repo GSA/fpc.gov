@@ -1,6 +1,9 @@
+---
+---
 // Import the US Web Design System SASS.
-
-@import "uswds";
+$theme-image-path: "../uswds/img";
+$theme-font-path: "../uswds/fonts";
+@import "scss/uswds";
 
 // Add your SASS/CSS here
 
@@ -328,7 +331,7 @@
 @media screen and (min-width: 640px) {
     .usa-banner__button[aria-expanded="true"]::after {
         background-color: transparent !important;
-        background-image: url("../img/angle-arrow-up-primary.svg"), linear-gradient(transparent, transparent);
+        background-image: url("../uswds/img/angle-arrow-up-primary.svg"), linear-gradient(transparent, transparent);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 0.5rem;
@@ -341,13 +344,13 @@
     }
 
     .usa-banner__button[aria-expanded="true"]:hover::after {
-        background-image: url("../img/angle-arrow-up-primary-hover.svg"), linear-gradient(transparent, transparent);
+        background-image: url("../uswds/img/angle-arrow-up-primary-hover.svg"), linear-gradient(transparent, transparent);
         background-color: transparent !important;
         transform: rotate(0deg) !important;
     }
 
     .usa-banner__button::after {
-        background-image: url("../img/angle-arrow-down-primary.svg"), linear-gradient(transparent, transparent);
+        background-image: url("../uswds/img/angle-arrow-down-primary.svg"), linear-gradient(transparent, transparent);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 0.5rem;
@@ -360,7 +363,7 @@
     }
 
     .usa-banner__button:hover::after {
-        background-image: url("../img/angle-arrow-down-primary-hover.svg"), linear-gradient(transparent, transparent);
+        background-image: url("../uswds/img/angle-arrow-down-primary-hover.svg"), linear-gradient(transparent, transparent);
         background-color: transparent !important;
     }
 }
@@ -368,7 +371,7 @@
 @media screen and (max-width: 640px) {
     .usa-banner__button[aria-expanded="true"]::after {
         border: 0;
-        background-image: url("../img/close-blue-60v-alt.svg"), linear-gradient(transparent, transparent);
+        background-image: url("../uswds/img/close-blue-60v-alt.svg"), linear-gradient(transparent, transparent);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 1rem;
@@ -381,7 +384,7 @@
     }
 
     .usa-banner__header-action::after {
-        background-image: url("../img/angle-arrow-down-primary.svg"), linear-gradient(transparent, transparent);
+        background-image: url("../uswds/img/angle-arrow-down-primary.svg"), linear-gradient(transparent, transparent);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 0.5rem;

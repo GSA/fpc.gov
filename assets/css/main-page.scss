@@ -1,5 +1,6 @@
-
-@import 'css/font-awesome-style/css/font-awesome.min.css';
+---
+---
+@import 'font-awesome-style/css/font-awesome.min.css';
 body{
   line-height: 1.5;
 }
@@ -74,7 +75,7 @@ color: black;
 
 .priority-icons {
   background-position: center;
-  background-image: url('../assets/img/priority-middle-image1.png');
+  background-image: url('../img/priority-middle-image1.png');
   background-repeat:no-repeat;
   background-size: cover;
 }
@@ -501,7 +502,7 @@ abbr{
 
 @media only screen and (min-width: 1200px){
   .abstract-background2 {
-    background-image: url(../assets/img/fcp-hero-2.png);
+    background-image: url(../img/fcp-hero-2.png);
     background-color: #172636;
     background-repeat: no-repeat;
     background-position: top center;
@@ -512,7 +513,7 @@ abbr{
 @media only screen and (max-width: 1200px){
   .abstract-background2 {
     background-color: #172636;
-    background-image: url(../assets/img/fcp-hero-2.png);
+    background-image: url(../img/fcp-hero-2.png);
     background-repeat: no-repeat;
     background-position: top center;
   }
@@ -520,14 +521,14 @@ abbr{
 
 .abstract-background4 {
   background-color: #172636;
-  background-image: url(../assets/img/desk-contract-signing-hero.png);
+  background-image: url(../img/desk-contract-signing-hero.png);
   background-repeat: no-repeat;
   background-position: top center;
 }
 
 .abstract-background1 {
   background-color: #172636;
-  background-image: url(../assets/img/training-boot-camp-hero.png);
+  background-image: url(../img/training-boot-camp-hero.png);
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -536,11 +537,11 @@ abbr{
   background-color: #172636;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url(../assets/img/globe-profile-stock-reduced.jpg);
+  background-image: url(../img/globe-profile-stock-reduced.jpg);
 }
 
 .abstract-background3 {
-  background-image: url(../assets/img/fcp-hero-1.png);
+  background-image: url(../img/fcp-hero-1.png);
   background-color: #172636;
   background-repeat: no-repeat;
   background-position: top center;
@@ -548,7 +549,7 @@ abbr{
 }
 
 .abstract-background5 {
-  background-image: url(../assets/img/download-banner.jpg);
+  background-image: url(../img/download-banner.jpg);
   background-color: #172636;
   background-repeat: no-repeat;
   background-position: top center;
@@ -556,7 +557,7 @@ abbr{
 }
 
 .abstract-background6 {
-    background-image: url(../assets/img/collaboration-index.jpg);
+    background-image: url(../img/collaboration-index.jpg);
     background-color: #172636;
     background-repeat: no-repeat;
     background-position: top center;
@@ -565,7 +566,7 @@ abbr{
 
 .abstract-background7 {
   background-color: #172636;
-  background-image: url(../assets/img/FPC_DPW23_BlackBanner.png);
+  background-image: url(../img/FPC_DPW23_BlackBanner.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -573,13 +574,13 @@ abbr{
 
 .abstract-background8 {
   background-color: #172636;
-  background-image: url(../assets/img/FPC_DPW23_SummitBanner.png);
+  background-image: url(../img/FPC_DPW23_SummitBanner.png);
   background-repeat: no-repeat;
   background-position: top center;
 }
 
 .abstract-background9 {
-  background-image: url(../assets/img/cross-walk-terminology-project.jpg);
+  background-image: url(../img/cross-walk-terminology-project.jpg);
   background-color: #172636;
   background-repeat: no-repeat;
   background-position: top center;
@@ -589,7 +590,7 @@ abbr{
 @media only screen and (max-width: 500px){
   .abstract-background9 {
     background-color: #172636;
-    background-image: url(../assets/img/cross-walk-terminology-project-mobile.jpg);
+    background-image: url(../img/cross-walk-terminology-project-mobile.jpg);
     background-repeat: no-repeat;
     background-position: top center;
   }
