@@ -1,8 +1,8 @@
-ruby '>= 2.6.6'
+ruby '>= 3.1.3'
 
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.8"
+gem "jekyll", "~> 4.2.2"
 gem "execjs", "2.7.0" # https://github.com/rails/execjs/issues/99
 gem "mini_racer"
 gem "autoprefixer-rails"
