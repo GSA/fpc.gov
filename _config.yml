@@ -246,12 +246,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-
-  - node_modules/uswds/dist/img
-    - node_modules/uswds/dist/js
-    - node_modules/uswds/dist/scss
-    - node_modules/netlify-cms/dist
-
 autoprefixer:
   browsers:
     - "> 2%"
