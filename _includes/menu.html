@@ -31,7 +31,8 @@ where we provide an easy way to manage your navigation system
               {% if subnav_item.link == false %}
               <span class="navheader">{{ subnav_item.name | escape }}</span>
               {% else %}
-              <a class="{% if subnav_item.sub_menu_item %}margin-left-105{% endif %}" href="{% if subnav_item.url contains '://' %}{{ site.baseurl }}{% endif %}{{ subnav_item.url }}">{{ subnav_item.name | escape }}</a>
+              <a class="{% if subnav_item.sub_menu_item %}margin-left-105{% endif %}"
+                 href="{% if subnav_item.url contains '://' %}{{ subnav_item.url }}{% else %}{{ subnav_item.url | prepend: site.baseurl }}{% endif %}">{{ subnav_item.name | escape }}</a>
               {% endif %}
             </li>
             {% endfor %}
