@@ -229,10 +229,10 @@ pagination:
     after: 2
   # Optional, the default file extension for generated pages (e.g html, json, xml).
   # Internally this is set to html by default
-  extension: html
+  extension: "html"
   # Optional, the default name of the index file for generated pages (e.g. 'index.html')
   # Without file extension
-  indexpage: "index.html"
+  indexpage: "index"
 
 exclude:
   - package.json
@@ -246,9 +246,18 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-assets:
-  sources:
-    - node_modules/uswds/dist/img
-    - node_modules/uswds/dist/js
-    - node_modules/uswds/dist/scss
-    - node_modules/netlify-cms/dist
+autoprefixer:
+  browsers:
+    - "> 2%"
+    - "last 2 versions"
+    - "IE 11"
+    - "not dead"
+
+sass:
+  sass_dir: _sass
+  load_paths:
+    - node_modules/uswds/dist/
+  sourcemap: development
+  quiet_deps: true
+  style: compressed
+  verbose: true
