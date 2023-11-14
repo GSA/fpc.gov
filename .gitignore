@@ -6,3 +6,6 @@ node_modules
 .jekyll-cache/
 .DS_Store
 .idea/
+assets/uswds
+assets/js/uswds.*
+!assets/uswds/.gitkeep
