@@ -1,0 +1,26 @@
+
+- name: SORN Dashboard
+  title: Conduct targeted searches of agency SORNs.
+  link: https://sorndashboard.fpc.gov/
+  logo: /assets/img/logos/sorn-dash.png
+  alt_text: SORN
+- name: Fair Information Practice Principles (FIPPs)
+  title: Learn about the FIPPs, which are the foundation of federal privacy laws and policies for Federal agencies.
+  link: https://www.fpc.gov/resources/fipps/
+  logo: /assets/img/logos/fipp.png
+  alt_text: FIPP
+- name: Toolkit for Recruiting, Hiring, and Retaining Privacy Professionals in the Federal Government
+  title: A toolkit for human resources personnel and hiring officials.
+  link: https://www.fpc.gov/assets/pdf/Privacy-Toolkit-1-13-2017.pdf
+  logo: /assets/img/logos/fipp.png
+  alt_text: Federal Government
+- name: Collaboration Index for Security and Privacy Controls
+  title: Understand the level of collaboration between federal information security and privacy programs that is appropriate at each stage of the Risk Management Framework.
+  link: https://www.fpc.gov/assets/pdf/Collaboration%20Index%20for%20Security%20and%20Privacy%20Controls%20FINAL.pdf
+  logo: /assets/img/logos/fipp.png
+  alt_text: Privacy Controls
+- name: Managing Re-identification Risk Crosswalk Terminology Project
+  title: Read about this cross-council collaboration effort to identify and define 24 terms in this area that may be used differently across various data-focused domains.
+  link: https://www.fpc.gov/assets/pdf/FINAL%20Content%20Placed%20In%20Layout.pdf
+  logo: /assets/img/logos/fipp.png
+  alt_text: Crosswalk Terminology
