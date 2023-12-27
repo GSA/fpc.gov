@@ -726,3 +726,13 @@ abbr{
 .champion .carousel-screen{
     top:auto;
 }
+
+.champion .left-arrow:hover .chevron,
+.champion .right-arrow:hover .chevron {
+    border-color: #1a4480;
+}
+
+.champion .left-arrow:hover,
+.champion .right-arrow:hover {
+    background: none;
+}
