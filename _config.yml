@@ -117,6 +117,9 @@ primary_navigation:
         url: /programs-and-events/
       - name: Data Privacy Week
         link: false
+      - name: Data Privacy Week 2024
+        url: /data-privacy-week-2024
+        sub_menu_item: true
       - name: Data Privacy Week 2023
         url: /data-privacy-week-2023
         sub_menu_item: true

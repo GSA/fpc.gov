@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /data-privacy-week-2023/
-title: Data Privacy Week 2023
+permalink: /data-privacy-week-2024/
+title: Data Privacy Week 2024
 ---
 
 <section class="usa-section about">
@@ -36,14 +36,54 @@ title: Data Privacy Week 2023
 <section class="usa-section padding-2">
     <div class="usa-grid">
         <div class="grid-row grid-container">
-            <div class="desktop:grid-col-9">
+            <div class="desktop:grid-col-12">
                 <h2 class="text-primary-darker">Federal Data Privacy Week Champions</h2>
                 <p>The Federal Privacy Council is proud to recognize those agencies that opted into participating in the National Cyber Security Alliance's <a href="https://staysafeonline.org/programs/2023-data-privacy-week-champions/">Data Privacy Day Champions program</a>.</p>
                 <div class="usa-graphic-list__row grid-row grid-gap">
-                    {% include carousel-data-privacy-champions.html %}
+                    <!--{% include carousel-data-privacy-champions.html %}-->
+                    <div class="desktop:grid-col-2 tablet:grid-col-6 container members-list padding-top-2 card__members text-center">
+                        <img src="{{site.baseurl}}/assets/img/fpc_logo.png" alt="Federal Privacy Council" class="height-10" /><br />
+                        Federal Privacy Council
+                    </div>
+                    <div class="desktop:grid-col-2 tablet:grid-col-6 container members-list padding-top-2 card__members text-center">
+                        <img src="{{site.baseurl}}/assets/img/state_department_seal.png" alt="U.S. Department of State" class="height-10" /><br />
+                        U.S. Department of State
+                    </div>
+                    <div class="desktop:grid-col-2 tablet:grid-col-6 container members-list padding-top-2 card__members text-center">
+                        <img src="{{site.baseurl}}/assets/img/education-logo-color.png" alt="U.S. Department of Education" class="height-10" /><br />
+                        U.S. Department of Education
+                    </div>
+                    <div class="desktop:grid-col-2 tablet:grid-col-6 container members-list padding-top-2 card__members text-center">
+                        <img src="{{site.baseurl}}/assets/img/dod-seal.png" alt="U.S. Department of Defense" class="height-10" /><br />
+                        U.S. Department of Defense
+                    </div>
+                    <div class="desktop:grid-col-2 tablet:grid-col-6 container members-list padding-top-2 card__members text-center">
+                        <img src="{{site.baseurl}}/assets/img/doe-logo-color.png" alt="U.S. Department of Energy" class="height-10" /><br />
+                        U.S. Department of Energy
+                    </div>
+                    <div class="desktop:grid-col-2 tablet:grid-col-6 container members-list padding-top-2 card__members text-center">
+                        <img src="{{site.baseurl}}/assets/img/va-logo-color.png" alt="U.S. Department of Veterans Affairs" class="height-10" /><br />
+                        U.S. Department of Veterans Affairs
+                    </div>
+                    <div class="desktop:grid-col-2 tablet:grid-col-6 container members-list padding-top-2 card__members text-center">
+                        <img src="{{site.baseurl}}/assets/img/doti-logo.PNG" alt="U.S. Department of Interior" class="height-10" /><br />
+                        U.S. Department of Interior
+                    </div>
+                    <div class="desktop:grid-col-2 tablet:grid-col-6 container members-list padding-top-2 card__members text-center">
+                        <img src="{{site.baseurl}}/assets/img/doc-logo.png" alt="U.S. Department of Commerce" class="height-10" /><br />
+                        U.S. Department of Commerce
+                    </div>
+                    <div class="desktop:grid-col-2 tablet:grid-col-6 container members-list padding-top-2 card__members text-center">
+                        <img src="{{site.baseurl}}/assets/img/fhfa-logo.png" alt="Federal Housing Finance Agency" class="height-10" /><br />
+                        Federal Housing Finance Agency
+                    </div>
+                    <div class="desktop:grid-col-2 tablet:grid-col-6 container members-list padding-top-2 card__members text-center">
+                        <img src="{{site.baseurl}}/assets/img/cftc_seal.png" alt="Commodity Futures Trading Commission" class="height-10" /><br />
+                        Commodity Futures Trading Commission
+                    </div>
                 </div>
             </div>
-            <div class="desktop:grid-col-3">
+            <!--<div class="desktop:grid-col-2">
                 <h2 class="text-primary-darker">Take Action to Take Control of Your Privacy</h2>
                 <ul class="usa-sidenav">
                     <li class="usa-sidenav__item"><a href="https://staysafeonline.org/programs/data-privacy-week/individuals/">Take Control of Your Data</a></li>
@@ -53,6 +93,25 @@ title: Data Privacy Week 2023
                     <li class="usa-sidenav__item"><a href="https://www.youtube.com/watch?v=x73WuhVBNak">Top 3 Data Privacy Tips for Parents and Children (video)</a></li>
 
                     <li class="usa-sidenav__item"><a href="https://staysafeonline.org/resources/what-to-do-when-your-data-is-breached/">What To Do When Your Data Is Breached</a></li>
+                </ul>
+            </div>-->
+        </div>
+    </div>
+</section>
+<hr />
+<section class="usa-section padding-2">
+    <div class="usa-grid">
+        <div class="grid-row grid-container">
+            <div class="desktop:grid-col-12">
+                <h2 class="text-primary-darker">Take Action to Take Control of Your Privacy</h2>
+                <ul>
+                    <li><a href="https://staysafeonline.org/programs/data-privacy-week/individuals/">Take Control of Your Data</a></li>
+
+                    <li><a href="https://staysafeonline.org/resources/manage-your-privacy-settings/">Manage Your Online Privacy Settings</a></li>
+
+                    <li><a href="https://www.youtube.com/watch?v=x73WuhVBNak">Top 3 Data Privacy Tips for Parents and Children (video)</a></li>
+
+                    <li><a href="https://staysafeonline.org/resources/what-to-do-when-your-data-is-breached/">What To Do When Your Data Is Breached</a></li>
                 </ul>
             </div>
         </div>
@@ -88,7 +147,7 @@ title: Data Privacy Week 2023
                 <h4 class="text-primary-darker">Privacy Tools and Resources</h4>
                 <div class="grid-row grid-gap">
                     {% for icon in site.data.privacy_tools %}
-                    <div class="desktop:grid-col-4 privacy-tools text-center margin-y-2 bg-white padding-2 margin-05 shadow-5 members-hover radius-lg">
+                    <div class="desktop:grid-col-2 privacy-tools text-center margin-y-2 bg-white padding-2 margin-05 shadow-5 members-hover radius-lg">
                         <img style="width:190px;height:150px;object-fit:cover; border: 1px solid #555;" alt="{{ icon.alt-text }}" src="{{site.baseurl}}{{ icon.logo }}" />
                         <h3>{{icon.name}}</h3>
                         <p>{{icon.title}}</p>
