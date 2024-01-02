@@ -356,4 +356,11 @@ $theme-font-path: "../uswds/fonts";
         background-color: transparent !important;
     }
 }
-	
+
+
+@media all and (min-width: 40em) {
+    .usa-section {
+        padding-bottom: 1rem;
+        padding-top: 1rem
+    }
+}
