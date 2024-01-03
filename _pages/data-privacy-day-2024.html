@@ -123,7 +123,7 @@ title: Data Privacy Week 2024
         <div class="grid-row grid-container">
             <div class="desktop:grid-col-12">
                 <h2 class="text-primary-darker">Resources</h2>
-                <h4 class="text-primary-darker">Learn About Privacy: FPC's Educational Videos</h4>
+                <h3 class="text-primary-darker">Learn About Privacy: FPC's Educational Videos</h3>
                 <p>Executive Branch agencies necessarily collect, maintain, use, disclose, and dispose of large amounts of personally identifiable information (PII) to carry out missions mandated by Federal statute. By watching these short videos, learn more about how the Executive Branch of the Federal Government protects your privacy.</p>
                 <div class="grid-row grid-gap space-between">
                     {% for icon in site.data.priority_icons %}
@@ -144,14 +144,14 @@ title: Data Privacy Week 2024
                     {% endfor %}
                 </div>
 
-                <h4 class="text-primary-darker">Privacy Tools and Resources</h4>
+                <h3 class="text-primary-darker">Privacy Tools and Resources</h3>
                 <div class="grid-row grid-gap">
                     {% for icon in site.data.privacy_tools %}
                     <div class="desktop:grid-col-2 privacy-tools text-center margin-y-2 bg-white padding-2 margin-05 shadow-5 members-hover radius-lg">
                         <img style="width:190px;height:150px;object-fit:cover; border: 1px solid #555;" alt="{{ icon.alt-text }}" src="{{site.baseurl}}{{ icon.logo }}" />
                         <h3>{{icon.name}}</h3>
                         <p>{{icon.title}}</p>
-                        <a href="{{ site.baseurl }}{{ icon.link }}" class="usa-button usa-button--hover border-0 width-full">Read More</a>
+                        <a href="{{ site.baseurl }}{{ icon.link }}" class="usa-button usa-button--hover border-0 width-full" aria-label="Read More for {{icon.name}}">Read More</a>
                     </div>
                     {% endfor %}
                 </div>
