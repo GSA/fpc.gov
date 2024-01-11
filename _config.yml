@@ -110,6 +110,8 @@ primary_navigation:
         url: /assets/pdf/Collaboration Index for Security and Privacy Controls FINAL.pdf
       - name: Cross Walk Terminology Project
         url: /assets/pdf/FINAL Content Placed In Layout.pdf
+      - name: Privacy for Chief Data Officers
+        url: /assets/pdf/Privacy for CDOs.pdf
   - name: Programs & Events
     url: /
     children:
