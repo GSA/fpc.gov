@@ -589,12 +589,28 @@ abbr{
   background-size: cover;
 }
 
+.abstract-background10 {
+  background-image: url(../img/privacy-for-cdo-banner.png);
+  background-color: #172636;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
 @media only screen and (max-width: 500px){
   .abstract-background9 {
     background-color: #172636;
     background-image: url(../img/cross-walk-terminology-project-mobile.jpg);
     background-repeat: no-repeat;
     background-position: top center;
+  }
+
+  .abstract-background10 {
+    background-image: url(../img/privacy-for-cdo-banner-mobile.png);
+    background-color: #172636;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
   }
 }
 
