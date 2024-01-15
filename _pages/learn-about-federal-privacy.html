@@ -57,16 +57,16 @@ priority_icons:
 
 <section class=" grid-container">
 
-    <div class="grid-row grid-gap">
+    <div class="grid-row grid-gap space-between">
         {% for icon in page.priority_icons %}
-        <div class="tablet:grid-col-3 learn-about text-center margin-y-2 bg-white padding-2 margin-1 shadow-5 members-hover radius-lg ">
+        <div class="tablet:grid-col-3 learn-about text-center margin-y-2 bg-white padding-2 margin-05 shadow-5 members-hover radius-lg ">
             {% if icon.url %}
             <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-gray-70" style="display: inline-block;">
                 {% else %}
                 <a href="{{ icon.link }}" class="text-no-underline" style="display: inline-block;">
                     {% endif %}
-                    <div >
-                        <img style="width:210px;height:150px;object-fit:cover; border: 1px solid #555;" alt="{{ icon.alt-text }}" src="{{site.baseurl}}{{ icon.logo }}" alt="{{ icon.name }} image" />
+                    <div>
+                        <img style="width:190px;height:150px;object-fit:cover; border: 1px solid #555;" alt="{{ icon.alt-text }}" src="{{site.baseurl}}{{ icon.logo }}" alt="{{ icon.name }} image" />
                     </div>
                     <p class="font-sans-sm text-gray-70 text-left text-no-underline">{{ icon.time }}</p>
                     <p class="font-heading-md text-gray-70 text-left text-no-underline">{{ icon.name }}</p>
