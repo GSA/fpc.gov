@@ -28,7 +28,7 @@ title: Data Privacy Week 2024
                 <p>The Federal Privacy Council is proud be a champion for Data Privacy Week 2024, a global effort to raise awareness about the importance of respecting privacy, safeguarding data, and enabling trust.  The National Cybersecurity Alliance has announced that this year’s Data Privacy Week theme is <a href="https://staysafeonline.org/programs/data-privacy-week/individuals/">“Take Control of Your Privacy.”</a> On this page you will find resources and events for Federal employees and members of the public.</p>
                 <h2 class="text-primary-darker">About Data Privacy Week</h2>
                 <p>Data Privacy Week commemorates the January 28, 1981 signing of Convention 108, the first legally binding international treaty dealing with privacy and data protection. Since 2009, resolutions passed by Congress have supported the designation of January 28th as National Data Privacy Day in the United States. Since 2022, the Data Privacy Day campaign has been expanded to Data Privacy Week. </p>
-                <a href="https://staysafeonline.org/programs/data-privacy-week/" class="usa-button usa-button--hover border-0">Learn More</a>
+                <a href="https://staysafeonline.org/programs/data-privacy-week/" class="usa-button usa-button--hover border-0" aria-label="Learn more about Data Privacy Week">Learn More</a>
             </div>
         </div>
     </div>
@@ -160,14 +160,14 @@ title: Data Privacy Week 2024
                     <ul class="margin-top-0">
                         <li><a href="https://staysafeonline.org/programs/data-privacy-week/individuals/">Take Control of Your Privacy</a></li>
 
-                        <li><a href="https://staysafeonline.org/resources/manage-your-privacy-settings/">Manage Your Online Privacy Settings</a></li>
+                        <li class="margin-top-1"><a href="https://staysafeonline.org/resources/manage-your-privacy-settings/">Manage Your Online Privacy Settings</a></li>
                     </ul>
                 </div>
                 <div class="desktop:grid-col-6 spacing">
                     <ul class="desktop:margin-top-0">
-                        <li><a href="https://www.youtube.com/watch?v=x73WuhVBNak">Top 3 Data Privacy Tips for Parents and Children (video)</a></li>
+                        <li class="li-top"><a href="https://www.youtube.com/watch?v=x73WuhVBNak">Top 3 Data Privacy Tips for Parents and Children (video)</a></li>
 
-                        <li><a href="https://staysafeonline.org/resources/what-to-do-when-your-data-is-breached/">What To Do When Your Data Is Breached</a></li>
+                        <li class="margin-top-1"><a href="https://staysafeonline.org/resources/what-to-do-when-your-data-is-breached/">What To Do When Your Data Is Breached</a></li>
                     </ul>
                 </div>
             </div>
@@ -181,21 +181,21 @@ title: Data Privacy Week 2024
             <div class="desktop:grid-col-12">
                 <h2 class="text-primary-darker margin-top-neg-1">Resources</h2>
                 <h3 class="text-primary-darker">Learn About Privacy: FPC's Educational Videos</h3>
-                <p>Executive Branch agencies necessarily collect, maintain, use, disclose, and dispose of large amounts of personally identifiable information (PII) to carry out missions mandated by Federal statute. By watching these short videos, learn more about how the Executive Branch of the Federal Government protects your privacy.</p>
+                <p>Executive Branch agencies necessarily collect, maintain, use, disclose, and dispose of large amounts of personally identifiable information (PII) to carry out missions mandated by Federal statute. By watching these short videos, you can learn more about how the Executive Branch of the Federal Government protects your privacy.</p>
                 <div class="grid-row grid-gap space-between">
                     {% for icon in site.data.priority_icons %}
                     <div class="tablet:grid-col-3 learn-about font-size text-center margin-y-2 bg-white padding-2 margin-05 shadow-5 members-hover radius-lg ">
                         {% if icon.url %}
-                        <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-gray-70" style="display: inline-block;">
+                        <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-base-darkest" style="display: inline-block;">
                             {% else %}
                             <a href="{{ icon.link }}" class="text-no-underline" style="display: inline-block;">
                                 {% endif %}
                                 <div>
                                     <img style="width:190px;height:150px;object-fit:cover; border: 1px solid #555;" alt="{{ icon.alt-text }}" src="{{site.baseurl}}{{ icon.logo }}" />
                                 </div>
-                                <p class="font-sans-sm text-gray-70 text-left text-no-underline">{{ icon.time }}</p>
-                                <p class="font-heading-md text-gray-70 text-left text-no-underline">{{ icon.name }}</p>
-                                <p class="font-sans-sm text-gray-70 text-left text-no-underline">{{ icon.filler }}</p>
+                                <p class="font-sans-sm text-left text-no-underline">{{ icon.time }}</p>
+                                <p class="font-heading-md text-left text-no-underline text-bold">{{ icon.name }}</p>
+                                <p class="font-sans-sm text-left text-no-underline">{{ icon.filler }}</p>
                             </a>
                     </div>
                     {% endfor %}
@@ -206,8 +206,8 @@ title: Data Privacy Week 2024
                     {% for icon in site.data.privacy_tools %}
                     <div class="desktop:grid-col-2 privacy-tools margin-y-2 bg-white padding-2 margin-05 shadow-5 members-hover radius-lg">
                         <img style="width:300px;height:210px;object-fit:cover; border: 1px solid #555;" alt="{{ icon.alt-text }}" src="{{site.baseurl}}{{ icon.logo }}" />
-                        <h3>{{icon.name}}</h3>
-                        <p>{{icon.title}}</p>
+                        <p class="font-heading-md text-left text-no-underline text-bold">{{icon.name}}</p>
+                        <p class="font-sans-sm text-left text-no-underline">{{icon.title}}</p>
                         {% if icon.name contains "SORN" %}
                         <a href="{{ icon.link }}" class="usa-button usa-button--hover border-0 margin-y-1" aria-label="Visit">Visit</a>
                         {% else %}
