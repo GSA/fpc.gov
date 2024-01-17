@@ -204,14 +204,14 @@ title: Data Privacy Week 2024
                 <h3 class="text-primary-darker">FPC Tools and Resources</h3>
                 <div class="grid-row grid-gap">
                     {% for icon in site.data.privacy_tools %}
-                    <div class="desktop:grid-col-2 privacy-tools font-size margin-y-2 bg-white padding-2 margin-05 shadow-5 members-hover radius-lg">
+                    <div class="desktop:grid-col-2 privacy-tools margin-y-2 bg-white padding-2 margin-05 shadow-5 members-hover radius-lg">
                         <img style="width:300px;height:210px;object-fit:cover; border: 1px solid #555;" alt="{{ icon.alt-text }}" src="{{site.baseurl}}{{ icon.logo }}" />
                         <h3>{{icon.name}}</h3>
                         <p>{{icon.title}}</p>
                         {% if icon.name contains "SORN" %}
-                        <a href="{{ icon.link }}" class="usa-button usa-button--hover border-0 margin-top-05" aria-label="Visit">Visit</a>
+                        <a href="{{ icon.link }}" class="usa-button usa-button--hover border-0 margin-y-1" aria-label="Visit">Visit</a>
                         {% else %}
-                        <a href="{{ icon.link }}" class="usa-button usa-button--hover border-0 margin-top-05" aria-label="Read More for {{icon.name}}">Read More</a>
+                        <a href="{{ icon.link }}" class="usa-button usa-button--hover border-0 margin-y-1" aria-label="Read More for {{icon.name}}">Read More</a>
                         {% endif %}
                     </div>
                     {% endfor %}
