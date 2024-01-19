@@ -494,8 +494,10 @@ abbr{
   background-size: cover ;
 }
 
-.learn-about {
-  width: 23%;
+@media only screen and (min-width: 700px) {
+    .learn-about {
+        width: 23%;
+    }
 }
 
 
@@ -610,6 +612,14 @@ abbr{
     background-position: top center;
     background-size: cover;
   }
+
+    .abstract-background7 {
+        background-color: #172636;
+        background-image:none;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+    }
 }
 
 /* Animations */
@@ -709,4 +719,81 @@ abbr{
 
 .font-size-145rem{
   font-size: 1.45rem;
+}
+
+.usa-sidenav a {
+    text-decoration: underline;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 700px) {
+    .privacy-tools {
+        width: 32%;
+    }
+}
+
+.champion .left-arrow{
+    left:-3rem;
+}
+
+.champion .chevron {
+    border-color: #1a4480;
+}
+
+.champion .right-arrow {
+    right:-3rem;
+}
+
+.champion .carousel-screen{
+    top:auto;
+}
+
+.champion .left-arrow:hover .chevron,
+.champion .right-arrow:hover .chevron {
+    border-color: #1a4480;
+}
+
+.champion .left-arrow:hover,
+.champion .right-arrow:hover {
+    background: none;
+}
+
+.border-agencies {
+    border: 1px solid lightgray;
+}
+
+.font-size{
+    font-size:14px;
+}
+
+@media screen and (max-width: 1000px) {
+    .spacing{
+        margin-top:-2rem;
+    }
+
+    .li-top{
+        margin-top:28px;
+    }
+}
+
+
+.privacy-image {
+    width: 190px;
+    object-fit: cover;
+    border: 1px solid #555;
+}
+
+@media screen and (min-width: 760px) and (max-width: 800px) {
+    .privacy-image{
+        height:100px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    .privacy-image {
+        height: 120px;
+    }
 }

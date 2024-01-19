@@ -1,0 +1,25 @@
+
+- name: Roles in Federal Privacy
+  logo: /assets/img/logos/Video_1.png
+  alt-text: Text reading 'Privacy Considerations' above illustration of people working around a desk and the word 'PII' next two them with two information icons
+  url: /roles-in-federal-privacy/
+  filler: Learn about the different roles in Federal privacy and how they work together to preserve the public's trust.
+  time: 5 minutes 52 seconds
+- name: The Privacy Act of 1974
+  logo: /assets/img/logos/Video_2.png
+  alt-text: Four icons showing the topics the video covers, namely, restriction on disclosure, fair information practices, access and amendment, and enforcement
+  url: /privacy-act-1974/
+  filler: Learn about a cornerstone of Federal privacy law and the rights and protections it provides to individuals.
+  time: 7 minutes 30 seconds
+- name: Privacy Impact Assessments
+  logo: /assets/img/logos/Video_3.png
+  alt-text: Stylized train track with 'what, when, who, and how' as the topics or train stops that the video covers
+  url: /privacy-impact-asessments/
+  filler: Learn about one of the most valuable tools Federal privacy programs use to manage privacy risks.
+  time: 6 minutes 51 seconds
+- name: Fair Information Practice Principles
+  logo: /assets/img/logos/Video_4.png
+  alt-text: Fair Information Practice Principles
+  url: /fair-info-practice-principles/
+  filler: Learn about the Fair Information Practice Principles (FIPPs), which serve as the foundation for privacy laws and policies applicable to Federal agencies.
+  time: 6 minutes 52 seconds
