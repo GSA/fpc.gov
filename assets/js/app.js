@@ -241,10 +241,10 @@ function sortPositioning(mainScreen, leftScreen, rightScreen) {
             screen.style.display = "block";
             screen.style.left = "0px";
         }else if (screen === leftScreen){
-            screen.style.display = "block";
+            screen.style.display = "none";
             screen.style.left = "-100%";
         }else if (screen === rightScreen){
-            screen.style.display = "block";
+            screen.style.display = "none";
             screen.style.left = "100%";
         }else{
             screen.style.display = "none";
