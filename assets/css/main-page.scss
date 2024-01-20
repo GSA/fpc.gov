@@ -153,6 +153,8 @@ color: black;
   -webkit-box-shadow: inset -5px 0px 5px 0px rgba(204,204,204,1);
   -moz-box-shadow: inset -5px 0px 5px 0px rgba(204,204,204,1);
   box-shadow: inset -5px 0px 5px 0px rgba(204,204,204,1);
+
+
 }
 
 .tab button {
@@ -185,6 +187,16 @@ color: black;
   width: 70%;
   height: auto;
 
+}
+
+@media screen and (max-width: 767px){
+  .tab {
+    width: 38%;
+  }
+
+  .tabcontent {
+    width: 62%;
+  }
 }
 
 .backgroundCover{
