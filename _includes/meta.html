@@ -18,15 +18,10 @@ site, this is the place to do it.
       ================================================== -->
     <title>{{ page.title }} | {{site.title}}</title>
 
-    {% if page.url contains "/data-privacy-week-2024/" %}
-    <meta property="og:title" content="Data Privacy Week 2024 January 21-27" />
-    <meta property="og:image" content="https://federalist-61b9594e-083a-41f6-89bb-8b418db4ccf9.sites.pages.cloud.gov/preview/gsa/fpc.gov/feature/ECASOGP-10908/assets/img/DPW.png" />
-    <meta property="og:description" content="The Federal Privacy Council is proud to support Data Privacy Week 2024. This page contains: Useful resources, Events hosted by the Federal community, and Data Privacy Champions." />
-    {% else %}
-    <meta property="og:title" content="{{site.title}}">
-    <meta name="description" content="{{site.description}}">
-    <meta property="og:description" content="{{site.description}}">
-    {% endif %}
+    <meta property="og:image" content="{{ site.baseurl | absolute_url }}{% if page.ogimage %}{{ page.ogimage }}{% else %}{{ site.ogimage }}{% endif %}" />
+    <meta property="og:title" content="{% if page.ogtitle %}{{ page.ogtitle }}{% else %}{{ page.title }}{% endif %}">
+    <meta name="description" content="{% if page.ogdescription %}{{ page.ogdescription }}{% else %}{{ site.ogdescription }}{% endif %}">
+    <meta property="og:description" content="{% if page.ogdescription %}{{ page.ogdescription }}{% else %}{{ site.ogdescription }}{% endif %}">
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@{{site.twitter}}" />
