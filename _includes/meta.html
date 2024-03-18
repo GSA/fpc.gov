@@ -25,14 +25,14 @@ site, this is the place to do it.
 
     <meta property="og:image" content="{{absoluteurl}}{{ site.baseurl | absolute_url }}{% if page.ogimage %}{{ page.ogimage }}{% else %}{{ site.ogimage }}{% endif %}" />
     <meta property="og:title" content="{% if page.ogtitle %}{{ page.ogtitle }}{% else %}{{ page.title }}{% endif %}">
-    <meta name="description" content="{% if page.ogdescription %}{{ page.ogdescription }}{% else %}{{ site.ogdescription }}{% endif %}">
-    <meta property="og:description" content="{% if page.ogdescription %}{{ page.ogdescription }}{% else %}{{ site.ogdescription }}{% endif %}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@{{site.twitter}}" />
 
     <meta name="twitter:title" content="{% if page.ogtitle %}{{ page.ogtitle }}{% else %}{{ page.title }}{% endif %}" />
-    <meta name="twitter:description" content="{% if page.ogdescription %}{{ page.ogdescription }}{% else %}{{ site.ogdescription }}{% endif %}" />
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="twitter:image" content="{{absoluteurl}}{{ site.baseurl | absolute_url }}{% if page.ogimage %}{{ page.ogimage }}{% else %}{{ site.ogimage }}{% endif %}" />
 
     <meta property="og:type" content="article">
