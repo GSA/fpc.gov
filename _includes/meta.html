@@ -3,6 +3,11 @@ You shouldn't have to edit this page very often. But if you want to modify some 
 site, this is the place to do it.
 {% endcomment %}
 
+{% if site.baseurl contains '/preview/' %}
+{% assign absoluteurl = 'https://federalist-61b9594e-083a-41f6-89bb-8b418db4ccf9.sites.pages.cloud.gov/' %}
+{% else %}
+{% assign absoluteurl = '' %}
+{% endif %}
 <head>
     <!-- Basic Page Needs
       ================================================== -->
@@ -18,7 +23,7 @@ site, this is the place to do it.
       ================================================== -->
     <title>{{ page.title }} | {{site.title}}</title>
 
-    <meta property="og:image" content="{{ site.baseurl | absolute_url }}{% if page.ogimage %}{{ page.ogimage }}{% else %}{{ site.ogimage }}{% endif %}" />
+    <meta property="og:image" content="{{absoluteurl}}{{ site.baseurl | absolute_url }}{% if page.ogimage %}{{ page.ogimage }}{% else %}{{ site.ogimage }}{% endif %}" />
     <meta property="og:title" content="{% if page.ogtitle %}{{ page.ogtitle }}{% else %}{{ page.title }}{% endif %}">
     <meta name="description" content="{% if page.ogdescription %}{{ page.ogdescription }}{% else %}{{ site.ogdescription }}{% endif %}">
     <meta property="og:description" content="{% if page.ogdescription %}{{ page.ogdescription }}{% else %}{{ site.ogdescription }}{% endif %}">
