@@ -15,12 +15,12 @@ overview: |
 
     **What is the time commitment for the course?** The Privacy Boot Camp occurs over the course of 8 weeks, typically for four hours each week on Friday afternoons.
 
-    **Can I review previous Boot Camp agendas and course materials?** Yes, using OMB Max you can view these Boot Camp materials on the FPC OMB Max site. (An OMB Max login is required to access the site.)
+    **Can I review previous Boot Camp agendas and course materials?** Yes, using USDA Connect you can view these Boot Camp materials on the FPC <a href="https://community.connect.gov/x/HwJcQw" target="_blank">USDA Connect site</a>. (A USDA Connect login is required to access the site.)
 
 image:  Video_1.png
 image-alt: Lines of code on a computer screen
 permalink: /programs-and-events/privacy-bootcamp/
 header-image: filler
 layout: page
-external_url: community.max.gov/x/ZwU1S
+external_url: community.connect.gov/x/HwJcQw
 ---
