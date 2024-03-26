@@ -21,9 +21,8 @@
 title: FPC.gov
 ogtitle: Build on Existing Interagency Efforts to Protect Privacy
 email: privacy.council@gsa.gov
-description: >- # this means to ignore newlines until "baseurl:"
-  The Federal Privacy Council is the principal interagency forum to improve the privacy practices of agencies and entities acting on their behalf. 
-  The work of the Federal Privacy Council shall strengthen protections of people’s personal information and privacy rights across the Federal Government.
+description: >- # this means to ignore newlines until "ogimage:"
+  The Federal Privacy Council is the principal interagency forum to improve the privacy practices of agencies and entities acting on their behalf. The work of the Federal Privacy Council shall strengthen protections of people’s personal information and privacy rights across the Federal Government.
 ogimage: assets/img/FPCColorKnockout.jpg
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://example.gov" # the base hostname & protocol for your site, e.g. http://example.com
@@ -65,14 +64,14 @@ twitter: 18F
 #
 #################################################################
 dap:
-   agency: GSA
+  agency: GSA
 
   # Optional
   # subagency: your-subagency
 
 # Configuration for Google Analytics
 ga:
-  # ua: your-ua
+# ua: your-ua
 
 # Site Navigation
 primary_navigation:
