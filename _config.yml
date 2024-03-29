@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "ogimage:"
   The Federal Privacy Council is the principal interagency forum to improve the privacy practices of agencies and entities acting on their behalf. The work of the Federal Privacy Council shall strengthen protections of people’s personal information and privacy rights across the Federal Government.
 ogimage: assets/img/FPCColorKnockout.jpg
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "https://example.gov" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.fpc.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Twitter handle. Only the handle, not the URL.
 twitter: 18F
