@@ -29,8 +29,8 @@ site, this is the place to do it.
     <!-- Title and meta description
       ================================================== -->
     <title>{{ page.title }} | {{site.title}}</title>
-
-    <meta property="og:image" content="{% if absoluteurl != '' %}{{absoluteurl}}{{ site.baseurl }}/{% else %}}{{ site.baseurl | absolute_url }}{% endif %}{% if page.ogimage %}{{ page.ogimage }}{% else %}{{ site.ogimage }}{% endif %}" />
+<meta property="siteurl" content="{{ site.url }}">
+    <meta property="og:image" content="{% if absoluteurl != '' %}{{absoluteurl}}{{ site.baseurl }}/{% else %}{{ site.baseurl | absolute_url }}{% endif %}{% if page.ogimage %}{{ page.ogimage }}{% else %}{{ site.ogimage }}{% endif %}" />
     <meta property="og:title" content="{% if page.ogtitle %}{{ page.ogtitle }}{% else %}{{ page.title }}{% endif %}">
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
@@ -40,7 +40,7 @@ site, this is the place to do it.
 
     <meta name="twitter:title" content="{% if page.ogtitle %}{{ page.ogtitle }}{% else %}{{ page.title }}{% endif %}" />
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-    <meta name="twitter:image" content="{% if absoluteurl != '' %}{{absoluteurl}}{{ site.baseurl }}/{% else %}}{{ site.baseurl | absolute_url }}{% endif %}{{ x-image }}" />
+    <meta name="twitter:image" content="{% if absoluteurl != '' %}{{absoluteurl}}{{ site.baseurl }}/{% else %}{{ site.baseurl | absolute_url }}{% endif %}{{ x-image }}" />
 
     <meta property="og:type" content="article">
     <link rel="canonical" href="{{ page.url | absolute_url }}" />
