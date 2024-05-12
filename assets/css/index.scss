@@ -1,9 +1,13 @@
 ---
 ---
 // Import the US Web Design System SASS.
-$theme-image-path: "../uswds/img";
-$theme-font-path: "../uswds/fonts";
-@import "scss/uswds";
+
+
+@use 'uswds' with (
+  $theme-image-path: "../uswds/img",
+  $theme-font-path: "../uswds/fonts",
+  $theme-show-notifications: false,
+);
 
 // Add your SASS/CSS here
 
