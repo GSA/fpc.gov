@@ -368,3 +368,22 @@
         padding-top: 2rem
     }
 }
+
+@media all and (min-width: 64em) {
+  .usa-nav__submenu .usa-nav__submenu-item+* {
+    margin-top:.75rem
+  }
+  .navheader {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .usa-nav__submenu {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .usa-nav__primary a {
+    padding-bottom:unset;
+    padding-top: unset;
+  }
+}
