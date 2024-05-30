@@ -1,9 +1,13 @@
 ---
 ---
 // Import the US Web Design System SASS.
-$theme-image-path: "../uswds/img";
-$theme-font-path: "../uswds/fonts";
-@import "scss/uswds";
+
+
+@use 'uswds' with (
+  $theme-image-path: "../uswds/img",
+  $theme-font-path: "../uswds/fonts",
+  $theme-show-notifications: false,
+);
 
 // Add your SASS/CSS here
 
@@ -350,8 +354,6 @@ $theme-font-path: "../uswds/fonts";
         background-size: 0.5rem;
         content: '';
         display: inline-block;
-        height: 0.5rem;
-        width: 0.5rem;
         margin-left: 2px;
         background-color: transparent !important;
     }
@@ -363,4 +365,23 @@ $theme-font-path: "../uswds/fonts";
         padding-bottom: 1rem;
         padding-top: 2rem
     }
+}
+
+@media all and (min-width: 64em) {
+  .usa-nav__submenu .usa-nav__submenu-item+* {
+    margin-top:.75rem
+  }
+  .navheader {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .usa-nav__submenu {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .usa-nav__primary a {
+    padding-bottom:unset;
+    padding-top: unset;
+  }
 }
