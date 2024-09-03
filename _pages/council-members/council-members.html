@@ -226,9 +226,9 @@ council_members_icons:
       {% for icon in page.super_leadership_icons %}
       <div class="desktop:grid-col-4 margin-bottom-3">
         {% if icon.border != 'no'%}
-        <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+        <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{% if icon.name %}{{ icon.name }} image{% else %}Headshot placeholder{% endif %}">
         {% else %}
-        <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+        <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{% if icon.name %}{{ icon.name }} image{% else %}Headshot placeholder{% endif %}">
         {% endif %}
         <div>
         <span>
@@ -249,9 +249,9 @@ council_members_icons:
         {% for icon in sorted_leadership_icons %}
         <div class="desktop:grid-col-4">
           {% if icon.border != 'no'%}
-          <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+          <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{% if icon.name %}{{ icon.name }} image{% else %}Headshot placeholder{% endif %}">
           {% else %}
-          <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+          <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{% if icon.name %}{{ icon.name }} image{% else %}Headshot placeholder{% endif %}">
           {% endif %}
           <div>
         <span>
@@ -289,9 +289,9 @@ council_members_icons:
     {% for icon in sorted_council_members_13719_icons %}
     <div class="desktop:grid-col-4">
       {% if icon.border != 'no'%}
-      <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+      <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{% if icon.name %}{{ icon.name }} image{% else %}Headshot placeholder{% endif %}">
       {% else %}
-      <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+      <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{% if icon.name %}{{ icon.name }} image{% else %}Headshot placeholder{% endif %}">
       {% endif %}
       <div>
           <span>
@@ -321,9 +321,9 @@ council_members_icons:
       {% for icon in sorted_council_members_icons %}
       <div class="desktop:grid-col-4">
         {% if icon.border != 'no'%}
-        <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+        <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{% if icon.name %}{{ icon.name }} image{% else %}Headshot placeholder{% endif %}">
         {% else %}
-        <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+        <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{% if icon.name %}{{ icon.name }} image{% else %}Headshot placeholder{% endif %}">
         {% endif %}
         <div>
         <span>
