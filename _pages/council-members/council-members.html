@@ -7,9 +7,9 @@ description:
 excerpt: The membership of the Federal Privacy Council includes the Privacy Branch Chief in the Office of Information and Regulatory Affairs at the Office of Management and Budget, who serves as the Chair, and the Senior Agency Officials for Privacy (SAOP) at each agency described in <a href="https://www.gpo.gov/fdsys/pkg/FR-2016-02-12/pdf/2016-03141.pdf">Executive Order 13719</a>, as well as other officials from agencies and offices, who are designated by the Chair.
 
 super_leadership_icons:
-    - name: Alex Goodenough
+    - name: Kevin Herms
       border: 'yes'
-      logo: /assets/img/bio.alex.goodenough.png
+      logo: /assets/img/KevinHerms.jpeg
       url: /#
       agency: Office of Management and Budget
       title: FPC Chair
@@ -68,8 +68,8 @@ leadership_icons:
       url: /#
       agency: Department of Transportation
       title:
-    - name: Kevin Herms
-      logo: /assets/img/KevinHerms.jpeg
+    - name: 
+      logo: /assets/img/placeholder.png
       url: /#
       agency: Department of Education
     - name: Shannan Catalano
@@ -110,9 +110,9 @@ council_members_13719_icons:
       logo: /assets/img/placeholder.png
       url: /#
       agency: Department of Health and Human Services
-    - name: Mason Clutter
+    - name: Deborah Fleischaker
       border : 'yes'
-      logo: /assets/img/mason-clutter.jpg
+      logo: /assets/img/placeholder.png
       url: /#
       agency: Department of Homeland Security
     - name: Bradley Jewitt
@@ -129,8 +129,8 @@ council_members_13719_icons:
       logo: /assets/img/ann-dunkin.jpg
       url: /#
       agency: Department of Energy
-    - name: Kevin Herms
-      logo: /assets/img/KevinHerms.jpeg
+    - name: 
+      logo: /assets/img/placeholder.png
       url: /#
       agency: Department of Education
     - name: Vaughn Noga
@@ -226,9 +226,9 @@ council_members_icons:
       {% for icon in page.super_leadership_icons %}
       <div class="desktop:grid-col-4 margin-bottom-3">
         {% if icon.border != 'no'%}
-        <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+        <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{% if icon.name %}{{ icon.name }} image{% else %}Headshot placeholder{% endif %}">
         {% else %}
-        <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+        <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{% if icon.name %}{{ icon.name }} image{% else %}Headshot placeholder{% endif %}">
         {% endif %}
         <div>
         <span>
@@ -249,9 +249,9 @@ council_members_icons:
         {% for icon in sorted_leadership_icons %}
         <div class="desktop:grid-col-4">
           {% if icon.border != 'no'%}
-          <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+          <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{% if icon.name %}{{ icon.name }} image{% else %}Headshot placeholder{% endif %}">
           {% else %}
-          <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+          <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{% if icon.name %}{{ icon.name }} image{% else %}Headshot placeholder{% endif %}">
           {% endif %}
           <div>
         <span>
@@ -289,9 +289,9 @@ council_members_icons:
     {% for icon in sorted_council_members_13719_icons %}
     <div class="desktop:grid-col-4">
       {% if icon.border != 'no'%}
-      <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+      <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{% if icon.name %}{{ icon.name }} image{% else %}Headshot placeholder{% endif %}">
       {% else %}
-      <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+      <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{% if icon.name %}{{ icon.name }} image{% else %}Headshot placeholder{% endif %}">
       {% endif %}
       <div>
           <span>
@@ -321,9 +321,9 @@ council_members_icons:
       {% for icon in sorted_council_members_icons %}
       <div class="desktop:grid-col-4">
         {% if icon.border != 'no'%}
-        <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+        <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{% if icon.name %}{{ icon.name }} image{% else %}Headshot placeholder{% endif %}">
         {% else %}
-        <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{{ icon.name }} image">
+        <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{% if icon.name %}{{ icon.name }} image{% else %}Headshot placeholder{% endif %}">
         {% endif %}
         <div>
         <span>
@@ -472,7 +472,7 @@ council_members_icons:
   <div class="grid-row grid-gap">
     <div class="desktop:grid-col-6">
       Kevin Herms, Co-Chair	 <br>
-      Department of Education
+      Office of Management and Budget
     </div>
     <div class="desktop:grid-col-6">
       Charles Cutshall, Co-Chair <br>
