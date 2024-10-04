@@ -13,8 +13,6 @@ header-image: /assets/img/header-image.jpg
 
 <p class="font-sans-sm">This list of SORNs is provided for informational purposes only and may not include every government-wide SORN. Visitors to this website should not rely upon any information provided on this website for the purpose of making decisions related to agency practices and policies.</p>
 
-<p class="font-sans-sm">To search across all Government SORNs access the <a href="https://sorndashboard.fpc.gov/">FPC SORN Dashboard</a>. The FPC SORN dashboard regularly pulls newly published SORNs from the Federal Register, and includes documents from 1994 to the present day.</p>
-
 <p class="font-sans-sm">If you identify a potential error in this list of government-wide SORNs or believe we failed to include a government-wide SORN, please email us at <a href="mailto:privacycouncil@gsa.gov">privacycouncil@gsa.gov</a>.
 
 </p>
