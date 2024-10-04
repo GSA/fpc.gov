@@ -98,8 +98,6 @@ primary_navigation:
         url: /law-library/
       - name: OMB Guidance
         url: /resources/omb/
-      - name: FPC SORN Dashboard
-        url: https://sorndashboard.fpc.gov/
       - name: Government-wide SORNs
         url: /resources/SORNs/
       - name: Glossary
