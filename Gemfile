@@ -6,7 +6,7 @@ gem "jekyll", "~> 4.3.4"
 gem "execjs", "2.7.0" # https://github.com/rails/execjs/issues/99
 gem "mini_racer"
 gem "autoprefixer-rails"
-gem "webrick" # not included in jekyll directly until 4.3.0 https://github.com/jekyll/jekyll/pull/8524
+gem 'webrick', '~> 1.8'# not included in jekyll directly until 4.3.0 https://github.com/jekyll/jekyll/pull/8524
 
 # See https://github.com/envygeeks/jekyll-assets/issues/622
 gem "sprockets", "~> 3.7"
@@ -27,4 +27,6 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gem "html-proofer", "~> 3.15"
 gem "kramdown-parser-gfm"
-gem 'webrick'
+gem 'webrick', '~> 1.8'
+gem 'sass-embedded', '~> 1.80'
+
