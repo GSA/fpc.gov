@@ -7,17 +7,14 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
 ##########################################################################################
 # Be sure to edit the values below
 ##########################################################################################
-
 title: FPC.gov
 ogtitle: Build on Existing Interagency Efforts to Protect Privacy
 email: privacy.council@gsa.gov
@@ -26,10 +23,8 @@ description: >- # this means to ignore newlines until "ogimage:"
 ogimage: assets/img/FPCColorKnockout.jpg
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.fpc.gov" # the base hostname & protocol for your site, e.g. http://example.com
-
 # Twitter handle. Only the handle, not the URL.
 twitter: 18F
-
 #################################################################
 #
 # Digital Analytics Program (DAP) configuration
@@ -65,14 +60,11 @@ twitter: 18F
 #################################################################
 dap:
   agency: GSA
-
   # Optional
   # subagency: your-subagency
-
 # Configuration for Google Analytics
 ga:
 # ua: your-ua
-
 # Site Navigation
 primary_navigation:
   - name: About Our Council
@@ -104,6 +96,8 @@ primary_navigation:
         url: /resources/glossary/
       - name: Fair Information Practice Principles
         url: /resources/fipps/
+      - name: Federal Register SORN Search Tool
+        url: https://www.federalregister.gov/documents/search?conditions%5Bnotice_type%5D%5B%5D=sorn&conditions%5Btype%5D%5B%5D=NOTICE
       - name: Toolkit for Recruiting, Hiring, and Retaining Privacy Professionals
         url: /assets/pdf/Privacy-Toolkit-1-13-2017.pdf
       - name: Collaboration Index for Security and Privacy Controls
@@ -131,16 +125,11 @@ primary_navigation:
       - name: Data Privacy Day 2021
         url: /data-privacy-day-2021
         sub_menu_item: true
-
-
 # secondary_navigation:
 #  - name: Secondary link
 #    url: "#main-content"
 #  - name: Another secondary link
 #    url: "#main-content"
-
-
-
 number_of_icons: 4
 homepage_icons:
   - name: Law Library
@@ -155,31 +144,24 @@ homepage_icons:
   - name: Glossary
     logo: /assets/img/logos/dictionary.svg
     url: /resources/glossary/
-
 # Search.gov configuration
 #
 # 1. Create an account with Search.gov https://search.usa.gov/signup
 # 2. Add a new site.
 # 3. Add your site/affiliate name here.
 searchgov:
-
   # You should not change this.
   endpoint: https://search.usa.gov
-
   # replace this with your search.gov account
   affiliate: fpc_gov
-
   # replace with your access key
   access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
-
   # this renders the results within the page instead of sending to user to search.gov
   inline: false
-
 ##########################################################################################
 # The values below here are more advanced and should only be
 # changed if you know what they do
 ##########################################################################################
-
 collections:
   pages:
     output: true
@@ -187,7 +169,6 @@ collections:
   events:
     output: true
 permalink: pretty
-
 markdown: kramdown
 plugins:
   - jekyll-feed
@@ -195,7 +176,6 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-seo-tag
-
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
@@ -238,7 +218,6 @@ pagination:
   # Optional, the default name of the index file for generated pages (e.g. 'index.html')
   # Without file extension
   indexpage: "index"
-
 exclude:
   - package.json
   - package-lock.json
@@ -250,18 +229,16 @@ exclude:
   - node_modules
   - Gemfile
   - Gemfile.lock
-
 autoprefixer:
   browsers:
     - "> 2%"
     - "last 2 versions"
     - "IE 11"
     - "not dead"
-
 sass:
   sass_dir: _sass
   load_paths:
-    -  node_modules/@uswds/uswds/packages
+    - node_modules/@uswds/uswds/packages
   sourcemap: development
   quiet_deps: true
   style: compressed
