@@ -238,11 +238,10 @@ function sortPositioning(mainScreen, leftScreen, rightScreen) {
     }
     screenStore.forEach(screen => {
 
-         //set tabindex to -1
+          //To make sure only the visible slide is tabable
          screen.tabIndex = -1
          function changingChildren(tabIndexNumber){
              let childrenOfScreen = screen.querySelectorAll("a")
-             console.log(childrenOfScreen)
              childrenOfScreen.forEach(child => {
                  child.tabIndex = tabIndexNumber
              });
