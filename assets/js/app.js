@@ -237,7 +237,21 @@ function sortPositioning(mainScreen, leftScreen, rightScreen) {
         leftScreen = screenStore[numOfScreens - 1];
     }
     screenStore.forEach(screen => {
+
+         //set tabindex to -1
+         screen.tabIndex = -1
+         function changingChildren(tabIndexNumber){
+             let childrenOfScreen = screen.querySelectorAll("a")
+             console.log(childrenOfScreen)
+             childrenOfScreen.forEach(child => {
+                 child.tabIndex = tabIndexNumber
+             });
+         }
+         changingChildren(-1)
+     
         if(screen === mainScreen){
+            screen.tabIndex = 0
+            changingChildren(0)
             screen.style.display = "block";
             screen.style.left = "0px";
         }else if (screen === leftScreen){
