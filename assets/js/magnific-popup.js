@@ -526,7 +526,7 @@
                 _mfpTrigger('FirstMarkupParse', markup);
 
                 if(markup) {
-                    mfp.currTemplate[type] = $(markup);
+                    mfp.currTemplate[type] = $.find(markup);
                 } else {
                     // if there is no markup found we just define that template is parsed
                     mfp.currTemplate[type] = true;
