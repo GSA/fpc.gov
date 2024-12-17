@@ -15,6 +15,13 @@
 }(function($) {
 
     // Utility function to escape HTML special characters
+    function escapeHtmlSpecialChars(str) {
+        return str.replace(/&/g, '&amp;')
+                  .replace(/</g, '&lt;')
+                  .replace(/>/g, '&gt;')
+                  .replace(/"/g, '&quot;')
+                  .replace(/'/g, '&#039;');
+    }
     function escapeHtml(text) {
         return text.replace(/[&<>"']/g, function(match) {
             switch (match) {
@@ -109,7 +116,7 @@
         },
         _getCloseBtn = function(type) {
             if(type !== _currPopupType || !mfp.currTemplate.closeBtn) {
-                mfp.currTemplate.closeBtn = $( mfp.st.closeMarkup.replace('%title%', escapeHtml(mfp.st.tClose)) );
+                mfp.currTemplate.closeBtn = $( escapeHtmlSpecialChars(mfp.st.closeMarkup).replace('%title%', escapeHtml(mfp.st.tClose)) );
                 _currPopupType = type;
             }
             return mfp.currTemplate.closeBtn;
