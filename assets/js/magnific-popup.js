@@ -14,6 +14,26 @@
     }
 }(function($) {
 
+    // Utility function to escape HTML special characters
+    function escapeHtml(text) {
+        return text.replace(/[&<>"']/g, function(match) {
+            switch (match) {
+                case '&':
+                    return '&amp;';
+                case '<':
+                    return '&lt;';
+                case '>':
+                    return '&gt;';
+                case '"':
+                    return '&quot;';
+                case "'":
+                    return '&#039;';
+                default:
+                    return match;
+            }
+        });
+    }
+
     /*>>core*/
     /**
      *
@@ -89,7 +109,7 @@
         },
         _getCloseBtn = function(type) {
             if(type !== _currPopupType || !mfp.currTemplate.closeBtn) {
-                mfp.currTemplate.closeBtn = $( mfp.st.closeMarkup.replace('%title%', mfp.st.tClose ) );
+                mfp.currTemplate.closeBtn = $( mfp.st.closeMarkup.replace('%title%', escapeHtml(mfp.st.tClose)) );
                 _currPopupType = type;
             }
             return mfp.currTemplate.closeBtn;
@@ -353,7 +373,7 @@
             $('html').css(windowStyles);
 
             // add everything to DOM
-            mfp.bgOverlay.add(mfp.wrap).prependTo( mfp.st.prependTo || $(document.body) );
+            mfp.bgOverlay.add(mfp.wrap).prependTo( mfp.st.prependTo ? $.find(mfp.st.prependTo) : $(document.body) );
 
             // Save last focused element
             mfp._lastFocusedEl = document.activeElement;
@@ -506,7 +526,7 @@
                 _mfpTrigger('FirstMarkupParse', markup);
 
                 if(markup) {
-                    mfp.currTemplate[type] = $(markup);
+                    mfp.currTemplate[type] = $.find(markup);
                 } else {
                     // if there is no markup found we just define that template is parsed
                     mfp.currTemplate[type] = true;
