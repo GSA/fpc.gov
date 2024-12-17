@@ -1643,12 +1643,21 @@
             $imgsToLoad = $('img[data-lazy]', _.$slider),
             image,
             imageSource,
-            imageToLoad;
+            imageToLoad,
+            isValidUrl;
 
         if ($imgsToLoad.length) {
 
             image = $imgsToLoad.first();
             imageSource = image.attr('data-lazy');
+            isValidUrl = function (url) {
+                try {
+                    new URL(url);
+                    return true;
+                } catch (_) {
+                    return false;
+                }
+            };
             imageToLoad = document.createElement('img');
 
             imageToLoad.onload = function () {
@@ -1695,7 +1704,18 @@
 
             };
 
-            imageToLoad.src = imageSource;
+            if (isValidUrl(imageSource)) {
+                imageToLoad.src = imageSource;
+            } else {
+                image
+                    .removeAttr('data-lazy')
+                    .removeClass('slick-loading')
+                    .addClass('slick-lazyload-error');
+
+                _.$slider.trigger('lazyLoadError', [_, image, imageSource]);
+
+                _.progressiveLazyLoad();
+            }
 
         } else {
 
