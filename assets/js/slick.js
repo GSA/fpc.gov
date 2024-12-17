@@ -18,15 +18,16 @@
 (function (factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
-        define(['jquery'], factory);
+        define(['jquery', 'dompurify'], factory);
     } else if (typeof exports !== 'undefined') {
-        module.exports = factory(require('jquery'));
+        module.exports = factory(require('jquery'), require('dompurify'));
     } else {
-        factory(jQuery);
+        factory(jQuery, window.DOMPurify);
     }
 
-}(function ($) {
+}(function ($, DOMPurify) {
     'use strict';
+    var DOMPurify = require('dompurify');
     var Slick = window.Slick || {};
 
     Slick = (function () {
@@ -1459,7 +1460,7 @@
             $('img[data-lazy]', imagesScope).each(function () {
 
                 var image = $(this),
-                    imageSource = $(this).attr('data-lazy'),
+                    imageSource = DOMPurify.sanitize($(this).attr('data-lazy')),
                     imageToLoad = document.createElement('img');
 
                 imageToLoad.onload = function () {
@@ -1649,7 +1650,7 @@
         if ($imgsToLoad.length) {
 
             image = $imgsToLoad.first();
-            imageSource = image.attr('data-lazy');
+            imageSource = DOMPurify.sanitize(image.attr('data-lazy'));
             isValidUrl = function (url) {
                 try {
                     new URL(url);
