@@ -119,9 +119,9 @@ ogimage: assets/img/DPW.png
                 <h2 class="text-primary-darker margin-top-neg-1">Resources</h2>
                 <h3 class="text-primary-darker">Learn About Privacy: FPC's Educational Videos</h3>
                 <p>Executive Branch agencies necessarily collect, maintain, use, disclose, and dispose of large amounts of personally identifiable information (PII) to carry out missions mandated by Federal statute. By watching these short videos, you can learn more about how the Executive Branch of the Federal Government protects your privacy.</p>
-                <div class="grid-row grid-gap space-between">
+                <div class="grid-row grid-gap" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
                     {% for icon in site.data.priority_icons %}
-                    <div class="tablet:grid-col-3 learn-about font-size text-center margin-y-2 bg-white padding-2 margin-05 shadow-5 members-hover radius-lg ">
+                    <div class="tablet:grid-col-3 learn-about font-size text-center margin-y-2 bg-white padding-2 margin-05 shadow-5 members-hover radius-lg" style="flex: 0 0 calc(33.33% - 20px); max-width: calc(33.33% - 20px);">
                         {% if icon.url %}
                         <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-base-darkest" style="display: inline-block;">
                             {% else %}
@@ -137,6 +137,7 @@ ogimage: assets/img/DPW.png
                     </div>
                     {% endfor %}
                 </div>
+
 
                 <h3 class="text-primary-darker">FPC Tools and Resources</h3>
                 <div class="grid-row grid-gap">
