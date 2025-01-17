@@ -736,15 +736,10 @@ abbr{
     justify-content: space-between;
 }
 
-:root {
-  --shared-width: 27%; 
-}
-
 @media only screen and (min-width: 700px) {
-  .privacy-tools,
-  .priority-icons {
-      width: var(--shared-width);
-  }
+    .privacy-tools {
+        width: 27%;
+    }
 }
 
 .champion .left-arrow{
