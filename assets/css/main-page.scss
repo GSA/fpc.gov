@@ -737,14 +737,8 @@ abbr{
 }
 
 @media only screen and (min-width: 700px) {
-    .privacy-tools {
-        width: 27%;
-    }
-}
-
-@media only screen and (min-width: 700px) {
-  .priority-icons {
-      width: 27%;
+  .priority-icons, .privacy-tools {
+      width: calc(27%);
   }
 }
 
