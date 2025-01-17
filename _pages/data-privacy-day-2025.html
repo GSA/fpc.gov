@@ -144,11 +144,11 @@ ogimage: assets/img/DPW.png
                 <h3 class="text-primary-darker">FPC Tools and Resources</h3>
                 <div class="grid-row grid-gap">
                     {% for icon in site.data.privacy_tools %}
-                    <div class="desktop:grid-col-2 privacy-tools margin-y-1 bg-white padding-1 margin-05 shadow-5 members-hover radius-lg">
+                    <div class="desktop:grid-col-2 privacy-tools margin-y-2 bg-white padding-2 margin-05 shadow-5 members-hover radius-lg">
                         {% if icon.name contains " " %}
-                        <img style="width:250px;height:180px; border: 1px solid #555;" alt="Image for {{icon.name}}" src="{{site.baseurl}}{{ icon.logo }}" />
+                        <img style="width:300px;height:210px; border: 1px solid #555;" alt="Image for {{icon.name}}" src="{{site.baseurl}}{{ icon.logo }}" />
                         {% else %}
-                        <img style="width:250px;height:180px;object-fit:cover; border: 1px solid #555;" alt="Image for {{icon.name}}" src="{{site.baseurl}}{{ icon.logo }}" />
+                        <img style="width:300px;height:210px;object-fit:cover; border: 1px solid #555;" alt="Image for {{icon.name}}" src="{{site.baseurl}}{{ icon.logo }}" />
                         {% endif %}
                         <p class="font-heading-md text-left text-no-underline text-bold">{{icon.name}}</p>
                         <p class="font-sans-sm text-left text-no-underline">{{icon.title}}</p>
