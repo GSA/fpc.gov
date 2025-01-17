@@ -118,43 +118,42 @@ ogimage: assets/img/DPW.png
             <div class="desktop:grid-col-12">
                 <h2 class="text-primary-darker margin-top-neg-1">Resources</h2>
                 <h3 class="text-primary-darker">Learn About Privacy: FPC's Educational Videos</h3>
-                <div class="grid-row grid-gap">
-                    {% for icon in site.data.priority_icons %}
-                    <div class="desktop:grid-col-2 learn-about margin-y-2 bg-white padding-2 margin-05 shadow-5 members-hover radius-lg">
-                        {% if icon.url %}
-                        <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-base-darkest" aria-label="Visit {{ icon.name }}">
-                        {% else %}
-                        <a href="{{ icon.link }}" class="text-no-underline text-base-darkest" aria-label="Visit {{ icon.name }}">
-                        {% endif %}
-                            <img style="width:300px;height:210px;object-fit:cover; border: 1px solid #555;" alt="{{ icon.alt-text }}" src="{{ site.baseurl }}{{ icon.logo }}" />
-                            <p class="font-heading-md text-left text-no-underline text-bold">{{ icon.name }}</p>
-                            <p class="font-sans-sm text-left text-no-underline">{{ icon.time }}</p>
-                            <p class="font-sans-sm text-left text-no-underline">{{ icon.filler }}</p>
-                        </a>
-                    </div>
-                    {% endfor %}
+                <div class="grid-row grid-gap" style="display:flex; flex-wrap:wrap; justify-content:center;">
+                  {% for icon in site.data.priority_icons %}
+                  <div class="desktop:grid-col-2 learn-about margin-y-2 bg-white padding-2 margin-05 shadow-5 members-hover radius-lg" style="width:300px; margin:1rem;">
+                    {% if icon.url %}
+                    <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-base-darkest" aria-label="Visit {{ icon.name }}">
+                    {% else %}
+                    <a href="{{ icon.link }}" class="text-no-underline text-base-darkest" aria-label="Visit {{ icon.name }}">
+                    {% endif %}
+                      <img style="width:300px; height:210px; object-fit:cover; border:1px solid #555;" alt="{{ icon.alt-text }}" src="{{ site.baseurl }}{{ icon.logo }}" />
+                      <p class="font-heading-md text-left text-no-underline text-bold">{{ icon.name }}</p>
+                      <p class="font-sans-sm text-left text-no-underline">{{ icon.time }}</p>
+                      <p class="font-sans-sm text-left text-no-underline">{{ icon.filler }}</p>
+                    </a>
+                  </div>
+                  {% endfor %}
                 </div>
-
                 <h3 class="text-primary-darker">FPC Tools and Resources</h3>
-                <div class="grid-row grid-gap">
-                    {% for icon in site.data.privacy_tools %}
-                    <div class="desktop:grid-col-2 privacy-tools margin-y-2 bg-white padding-2 margin-05 shadow-5 members-hover radius-lg">
-                        {% if icon.name contains " " %}
-                        <img style="width:300px;height:210px; border: 1px solid #555;" alt="Image for {{icon.name}}" src="{{site.baseurl}}{{ icon.logo }}" />
-                        {% else %}
-                        <img style="width:300px;height:210px;object-fit:cover; border: 1px solid #555;" alt="Image for {{icon.name}}" src="{{site.baseurl}}{{ icon.logo }}" />
-                        {% endif %}
-                        <p class="font-heading-md text-left text-no-underline text-bold">{{icon.name}}</p>
-                        <p class="font-sans-sm text-left text-no-underline">{{icon.title}}</p>
-                        {% if icon.name contains "SORN" %}
-                        <a href="{{ icon.link }}" class="usa-button usa-button--hover border-0 margin-y-1" aria-label="Visit">Visit</a>
-                        {% else %}
-                        <a href="{{ icon.link }}" class="usa-button usa-button--hover border-0 margin-y-1" aria-label="Read More for {{icon.name}}">Read More</a>
-                        {% endif %}
-                    </div>
-                    {% endfor %}
+                <div class="grid-row grid-gap" style="display:flex; flex-wrap:wrap; justify-content:center;">
+                  {% for icon in site.data.privacy_tools %}
+                  <div class="desktop:grid-col-2 privacy-tools margin-y-2 bg-white padding-2 margin-05 shadow-5 members-hover radius-lg" style="width:300px; margin:1rem;">
+                    {% if icon.name contains " " %}
+                    <img style="width:300px; height:210px; border:1px solid #555;" alt="Image for {{ icon.name }}" src="{{ site.baseurl }}{{ icon.logo }}" />
+                    {% else %}
+                    <img style="width:300px; height:210px; object-fit:cover; border:1px solid #555;" alt="Image for {{ icon.name }}" src="{{ site.baseurl }}{{ icon.logo }}" />
+                    {% endif %}
+                    <p class="font-heading-md text-left text-no-underline text-bold">{{ icon.name }}</p>
+                    <p class="font-sans-sm text-left text-no-underline">{{ icon.title }}</p>
+                    {% if icon.name contains "SORN" %}
+                    <a href="{{ icon.link }}" class="usa-button usa-button--hover border-0 margin-y-1" aria-label="Visit">Visit</a>
+                    {% else %}
+                    <a href="{{ icon.link }}" class="usa-button usa-button--hover border-0 margin-y-1" aria-label="Read More for {{ icon.name }}">Read More</a>
+                    {% endif %}
+                  </div>
+                  {% endfor %}
                 </div>
-            </div>
+              </div>              
         </div>
     </div>
 </section>
