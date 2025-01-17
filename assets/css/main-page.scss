@@ -736,9 +736,14 @@ abbr{
     justify-content: space-between;
 }
 
+:root {
+  --shared-width: 27%; 
+}
+
 @media only screen and (min-width: 700px) {
-  .priority-icons, .privacy-tools {
-      width: calc(27%);
+  .privacy-tools,
+  .priority-icons {
+      width: var(--shared-width);
   }
 }
 
