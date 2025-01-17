@@ -742,6 +742,12 @@ abbr{
     }
 }
 
+@media only screen and (min-width: 700px) {
+  .priority-icons {
+      width: 27%;
+  }
+}
+
 .champion .left-arrow{
     left:-3rem;
 }
