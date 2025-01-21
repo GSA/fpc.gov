@@ -1,4 +1,9 @@
-
+- name: What is Personally Identifiable Information (PII)?
+  logo: /assets/img/pii-photo-2.jpg
+  alt-text: Stylized desk with laptop and papers on the wall above it.
+  url: /what-is-pii/
+  filler: Learn what Personally Identifiable information (PII) is through understanding its definition and viewing examples that illustrate the many forms of PII.
+  time: 6 minutes 5 seconds
 - name: Roles in Federal Privacy
   logo: /assets/img/logos/Video_1.png
   alt-text: Text reading 'Privacy Considerations' above illustration of people working around a desk and the word 'PII' next two them with two information icons
