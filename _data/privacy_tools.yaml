@@ -1,8 +1,8 @@
 
-- name: SORN Dashboard
+- name: Federal Register SORN Search Tool
   title: Conduct targeted searches of agency SORNs.
-  link: https://sorndashboard.fpc.gov/
-  logo: /assets/img/logos/sorn.svg
+  link: https://www.federalregister.gov/documents/search?conditions%5Bnotice_type%5D%5B%5D=sorn&conditions%5Btype%5D%5B%5D=NOTICE
+  logo: /assets/img/logos/Federal-Register-2.jpg
 - name: Fair Information Practice Principles (FIPPs)
   title: Learn about the FIPPs, which are the foundation of federal privacy laws and policies for Federal agencies.
   link: https://www.fpc.gov/resources/fipps/
