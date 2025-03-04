@@ -75,8 +75,6 @@ primary_navigation:
         url: /council-members/
       - name: Committees and Communities
         url: /council-members/#council-committees
-      - name: Sitemap Test page
-        url: "/test-sitemap/"
       - name: Working Groups
         url: /council-members/#working-groups
   - name: Federal Privacy Programs
