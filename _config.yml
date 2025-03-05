@@ -158,7 +158,7 @@ searchgov:
   # replace this with your search.gov account
   affiliate: fpc_gov
   # replace with your access key
-  access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
+  access_key: qt2nV8AkVgOw5-6mRW91v5V9rda0jspkmLRlgHImzkk=
   # this renders the results within the page instead of sending to user to search.gov
   inline: false
 ##########################################################################################
