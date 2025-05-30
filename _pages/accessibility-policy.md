@@ -18,9 +18,6 @@ All applets, plug-ins, or other applications required by GSA webpages that are n
 <h2 class="font-sans-lg text-gray-70">Adobe Reader</h2>
 Use [Adobe Acrobat](http://www.adobe.com/products/acrobat/alternate.html#50enu) to read Portable Document Format (PDF) files.
 
-<h2 class="font-sans-lg text-gray-70">Flash Player</h2>
-Download [Flash Player](http://get.adobe.com/flashplayer/).
-
 <h2 class="font-sans-lg text-gray-70">Microsoft Word, Excel, and PowerPoint</h2>
 [Microsoft](https://www.microsoft.com/en-us/accessibility) offers file viewer and converter programs to enable those who do not have Microsoft Word, Excel, and PowerPoint programs to open and view these types of files.
 
