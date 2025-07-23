@@ -177,7 +177,7 @@ council_members_13719_icons:
       url: /#
       agency: Department of Defense
       title:
-      
+
 ---
 
 
@@ -270,38 +270,6 @@ council_members_13719_icons:
 
 
   </div>
-  </div>
-
-
-
-  <div class="grid-container shadow-5 radius-lg bg-white padding-y-5 margin-bottom-3">
-
-    <div class="margin-bottom-8">
-      <h2 class="margin-0 font-sans-lg council-leadership-h2">Council Members</h2>
-    </div>
-    <div class="grid-row grid-gap">
-      {% assign sorted_council_members_icons = page.council_members_icons | sort: 'agency' %}
-      {% for icon in sorted_council_members_icons %}
-      <div class="desktop:grid-col-4">
-        {% if icon.border != 'no'%}
-        <img class="size-full wp-image-30379 aligncenter circle-image-members" src="{{ site.baseurl }}{{ icon.logo }}" alt="{% if icon.name %}{{ icon.name }} image{% else %}Headshot placeholder{% endif %}">
-        {% else %}
-        <img class="size-full wp-image-30379 aligncenter circle-image-members-borderless" src="{{ site.baseurl }}{{ icon.logo }}" alt="{% if icon.name %}{{ icon.name }} image{% else %}Headshot placeholder{% endif %}">
-        {% endif %}
-        <div>
-        <span>
-      <div class="person_font">
-        {{ icon.name }}</div>
-      </span>
-          <span>
-        <div class="agency_font"> {{ icon.agency }}</div><br>
-      </span>
-        </div>
-      </div>
-      {% endfor %}
-
-
-    </div>
   </div>
 
   <div id="council-committees" class="grid-container shadow-5 radius-lg bg-white padding-y-5 margin-bottom-3">
