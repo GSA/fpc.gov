@@ -54,7 +54,13 @@ header-image: xyz
                 <ul>
                 {% for events in site.posts %}
                   {% if events.date-string contains year %}
-                    <li><a href="{{events.ext-url}}">{{events.title}}</a> ({{events.date-string}})</li>
+                    <li>
+                      {% if events.ext-url != blank %}
+                        <a href="{{events.ext-url}}">{{events.title}}</a> ({{events.date-string}})
+                      {% else %}
+                        {{events.title}} ({{events.date-string}})
+                      {% endif %}
+                    </li>
                   {% endif %}
                 {% endfor %}
                 </ul>
