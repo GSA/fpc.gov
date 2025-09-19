@@ -58,7 +58,7 @@ header-image: xyz
                     {% if events.ext-url != blank %}
                       <a href="{{events.ext-url}}" class="text-primary">{{events.title}}</a> ({{events.date-string}})
                     {% else %}
-                      <span>{{events.title}}</span> ({{events.date-string}})
+                      <span class="no-link">{{events.title}}</span> ({{events.date-string}})
                     {% endif %}
                   </li>
                 {% endif %}
