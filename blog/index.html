@@ -5,6 +5,7 @@ layout: default
 header-image: xyz
 ---
 
+
 <section class="usa-section about margin-bottom-3">
   <div class="usa-grid">
     <div class="grid-container ">
@@ -43,27 +44,27 @@ header-image: xyz
 <section class="usa-graphic-list grid-container margin-bottom-3">
   <div class="grid-container shadow-5 radius-lg bg-white padding-y-5">
     <p class="usa-graphic-list__row grid-row grid-gap">
-
       <p class="tablet:grid-col-12">
         {% assign years_array = "202,201,200,199,198,197" %}
         {% assign years = years_array | split: "," %}
-        <h3 class=" margin-top-0 tablet:margin-bottom-0 text-primary-darker">Privacy Guidance</h3>
+        <h3 class="margin-top-0 tablet:margin-bottom-0 text-primary-darker">Privacy Guidance</h3>
+        
         {% for year in years %}
-          <h4 class="font-sans-sm text-bold">{{year}}0s</h4>
-            <p class="font-sans-sm text-ink justify-text">
-              <ul>
+          <h4 class="font-sans-sm text-bold">{{ year }}0s</h4>
+          <p class="font-sans-sm text-ink justify-text">
+            <ul>
               {% for events in site.posts %}
                 {% if events.date-string contains year %}
                   <li>
                     {% if events.ext-url != blank %}
-                      <a href="{{events.ext-url}}" class="text-primary">{{events.title}}</a> ({{events.date-string}})
+                      <a href="{{ events.ext-url }}" class="text-primary">{{ events.title }}</a> ({{ events.date-string }})
                     {% else %}
-                      <span class="no-link">{{events.title}}</span> ({{events.date-string}})
+                      <span>{{ events.title }}</span> ({{ events.date-string }})
                     {% endif %}
                   </li>
                 {% endif %}
               {% endfor %}
-              </ul>
+            </ul>
               </p>
               {% endfor %}
               </p>
