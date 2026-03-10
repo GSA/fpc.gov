@@ -6,7 +6,8 @@ layout: base
   around the content. The home page uses wide.html layout, since it extends full
   width of page
 {% endcomment %}
-{%- if site.alert and site.alert.enabled -%}
-  {% include 'alert.html' %}
-{%- endif -%}
-<main id="main-content">{{ content }}</main>
+
+<main id="main-content">
+  {% include alert.html %}
+  {{ content }}
+</main>
